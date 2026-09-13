@@ -1,0 +1,91 @@
+source,type,name,file
+unity default resources,Texture2D,Soft,Part2_Audio_Fonts/Core_Data/unity default resources/textures/Soft.png
+unity default resources,Font,Arial,Part2_Audio_Fonts/Core_Data/unity default resources/fonts/Arial.ttf
+unity default resources,Texture2D,UnityWatermark-small,Part2_Audio_Fonts/Core_Data/unity default resources/textures/UnityWatermark-small.png
+unity default resources,Texture2D,EscToExit_back,Part2_Audio_Fonts/Core_Data/unity default resources/textures/EscToExit_back.png
+unity default resources,Texture2D,EscToExit_Text,Part2_Audio_Fonts/Core_Data/unity default resources/textures/EscToExit_Text.png
+unity default resources,Texture2D,UnitySplash-cube,Part2_Audio_Fonts/Core_Data/unity default resources/textures/UnitySplash-cube.png
+unity default resources,Sprite,UnitySplash-cube,Part2_Audio_Fonts/Core_Data/unity default resources/sprites/UnitySplash-cube.png
+unity default resources,Texture2D,UnityWatermark-trial-big,Part2_Audio_Fonts/Core_Data/unity default resources/textures/UnityWatermark-trial-big.png
+unity default resources,Texture2D,UnityWatermark-trial,Part2_Audio_Fonts/Core_Data/unity default resources/textures/UnityWatermark-trial.png
+unity default resources,Texture2D,UnityWatermark-beta,Part2_Audio_Fonts/Core_Data/unity default resources/textures/UnityWatermark-beta.png
+unity default resources,Texture2D,UnityWatermark-edu,Part2_Audio_Fonts/Core_Data/unity default resources/textures/UnityWatermark-edu.png
+unity default resources,Texture2D,UnityWatermark-dev,Part2_Audio_Fonts/Core_Data/unity default resources/textures/UnityWatermark-dev.png
+unity default resources,Texture2D,WarningSign,Part2_Audio_Fonts/Core_Data/unity default resources/textures/WarningSign.png
+unity default resources,Texture2D,UnityWatermark-proto,Part2_Audio_Fonts/Core_Data/unity default resources/textures/UnityWatermark-proto.png
+unity default resources,Texture2D,UnityWatermarkPlugin-beta,Part2_Audio_Fonts/Core_Data/unity default resources/textures/UnityWatermarkPlugin-beta.png
+unity default resources,Texture2D,box,Part2_Audio_Fonts/Core_Data/unity default resources/textures/box.png
+unity default resources,Texture2D,button active,Part2_Audio_Fonts/Core_Data/unity default resources/textures/button active.png
+unity default resources,Texture2D,button hover,Part2_Audio_Fonts/Core_Data/unity default resources/textures/button hover.png
+unity default resources,Texture2D,button on hover,Part2_Audio_Fonts/Core_Data/unity default resources/textures/button on hover.png
+unity default resources,Texture2D,button on,Part2_Audio_Fonts/Core_Data/unity default resources/textures/button on.png
+unity default resources,Texture2D,button,Part2_Audio_Fonts/Core_Data/unity default resources/textures/button.png
+unity default resources,Texture2D,horizontal scrollbar thumb,Part2_Audio_Fonts/Core_Data/unity default resources/textures/horizontal scrollbar thumb.png
+unity default resources,Texture2D,horizontal scrollbar,Part2_Audio_Fonts/Core_Data/unity default resources/textures/horizontal scrollbar.png
+unity default resources,Texture2D,horizontalslider,Part2_Audio_Fonts/Core_Data/unity default resources/textures/horizontalslider.png
+unity default resources,Texture2D,slider thumb active,Part2_Audio_Fonts/Core_Data/unity default resources/textures/slider thumb active.png
+unity default resources,Texture2D,slider thumb,Part2_Audio_Fonts/Core_Data/unity default resources/textures/slider thumb.png
+unity default resources,Texture2D,slidert humb hover,Part2_Audio_Fonts/Core_Data/unity default resources/textures/slidert humb hover.png
+unity default resources,Texture2D,toggle active,Part2_Audio_Fonts/Core_Data/unity default resources/textures/toggle active.png
+unity default resources,Texture2D,toggle hover,Part2_Audio_Fonts/Core_Data/unity default resources/textures/toggle hover.png
+unity default resources,Texture2D,toggle on hover,Part2_Audio_Fonts/Core_Data/unity default resources/textures/toggle on hover.png
+unity default resources,Texture2D,toggle on,Part2_Audio_Fonts/Core_Data/unity default resources/textures/toggle on.png
+unity default resources,Texture2D,toggle on active,Part2_Audio_Fonts/Core_Data/unity default resources/textures/toggle on active.png
+unity default resources,Texture2D,toggle,Part2_Audio_Fonts/Core_Data/unity default resources/textures/toggle.png
+unity default resources,Texture2D,vertical scrollbar thumb,Part2_Audio_Fonts/Core_Data/unity default resources/textures/vertical scrollbar thumb.png
+unity default resources,Texture2D,vertical scrollbar,Part2_Audio_Fonts/Core_Data/unity default resources/textures/vertical scrollbar.png
+unity default resources,Texture2D,verticalslider,Part2_Audio_Fonts/Core_Data/unity default resources/textures/verticalslider.png
+unity default resources,Texture2D,window on,Part2_Audio_Fonts/Core_Data/unity default resources/textures/window on.png
+unity default resources,Texture2D,window,Part2_Audio_Fonts/Core_Data/unity default resources/textures/window.png
+unity default resources,Texture2D,textfield,Part2_Audio_Fonts/Core_Data/unity default resources/textures/textfield.png
+unity default resources,Texture2D,textfield on,Part2_Audio_Fonts/Core_Data/unity default resources/textures/textfield on.png
+unity default resources,Texture2D,textfield hover,Part2_Audio_Fonts/Core_Data/unity default resources/textures/textfield hover.png
+unity default resources,Texture2D,UnitySplash-HolographicTrackingLoss,Part2_Audio_Fonts/Core_Data/unity default resources/textures/UnitySplash-HolographicTrackingLoss.png
+sharedassets0.assets,Texture2D,LiberationSans SDF Atlas,Part2_Audio_Fonts/Core_Data/sharedassets0.assets/textures/LiberationSans SDF Atlas.png
+sharedassets0.assets,Font,LiberationSans,Part2_Audio_Fonts/Core_Data/sharedassets0.assets/fonts/LiberationSans.ttf
+globalgamemanagers.assets,Texture2D,LDR_LLL1_9,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_9.png
+globalgamemanagers.assets,Texture2D,Medium01,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/Medium01.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_23,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_23.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_2,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_2.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_17,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_17.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_31,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_31.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_25,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_25.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_4,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_4.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_6,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_6.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_14,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_14.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_15,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_15.png
+globalgamemanagers.assets,Texture2D,Medium05,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/Medium05.png
+globalgamemanagers.assets,Texture2D,SearchTex,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/SearchTex.png
+globalgamemanagers.assets,Texture2D,Large02,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/Large02.png
+globalgamemanagers.assets,Texture2D,Thin01,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/Thin01.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_3,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_3.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_0,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_0.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_30,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_30.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_10,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_10.png
+globalgamemanagers.assets,Texture2D,Medium03,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/Medium03.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_16,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_16.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_24,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_24.png
+globalgamemanagers.assets,Texture2D,Medium06,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/Medium06.png
+globalgamemanagers.assets,Texture2D,Medium04,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/Medium04.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_12,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_12.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_7,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_7.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_27,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_27.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_20,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_20.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_26,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_26.png
+globalgamemanagers.assets,Texture2D,AreaTex,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/AreaTex.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_18,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_18.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_19,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_19.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_1,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_1.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_13,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_13.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_21,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_21.png
+globalgamemanagers.assets,Texture2D,cfm_ruchang_logo,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/cfm_ruchang_logo.png
+globalgamemanagers.assets,Texture2D,Thin02,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/Thin02.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_5,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_5.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_8,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_8.png
+globalgamemanagers.assets,Texture2D,Medium02,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/Medium02.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_22,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_22.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_29,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_29.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_11,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_11.png
+globalgamemanagers.assets,Texture2D,Large01,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/Large01.png
+globalgamemanagers.assets,Texture2D,LDR_LLL1_28,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/textures/LDR_LLL1_28.png
+globalgamemanagers.assets,Sprite,cfm_ruchang_logo,Part2_Audio_Fonts/Core_Data/globalgamemanagers.assets/sprites/cfm_ruchang_logo.png
