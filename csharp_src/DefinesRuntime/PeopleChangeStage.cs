@@ -1,0 +1,8 @@
+internal enum PeopleChangeStage
+{
+	UP_BELOW_HISTORY_MAX,
+	UP_ABOVE_HISTORY_MAX,
+	MAX_STORAGE,
+	DOWN_BELOW_HISTORY_MAX,
+	MIN
+}

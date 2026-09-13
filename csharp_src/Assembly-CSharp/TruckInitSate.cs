@@ -1,0 +1,18 @@
+public class TruckInitSate : ITruckPeopleSate
+{
+	public void OnEnter(WorldPeopleTruckBase truck)
+	{
+		truck.gameObject.SetActive(value: false);
+		truck.Manager.OnTruckEnterInit(isEnter: true);
+	}
+
+	public void OnUpdate(WorldPeopleTruckBase truck, float deltaTime)
+	{
+	}
+
+	public void OnLeave(WorldPeopleTruckBase truck)
+	{
+		truck.gameObject.SetActive(value: true);
+		truck.Manager.OnTruckEnterInit(isEnter: false);
+	}
+}

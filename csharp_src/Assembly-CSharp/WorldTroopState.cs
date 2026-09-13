@@ -1,0 +1,25 @@
+public enum WorldTroopState
+{
+	None,
+	Idle,
+	Move,
+	AttackBegin,
+	Attack,
+	AttackEnd,
+	Death,
+	PickGarbageMovetoGarbage,
+	PickingGarbage,
+	PickGarbageSuccess,
+	PickGarbageFailed,
+	PickGarbageLeaveGarbage,
+	AttackBuild,
+	TransPortBackHome,
+	DetectRescueStart,
+	BerserkBossAttack,
+	WorldTroopPlayAttack,
+	Stun,
+	Whistle,
+	Defend,
+	BloodyQueenMonsterWait,
+	S1SeasonPreActBossAttackEachOther
+}

@@ -1,0 +1,7 @@
+public enum MapType
+{
+	DEFAULT_MAP,
+	NORMAL_MAP,
+	SERVERFIGHT_MAP,
+	DRAGON_MAP
+}

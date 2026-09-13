@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>spine-timeline</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../../../re/dlls/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>../../../re/dlls/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-unity">
+      <HintPath>../../../re/dlls/spine-unity.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-csharp">
+      <HintPath>../../../re/dlls/spine-csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>../../../re/dlls/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

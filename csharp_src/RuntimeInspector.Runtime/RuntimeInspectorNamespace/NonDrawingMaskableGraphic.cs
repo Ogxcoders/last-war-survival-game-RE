@@ -1,0 +1,21 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace RuntimeInspectorNamespace;
+
+[RequireComponent(typeof(CanvasRenderer))]
+public class NonDrawingMaskableGraphic : MaskableGraphic
+{
+	public override void SetMaterialDirty()
+	{
+	}
+
+	public override void SetVerticesDirty()
+	{
+	}
+
+	protected override void OnPopulateMesh(VertexHelper vh)
+	{
+		vh.Clear();
+	}
+}

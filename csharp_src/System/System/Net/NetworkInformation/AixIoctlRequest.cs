@@ -1,0 +1,10 @@
+namespace System.Net.NetworkInformation;
+
+internal enum AixIoctlRequest : uint
+{
+	SIOCGSIZIFCONF = 1074030954u,
+	SIOCGIFCONF = 3222300997u,
+	SIOCGIFFLAGS = 3223873809u,
+	SIOCGIFNETMASK = 3223873829u,
+	SIOCGIFMTU = 3223873878u
+}

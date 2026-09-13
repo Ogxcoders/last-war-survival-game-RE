@@ -1,0 +1,11 @@
+public enum ArmEnumType
+{
+	ARM_BU = 1,
+	ARM_QIANG,
+	ARM_RIDE,
+	ARM_RIDE_SHE,
+	ARM_GONG,
+	ARM_NU,
+	ARM_TOU_SHI_BING,
+	ARM_CHE
+}

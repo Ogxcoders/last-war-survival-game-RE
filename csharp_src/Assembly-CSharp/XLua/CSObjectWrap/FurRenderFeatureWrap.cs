@@ -1,0 +1,137 @@
+using System;
+using UnityEngine.Rendering.Universal;
+using XLua.LuaDLL;
+
+namespace XLua.CSObjectWrap;
+
+public class FurRenderFeatureWrap
+{
+	public static void __Register(IntPtr L)
+	{
+		ObjectTranslator translator = ObjectTranslatorPool.Instance.Find(L);
+		Type typeFromHandle = typeof(FurRenderFeature);
+		Utils.BeginObjectRegister(typeFromHandle, L, translator, 0, 2, 1, 1);
+		Utils.RegisterFunc(L, -3, "Create", _m_Create);
+		Utils.RegisterFunc(L, -3, "AddRenderPasses", _m_AddRenderPasses);
+		Utils.RegisterFunc(L, -2, "settings", _g_get_settings);
+		Utils.RegisterFunc(L, -1, "settings", _s_set_settings);
+		Utils.EndObjectRegister(typeFromHandle, L, translator, null, null, null, null, null);
+		Utils.BeginClassRegister(typeFromHandle, L, __CreateInstance, 1, 1, 1);
+		Utils.RegisterFunc(L, -2, "instance", _g_get_instance);
+		Utils.RegisterFunc(L, -1, "instance", _s_set_instance);
+		Utils.EndClassRegister(typeFromHandle, L, translator);
+	}
+
+	[MonoPInvokeCallback(typeof(lua_CSFunction))]
+	private static int __CreateInstance(IntPtr L)
+	{
+		try
+		{
+			ObjectTranslator objectTranslator = ObjectTranslatorPool.Instance.Find(L);
+			if (Lua.lua_gettop(L) == 1)
+			{
+				FurRenderFeature o = new FurRenderFeature();
+				objectTranslator.Push(L, o);
+				return 1;
+			}
+		}
+		catch (Exception ex)
+		{
+			return Lua.luaL_error(L, "c# exception:" + ex);
+		}
+		return Lua.luaL_error(L, "invalid arguments to FurRenderFeature constructor!");
+	}
+
+	[MonoPInvokeCallback(typeof(lua_CSFunction))]
+	private static int _m_Create(IntPtr L)
+	{
+		try
+		{
+			((FurRenderFeature)ObjectTranslatorPool.Instance.Find(L).FastGetCSObj(L, 1)).Create();
+			return 0;
+		}
+		catch (Exception ex)
+		{
+			return Lua.luaL_error(L, "c# exception:" + ex);
+		}
+	}
+
+	[MonoPInvokeCallback(typeof(lua_CSFunction))]
+	private static int _m_AddRenderPasses(IntPtr L)
+	{
+		try
+		{
+			ObjectTranslator objectTranslator = ObjectTranslatorPool.Instance.Find(L);
+			FurRenderFeature furRenderFeature = (FurRenderFeature)objectTranslator.FastGetCSObj(L, 1);
+			ScriptableRenderer renderer = (ScriptableRenderer)objectTranslator.GetObject(L, 2, typeof(ScriptableRenderer));
+			objectTranslator.Get(L, 3, out RenderingData v);
+			furRenderFeature.AddRenderPasses(renderer, ref v);
+			objectTranslator.Push(L, v);
+			objectTranslator.Update(L, 3, v);
+			return 1;
+		}
+		catch (Exception ex)
+		{
+			return Lua.luaL_error(L, "c# exception:" + ex);
+		}
+	}
+
+	[MonoPInvokeCallback(typeof(lua_CSFunction))]
+	private static int _g_get_instance(IntPtr L)
+	{
+		try
+		{
+			ObjectTranslatorPool.Instance.Find(L).Push(L, FurRenderFeature.instance);
+		}
+		catch (Exception ex)
+		{
+			return Lua.luaL_error(L, "c# exception:" + ex);
+		}
+		return 1;
+	}
+
+	[MonoPInvokeCallback(typeof(lua_CSFunction))]
+	private static int _g_get_settings(IntPtr L)
+	{
+		try
+		{
+			ObjectTranslator objectTranslator = ObjectTranslatorPool.Instance.Find(L);
+			FurRenderFeature furRenderFeature = (FurRenderFeature)objectTranslator.FastGetCSObj(L, 1);
+			objectTranslator.Push(L, furRenderFeature.settings);
+		}
+		catch (Exception ex)
+		{
+			return Lua.luaL_error(L, "c# exception:" + ex);
+		}
+		return 1;
+	}
+
+	[MonoPInvokeCallback(typeof(lua_CSFunction))]
+	private static int _s_set_instance(IntPtr L)
+	{
+		try
+		{
+			FurRenderFeature.instance = (FurRenderFeature)ObjectTranslatorPool.Instance.Find(L).GetObject(L, 1, typeof(FurRenderFeature));
+		}
+		catch (Exception ex)
+		{
+			return Lua.luaL_error(L, "c# exception:" + ex);
+		}
+		return 0;
+	}
+
+	[MonoPInvokeCallback(typeof(lua_CSFunction))]
+	private static int _s_set_settings(IntPtr L)
+	{
+		try
+		{
+			ObjectTranslator objectTranslator = ObjectTranslatorPool.Instance.Find(L);
+			((FurRenderFeature)objectTranslator.FastGetCSObj(L, 1)).settings = (FurRenderFeature.PassSettings)objectTranslator.GetObject(L, 2, typeof(FurRenderFeature.PassSettings));
+		}
+		catch (Exception ex)
+		{
+			return Lua.luaL_error(L, "c# exception:" + ex);
+		}
+		return 0;
+	}
+}

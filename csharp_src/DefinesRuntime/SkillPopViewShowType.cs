@@ -1,0 +1,9 @@
+public enum SkillPopViewShowType
+{
+	OLDVERSION,
+	SHOWALL,
+	SHOWOFFICER,
+	SHOWACOMBAT,
+	SHOWDEVELOP,
+	SHOWSUPPORT
+}

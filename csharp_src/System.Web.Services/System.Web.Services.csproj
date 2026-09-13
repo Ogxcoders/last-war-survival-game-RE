@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>System.Web.Services</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="wsdl-1.1.xsd" />
+    <None Remove="wsdl-1.1-soap.xsd" />
+    <None Remove="web-reference.xsd" />
+    <EmbeddedResource Include="wsdl-1.1.xsd" LogicalName="wsdl-1.1.xsd" />
+    <EmbeddedResource Include="wsdl-1.1-soap.xsd" LogicalName="wsdl-1.1-soap.xsd" />
+    <EmbeddedResource Include="web-reference.xsd" LogicalName="web-reference.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml">
+      <HintPath>../../../re/dlls/System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

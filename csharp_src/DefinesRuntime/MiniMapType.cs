@@ -1,0 +1,8 @@
+public enum MiniMapType
+{
+	NORMAL_TYPE,
+	DRAGON_TYPE,
+	ALLIANCE_TYPE,
+	RALLY_TYPE,
+	HIDE_TYPE
+}

@@ -1,0 +1,32 @@
+using System.Diagnostics;
+using System.Diagnostics.SymbolStore;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+
+[assembly: AssemblyTitle("System.Diagnostics.StackTrace")]
+[assembly: AssemblyDescription("System.Diagnostics.StackTrace")]
+[assembly: AssemblyDefaultAlias("System.Diagnostics.StackTrace")]
+[assembly: AssemblyCompany("Mono development team")]
+[assembly: AssemblyProduct("Mono Common Language Infrastructure")]
+[assembly: AssemblyCopyright("(c) Various Mono authors")]
+[assembly: AssemblyInformationalVersion("4.0.0.0")]
+[assembly: AssemblyFileVersion("4.0.0.0")]
+[assembly: AssemblyVersion("4.1.1.0")]
+[assembly: TypeForwardedTo(typeof(StackFrame))]
+[assembly: TypeForwardedTo(typeof(StackFrameExtensions))]
+[assembly: TypeForwardedTo(typeof(StackTrace))]
+[assembly: TypeForwardedTo(typeof(ISymbolBinder))]
+[assembly: TypeForwardedTo(typeof(ISymbolBinder1))]
+[assembly: TypeForwardedTo(typeof(ISymbolDocument))]
+[assembly: TypeForwardedTo(typeof(ISymbolDocumentWriter))]
+[assembly: TypeForwardedTo(typeof(ISymbolMethod))]
+[assembly: TypeForwardedTo(typeof(ISymbolNamespace))]
+[assembly: TypeForwardedTo(typeof(ISymbolReader))]
+[assembly: TypeForwardedTo(typeof(ISymbolScope))]
+[assembly: TypeForwardedTo(typeof(ISymbolVariable))]
+[assembly: TypeForwardedTo(typeof(ISymbolWriter))]
+[assembly: TypeForwardedTo(typeof(SymAddressKind))]
+[assembly: TypeForwardedTo(typeof(SymbolToken))]
+[assembly: TypeForwardedTo(typeof(SymDocumentType))]
+[assembly: TypeForwardedTo(typeof(SymLanguageType))]
+[assembly: TypeForwardedTo(typeof(SymLanguageVendor))]

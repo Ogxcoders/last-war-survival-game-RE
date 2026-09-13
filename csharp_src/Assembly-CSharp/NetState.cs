@@ -1,0 +1,9 @@
+public enum NetState
+{
+	INIT,
+	CHOOSELINE,
+	CONNECTED,
+	CONNECTLOST,
+	CONNECTERROR,
+	StateCount
+}

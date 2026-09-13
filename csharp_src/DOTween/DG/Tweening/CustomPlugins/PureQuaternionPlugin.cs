@@ -1,0 +1,75 @@
+using DG.Tweening.Core;
+using DG.Tweening.Core.Easing;
+using DG.Tweening.Core.Enums;
+using DG.Tweening.Plugins.Core;
+using DG.Tweening.Plugins.Options;
+using UnityEngine;
+
+namespace DG.Tweening.CustomPlugins;
+
+public class PureQuaternionPlugin : ABSTweenPlugin<Quaternion, Quaternion, NoOptions>
+{
+	private static PureQuaternionPlugin _plug;
+
+	public static PureQuaternionPlugin Plug()
+	{
+		if (_plug == null)
+		{
+			_plug = new PureQuaternionPlugin();
+		}
+		return _plug;
+	}
+
+	public override void Reset(TweenerCore<Quaternion, Quaternion, NoOptions> t)
+	{
+	}
+
+	public override void SetFrom(TweenerCore<Quaternion, Quaternion, NoOptions> t, bool isRelative)
+	{
+		Quaternion endValue = t.endValue;
+		t.endValue = t.getter();
+		t.startValue = (isRelative ? (t.endValue * endValue) : endValue);
+		t.setter(t.startValue);
+	}
+
+	public override void SetFrom(TweenerCore<Quaternion, Quaternion, NoOptions> t, Quaternion fromValue, bool setImmediately, bool isRelative)
+	{
+		if (isRelative)
+		{
+			Quaternion quaternion = t.getter();
+			t.endValue = quaternion * t.endValue;
+			fromValue = quaternion * fromValue;
+		}
+		t.startValue = fromValue;
+		if (setImmediately)
+		{
+			t.setter(fromValue);
+		}
+	}
+
+	public override Quaternion ConvertToStartValue(TweenerCore<Quaternion, Quaternion, NoOptions> t, Quaternion value)
+	{
+		return value;
+	}
+
+	public override void SetRelativeEndValue(TweenerCore<Quaternion, Quaternion, NoOptions> t)
+	{
+		t.endValue *= t.startValue;
+	}
+
+	public override void SetChangeValue(TweenerCore<Quaternion, Quaternion, NoOptions> t)
+	{
+		t.changeValue = t.endValue;
+	}
+
+	public override float GetSpeedBasedDuration(NoOptions options, float unitsXSecond, Quaternion changeValue)
+	{
+		return changeValue.eulerAngles.magnitude / unitsXSecond;
+	}
+
+	public override void EvaluateAndApply(NoOptions options, Tween t, bool isRelative, DOGetter<Quaternion> getter, DOSetter<Quaternion> setter, float elapsed, Quaternion startValue, Quaternion changeValue, float duration, bool usingInversePosition, UpdateNotice updateNotice)
+	{
+		float t2 = EaseManager.Evaluate(t.easeType, t.customEase, elapsed, duration, t.easeOvershootOrAmplitude, t.easePeriod);
+		setter(Quaternion.Slerp(startValue, changeValue, t2));
+	}
+}

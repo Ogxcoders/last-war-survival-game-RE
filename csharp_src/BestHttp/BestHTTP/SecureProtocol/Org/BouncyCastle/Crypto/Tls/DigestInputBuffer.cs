@@ -1,0 +1,32 @@
+using System.IO;
+using BestHTTP.SecureProtocol.Org.BouncyCastle.Utilities.IO;
+
+namespace BestHTTP.SecureProtocol.Org.BouncyCastle.Crypto.Tls;
+
+internal class DigestInputBuffer : MemoryStream
+{
+	private class DigStream : BaseOutputStream
+	{
+		private readonly IDigest d;
+
+		internal DigStream(IDigest d)
+		{
+			this.d = d;
+		}
+
+		public override void WriteByte(byte b)
+		{
+			d.Update(b);
+		}
+
+		public override void Write(byte[] buf, int off, int len)
+		{
+			d.BlockUpdate(buf, off, len);
+		}
+	}
+
+	internal void UpdateDigest(IDigest d)
+	{
+		Streams.WriteBufTo(this, new DigStream(d));
+	}
+}

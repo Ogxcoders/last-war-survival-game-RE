@@ -1,0 +1,6 @@
+public enum SType
+{
+	STYPE_NONE,
+	STYPE_REINFORCE,
+	STYPE_TRADE
+}

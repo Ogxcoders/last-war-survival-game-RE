@@ -1,0 +1,14 @@
+public enum QueueState
+{
+	DEFAULT = 0,
+	TRAINING = 1,
+	CURE_ARMY = 2,
+	RESEARCH = 3,
+	FARMING = 4,
+	FEEDING = 5,
+	FACTORY = 6,
+	STORAGE_SHOP = 7,
+	UPGRADE = 16,
+	REBIRTH_ARMY = 17,
+	Ruins = 128
+}

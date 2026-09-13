@@ -1,0 +1,225 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>../../../re/dlls/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../../../re/dlls/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>../../../re/dlls/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>../../../re/dlls/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>../../../re/dlls/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>../../../re/dlls/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="XAssetProRuntime">
+      <HintPath>../../../re/dlls/XAssetProRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="BaseUtils">
+      <HintPath>../../../re/dlls/BaseUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>../../../re/dlls/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>../../../re/dlls/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartFox2X">
+      <HintPath>../../../re/dlls/SmartFox2X.dll</HintPath>
+    </Reference>
+    <Reference Include="BestHttp">
+      <HintPath>../../../re/dlls/BestHttp.dll</HintPath>
+    </Reference>
+    <Reference Include="FM_MonoLib">
+      <HintPath>../../../re/dlls/FM_MonoLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>../../../re/dlls/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>../../../re/dlls/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>../../../re/dlls/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>../../../re/dlls/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>../../../re/dlls/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>../../../re/dlls/Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>../../../re/dlls/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>../../../re/dlls/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>../../../re/dlls/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>../../../re/dlls/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>../../../re/dlls/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>../../../re/dlls/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UIExtensionRuntime">
+      <HintPath>../../../re/dlls/UIExtensionRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>../../../re/dlls/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="XLuaRuntime">
+      <HintPath>../../../re/dlls/XLuaRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="DefinesRuntime">
+      <HintPath>../../../re/dlls/DefinesRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="ThinkingAnalytics">
+      <HintPath>../../../re/dlls/ThinkingAnalytics.dll</HintPath>
+    </Reference>
+    <Reference Include="GPUSkinning">
+      <HintPath>../../../re/dlls/GPUSkinning.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-unity">
+      <HintPath>../../../re/dlls/spine-unity.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>../../../re/dlls/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Smartfox2xLw">
+      <HintPath>../../../re/dlls/Smartfox2xLw.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>../../../re/dlls/System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLiteForUnity3d">
+      <HintPath>../../../re/dlls/SQLiteForUnity3d.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdNetNativeWrapper">
+      <HintPath>../../../re/dlls/ZstdNetNativeWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>../../../re/dlls/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>../../../re/dlls/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>../../../re/dlls/Sirenix.OdinInspector.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="HeightFog">
+      <HintPath>../../../re/dlls/HeightFog.dll</HintPath>
+    </Reference>
+    <Reference Include="Joker.Share">
+      <HintPath>../../../re/dlls/Joker.Share.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>../../../re/dlls/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="spine-csharp">
+      <HintPath>../../../re/dlls/spine-csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="ArabicSupportRuntime">
+      <HintPath>../../../re/dlls/ArabicSupportRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="unity-webview">
+      <HintPath>../../../re/dlls/unity-webview.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>../../../re/dlls/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="FibMatrix.Rendering">
+      <HintPath>../../../re/dlls/FibMatrix.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="MoreMountains.NiceVibrations.Haptics">
+      <HintPath>../../../re/dlls/MoreMountains.NiceVibrations.Haptics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>../../../re/dlls/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>../../../re/dlls/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>../../../re/dlls/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>../../../re/dlls/System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>../../../re/dlls/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>../../../re/dlls/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>../../../re/dlls/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>../../../re/dlls/DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>../../../re/dlls/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="MoreMountains.NiceVibrations">
+      <HintPath>../../../re/dlls/MoreMountains.NiceVibrations.dll</HintPath>
+    </Reference>
+    <Reference Include="FibMatrix.BaseUtils">
+      <HintPath>../../../re/dlls/FibMatrix.BaseUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="BalasoRuntime">
+      <HintPath>../../../re/dlls/BalasoRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="AppsFlyer">
+      <HintPath>../../../re/dlls/AppsFlyer.dll</HintPath>
+    </Reference>
+    <Reference Include="Tayx.Graphy">
+      <HintPath>../../../re/dlls/Tayx.Graphy.dll</HintPath>
+    </Reference>
+    <Reference Include="ThinkingSDK">
+      <HintPath>../../../re/dlls/ThinkingSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>../../../re/dlls/Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>../../../re/dlls/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>../../../re/dlls/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="AIHelper">
+      <HintPath>../../../re/dlls/AIHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>../../../re/dlls/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>../../../re/dlls/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

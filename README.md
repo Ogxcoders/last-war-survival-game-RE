@@ -13,7 +13,8 @@ re-uploads of third-party dumps.
 | [`UI_Icons/`](UI_Icons/) `Activity_UI/` `Effects/` | 15k UI sprites & atlases, Spine skeleton data, VFX textures |
 | [`Audio/`](Audio/) `Fonts/` | 562 WAV clips (music/SFX/voice), 24 TTF/OTF fonts |
 | [`Core_Data/`](Core_Data/) | Unity boot data (`level0`, `sharedassets0`, `globalgamemanagers`, `unity default resources`) + bundle version markers |
-| [`csharp_meta/`](csharp_meta/) | **All 118 Mono assemblies decrypted** (`.mdl` → `.dll`) and dumped: **24,284 types / 224,551 methods / 120,939 fields** — incl. `Assembly-CSharp` (5,023 types, 48,075 methods) |
+| [`csharp_src/`](csharp_src/) | **All 118 Mono assemblies fully decompiled to C# source** (ILSpy 9.1) — **16,971 `.cs` files**, one per type, incl. complete `Assembly-CSharp` game logic |
+| [`csharp_meta/`](csharp_meta/) | Type/method/field index of all 118 decrypted assemblies: **24,284 types / 224,551 methods / 120,939 fields** |
 | [`tables_json/`](tables_json/) | **All 1,061 game data tables** (custom Lua 5.3 bytecode) converted to JSON via a purpose-built mini-VM |
 | `tables_decompiled_lua.tar.gz` | All 1,061 tables decompiled to readable Lua source (unluac) |
 | [`locale/`](locale/) | **906,575 localized strings** across 19 languages |
@@ -29,6 +30,18 @@ re-uploads of third-party dumps.
 1. **[APK structure](docs/01-apk-structure.md)** — layout, native libraries, Android components, mod analysis
 2. **[Encryption & obfuscation schemes](docs/02-encryption-schemes.md)** — `.mdl` XOR scheme, AssetBundle fragment/offset table, locale archives
 3. **[Custom Lua 5.3 bytecode format](docs/03-lua-bytecode-format.md)** — the full reverse-engineered spec (header, LoadString, LoadFunction), verified by disassembling `libxlua.so`
+
+## C# source quick links (`csharp_src/`)
+
+| Path | What to look at |
+|------|-----------------|
+| `Assembly-CSharp/` | The entire game: 3,073 types — managers (`WorldTroop.cs`, `WorldMarchDataManager.cs`), PVE/season logic, UI, economy |
+| `Assembly-CSharp/AES.cs`, `AesEncryptor.cs` | In-game crypto helpers |
+| `BaseUtils/`, `DefinesRuntime/` | Core utilities & constant definitions |
+| `SmartFox2X/`, `Smartfox2xLw/` | Network protocol client used for multiplayer |
+| `BestHttp/`, `FM_MonoLib/` | HTTP stack & SDK glue |
+
+Generated with `scripts/decompile_cs.py` (ilspycmd 9.1 under .NET 8 runtime): one `.cs` per type in nested namespace folders, plus a `.csproj` per assembly.
 
 ## Headline reversals
 
@@ -68,7 +81,8 @@ economy, activities and more (`tables_json/` has one JSON per table).
 ## Reproduction pipeline
 
 ```
-APK ─ unzip ─► assets/Assemblies/*.mdl ─ decrypt_mdl.py ─► .dll ─ analyze_dotnet.py ─► csharp_meta/
+APK ─ unzip ─► assets/Assemblies/*.mdl ─ decrypt_mdl.py ─► .dll ─ decompile_cs.py ─► csharp_src/ (C# source)
+                                              └─ analyze_dotnet.py ─► csharp_meta/
     └─────────► assets/AssetBundles ─ split_bundles.py ─► 7,036 bundles ─ extract_assets_4parts.py ─► assets/
                 assets/table/*.data ─ lua53_normalizer.py ─► .luac ─ unluac ─► .lua
                                      └───────────── table2json.py ─► tables_json/

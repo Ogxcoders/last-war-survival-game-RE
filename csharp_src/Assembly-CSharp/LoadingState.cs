@@ -1,0 +1,27 @@
+public enum LoadingState
+{
+	None,
+	Logo,
+	Permission,
+	ChooseLocalUpdate,
+	CheckResVersion,
+	DownloadManifest,
+	DownloadUpdate,
+	LoadDataTable,
+	GetServerList,
+	GetServerStatus,
+	ConnectGame,
+	Login,
+	AppUpdate,
+	PushInit,
+	AuthPin,
+	CNIdentify,
+	LoadScene,
+	EnterGame,
+	LoadingError,
+	Maintenance,
+	CreditLimit,
+	AccountSelect,
+	KRAuth,
+	StateCount
+}

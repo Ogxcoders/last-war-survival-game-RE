@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ZstdNetNativeWrapper</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Memory">
+      <HintPath>../../../re/dlls/System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>../../../re/dlls/System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../../re/dlls/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,100 @@
+using UnityEngine;
+
+namespace UnityGameFramework.SDK;
+
+public class DeviceInfo
+{
+	public string platform;
+
+	public string systemLanguage;
+
+	public string internetReachability;
+
+	public string operatingSystem;
+
+	public string operatingSystemFamily;
+
+	public string deviceModel;
+
+	public string deviceName;
+
+	public string deviceType;
+
+	public int systemMemorySize;
+
+	public int screenWidth;
+
+	public int screenHeight;
+
+	public int screenDpi;
+
+	public int graphicsDeviceID;
+
+	public string graphicsDeviceName;
+
+	public string graphicsDeviceType;
+
+	public string graphicsDeviceVendor;
+
+	public int graphicsDeviceVendorID;
+
+	public string graphicsDeviceVersion;
+
+	public int graphicsMemorySize;
+
+	public bool graphicsMultiThreaded;
+
+	public int graphicsShaderLevel;
+
+	public bool supportsGyroscope;
+
+	public bool supportsVibration;
+
+	public bool supportsAccelerometer;
+
+	public bool supportsLocationService;
+
+	public bool supportsARGB32RenderTexture;
+
+	public bool supportsAlpha8Texture;
+
+	public bool supportsAstc;
+
+	public bool supportAstc6;
+
+	public int copyTextureSupport;
+
+	public DeviceInfo()
+	{
+		platform = Application.platform.ToString();
+		systemLanguage = Application.systemLanguage.ToString();
+		internetReachability = Application.internetReachability.ToString();
+		operatingSystem = SystemInfo.operatingSystem;
+		operatingSystemFamily = SystemInfo.operatingSystemFamily.ToString();
+		deviceModel = SystemInfo.deviceModel;
+		deviceName = SystemInfo.deviceName;
+		deviceType = SystemInfo.deviceType.ToString();
+		systemMemorySize = SystemInfo.systemMemorySize;
+		screenWidth = Screen.width;
+		screenHeight = Screen.height;
+		screenDpi = Mathf.RoundToInt(Screen.dpi);
+		graphicsDeviceID = SystemInfo.graphicsDeviceID;
+		graphicsDeviceName = SystemInfo.graphicsDeviceName;
+		graphicsDeviceType = SystemInfo.graphicsDeviceType.ToString();
+		graphicsDeviceVendor = SystemInfo.graphicsDeviceVendor;
+		graphicsDeviceVendorID = SystemInfo.graphicsDeviceVendorID;
+		graphicsDeviceVersion = SystemInfo.graphicsDeviceVersion;
+		graphicsMemorySize = SystemInfo.graphicsMemorySize;
+		graphicsMultiThreaded = SystemInfo.graphicsMultiThreaded;
+		graphicsShaderLevel = SystemInfo.graphicsShaderLevel;
+		supportsGyroscope = SystemInfo.supportsGyroscope;
+		supportsVibration = SystemInfo.supportsVibration;
+		supportsAccelerometer = SystemInfo.supportsAccelerometer;
+		supportsLocationService = false;
+		supportsARGB32RenderTexture = SystemInfo.SupportsRenderTextureFormat(RenderTextureFormat.ARGB32);
+		supportsAlpha8Texture = SystemInfo.SupportsTextureFormat(TextureFormat.Alpha8);
+		supportsAstc = SystemInfo.SupportsTextureFormat(TextureFormat.ASTC_4x4);
+		supportAstc6 = SystemInfo.SupportsTextureFormat(TextureFormat.ASTC_6x6);
+		copyTextureSupport = (int)SystemInfo.copyTextureSupport;
+	}
+}

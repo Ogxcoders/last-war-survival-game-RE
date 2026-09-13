@@ -1,0 +1,28 @@
+public enum TruckTalkType
+{
+	Talk_None,
+	Talk_NO_Electricity,
+	Talk_NO_FoodShop,
+	Talk_Wounded_Soldier,
+	Talk_Night_Working,
+	Talk_Uping_FoodShop,
+	Talk_Transport_Electricity,
+	Talk_Transport_FoodShop,
+	Talk_Uping_HeroOfficer,
+	Talk_Uping_ResourceBuild,
+	Talk_Training_Soldier,
+	Talk_NO_ScienceQueue,
+	Talk_NO_TrainQueue,
+	Talk_Finish_Rapid,
+	Talk_Hight_SpeedProduct,
+	Talk_Give_Hero,
+	Talk_Knocked_Zombie,
+	Talk_Meet_Cars,
+	Talk_Meet_Car_People,
+	Talk_Uping_BrokenWall,
+	Talk_Uping_BaseInGuide,
+	Talk_Uping_Barrack1InGuide,
+	Talk_Uping_ElectricityInGuide,
+	Talk_Uping_OilInGuide,
+	Talk_Transport_ElectricityInGuide
+}
