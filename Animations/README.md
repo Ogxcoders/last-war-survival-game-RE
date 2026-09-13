@@ -25,3 +25,25 @@ skeletal data.
 - JSON files are the raw Unity typetrees — load with any JSON parser; the
   schema matches Unity 2019.4's `AnimationClip` / `AnimatorController`
   definitions (fields documented in the Unity docs).
+
+## Unity-ready `.anim` files (Release: `anim_unity_clips.zip`)
+
+All 2,409 readable clips were converted to **Unity YAML `.anim` files**
+(`scripts/gen_anim.py`), following AssetRipper's `AnimationClipConverter`
+logic exactly:
+
+- streamed / dense / constant curve streams decoded
+  (streamed key = cubic-Hermite `[index, coefX, coefY, coefZ, value]`),
+- transform bindings mapped by attribute enum
+  (1 = Translation, 2 = Rotation, 3 = Scaling, 4 = EulerHint),
+- bone paths recovered by CRC32-hashing every GameObject hierarchy in the
+  game (166,811 paths — Unity's path ID is `crc32(path)`, verified 217/217
+  against Avatar `m_TOS` maps),
+- script/engine float properties resolved through a CRC32 dictionary built
+  from all 118 assemblies' field names (91% coverage).
+
+Validation: 55,354 sampled rotation keyframes, **0 non-unit quaternions**.
+Drop the `.anim` files next to a matching rig (or re-path them) inside
+Unity. ~6% of curves reference paths whose rig hierarchy ships outside the
+animation bundles (`UnknownPath_*`); re-point those manually if needed.
+PPtr (sprite-swap) curves are not converted.
