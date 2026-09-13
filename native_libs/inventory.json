@@ -1,0 +1,107 @@
+{
+ "libLITEAPKS.COM.so": {
+  "size": 1447880,
+  "class": "64-bit",
+  "symbols": 2140
+ },
+ "libMonoPosixHelper.so": {
+  "size": 269960,
+  "class": "64-bit",
+  "symbols": 897
+ },
+ "libMonoSupportW.so": {
+  "size": 151640,
+  "class": "64-bit",
+  "symbols": 399
+ },
+ "libPVRNativeRenderPlugin.so": {
+  "size": 5840,
+  "class": "64-bit",
+  "symbols": 16
+ },
+ "libRenderTimingPlugin.so": {
+  "size": 10088,
+  "class": "64-bit",
+  "symbols": 26
+ },
+ "libandroidx.graphics.path.so": {
+  "size": 10096,
+  "class": "64-bit",
+  "symbols": 9
+ },
+ "libanogs.so": {
+  "size": 5639664,
+  "class": "64-bit",
+  "symbols": 239
+ },
+ "libil2cpp.so": {
+  "size": 1837784,
+  "class": "64-bit",
+  "symbols": 14013
+ },
+ "libmain.so": {
+  "size": 18712,
+  "class": "64-bit",
+  "symbols": 22
+ },
+ "libmono-btls-shared.so": {
+  "size": 1291640,
+  "class": "64-bit",
+  "symbols": 295
+ },
+ "libmono-ee-interp.so": {
+  "size": 281424,
+  "class": "64-bit",
+  "symbols": 378
+ },
+ "libmono-native.so": {
+  "size": 740080,
+  "class": "64-bit",
+  "symbols": 161
+ },
+ "libmono-profiler-aot.so": {
+  "size": 164120,
+  "class": "64-bit",
+  "symbols": 427
+ },
+ "libmono-profiler-coverage.so": {
+  "size": 166968,
+  "class": "64-bit",
+  "symbols": 444
+ },
+ "libmono-profiler-log.so": {
+  "size": 258512,
+  "class": "64-bit",
+  "symbols": 560
+ },
+ "libmonoboehm-2.0.so": {
+  "size": 3713328,
+  "class": "64-bit",
+  "symbols": 2615
+ },
+ "libsmsdk.so": {
+  "size": 842488,
+  "class": "64-bit",
+  "symbols": 562
+ },
+ "libsqlite3.so": {
+  "size": 1091352,
+  "class": "64-bit",
+  "symbols": 331
+ },
+ "libunity.so": {
+  "size": 23358096,
+  "class": "64-bit",
+  "symbols": 513
+ },
+ "libxlua.so": {
+  "size": 12352448,
+  "class": "64-bit",
+  "symbols": 12014
+ },
+ "libzstd.so": {
+  "size": 4887352,
+  "class": "64-bit",
+  "symbols": 2077
+ }
+}

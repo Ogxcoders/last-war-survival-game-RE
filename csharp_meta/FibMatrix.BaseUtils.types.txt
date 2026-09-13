@@ -1,0 +1,50 @@
+
+===== <Module> =====
+  : FibMatrix.BaseUtils.FibTempTestBIApi
+
+===== FibMatrix.BaseUtils.BaseUtilRuntimeCfg =====
+  : FibMatrix.BaseUtils.FibSingletonCfgBase
+  field  s_Inst
+  field  devCodeName
+  field  biConfig
+  method get_Instance()
+  method .ctor()
+
+===== FibMatrix.BaseUtils.EngineBIConfig =====
+  : System.Object
+  field  onlyLoggingNotSend
+  field  biTestAppId
+  method .ctor()
+
+===== FibMatrix.BaseUtils.FibEngineBIApi =====
+  : System.Object
+  field  k_VersionCode
+  field  k_EngeneBiAppId
+  field  s_BIIndex
+  field  s_ProjectName
+  method SendEditorUseFunctionEvent()
+  method SendEvent()
+  method SendGroupEvents()
+  method SendGroupEventsImpl()
+  method GenBiMsgJson()
+  method GetTimestampSince1970()
+  method GetCommonData()
+  method FindProjectName()
+  method .ctor()
+  method .cctor()
+
+===== FibMatrix.BaseUtils.FibSingletonCfgBase =====
+  : UnityEngine.ScriptableObject
+  field  k_SaveDir
+  field  runtimeCfg
+  field  s_ErrorAssets
+  method GetAssetPath()
+  method LoadOrCreate()
+  method .ctor()
+  method .cctor()
+
+===== FibMatrix.BaseUtils.FibTempTestBIApi =====
+  : System.Object
+  method SendEvent()
+  method SendGroupEvents()
+  method .ctor()

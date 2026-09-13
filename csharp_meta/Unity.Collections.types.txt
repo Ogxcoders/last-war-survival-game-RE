@@ -1,0 +1,484 @@
+
+===== <Module> =====
+  : ExecuteJobFunction
+
+===== Unity.Mathematics.math_2 =====
+  : System.Object
+  method log2_floor()
+  method .ctor()
+
+===== Unity.Collections.CollectionHelper =====
+  : System.Object
+  method CeilPow2()
+
+===== Unity.Collections.Pair`2 =====
+  : System.ValueType
+  field  key
+  field  value
+  method .ctor()
+  method ToString()
+
+===== Unity.Collections.ListPair`2 =====
+  : System.ValueType
+  field  key
+  field  value
+  method .ctor()
+  method ToString()
+
+===== Unity.Collections.NativeHashMapDebuggerTypeProxy`2 =====
+  : System.Object
+  field  m_target
+  method .ctor()
+  method get_Items()
+
+===== Unity.Collections.NativeMultiHashMapDebuggerTypeProxy`2 =====
+  : System.Object
+  field  m_target
+  method .ctor()
+  method get_Items()
+
+===== Unity.Collections.ListExtensions =====
+  : System.Object
+  method RemoveAtSwapBack()
+  method RemoveSwapBack()
+
+===== Unity.Collections.ArrayExtensions =====
+  : System.Object
+  method IndexOf()
+
+===== Unity.Collections.NativeArrayExtensions =====
+  : System.Object
+  method Contains()
+  method IndexOf()
+  method Contains()
+  method IndexOf()
+  method IndexOf()
+
+===== Unity.Collections.NativeMultiHashMapIterator`1 =====
+  : System.ValueType
+  field  key
+  field  NextEntryIndex
+  field  EntryIndex
+
+===== Unity.Collections.NativeHashMapData =====
+  : System.ValueType
+  field  values
+  field  keys
+  field  next
+  field  buckets
+  field  keyCapacity
+  field  bucketCapacityMask
+  field  padding1
+  field  firstFreeTLS
+  field  allocatedIndexLength
+  field  IntsPerCacheLine
+  method GetBucketSize()
+  method GrowCapacity()
+  method AllocateHashMap()
+  method ReallocateHashMap()
+  method DeallocateHashMap()
+  method CalculateDataSize()
+  method GetKeyArray()
+  method GetValueArray()
+
+===== Unity.Collections.NativeHashMapBase`2 =====
+  : System.ValueType
+  method Clear()
+  method AllocEntry()
+  method TryAddAtomic()
+  method AddAtomicMulti()
+  method TryAdd()
+  method Remove()
+  method Remove()
+  method TryGetFirstValueAtomic()
+  method TryGetNextValueAtomic()
+  method SetValue()
+
+===== Unity.Collections.NativeHashMap`2 =====
+  : System.ValueType
+  field  m_Buffer
+  field  m_AllocatorLabel
+  method .ctor()
+  method get_Length()
+  method get_Capacity()
+  method set_Capacity()
+  method Clear()
+  method TryAdd()
+  method Remove()
+  method TryGetValue()
+  method get_Item()
+  method get_IsCreated()
+  method Dispose()
+  method ToConcurrent()
+  method GetKeyArray()
+  method GetValueArray()
+
+===== Unity.Collections.NativeMultiHashMap`2 =====
+  : System.ValueType
+  field  m_Buffer
+  field  m_AllocatorLabel
+  method .ctor()
+  method get_Length()
+  method get_Capacity()
+  method set_Capacity()
+  method Clear()
+  method Add()
+  method Remove()
+  method Remove()
+  method TryGetFirstValue()
+  method TryGetNextValue()
+  method SetValue()
+  method get_IsCreated()
+  method Dispose()
+  method ToConcurrent()
+  method GetKeyArray()
+  method GetValueArray()
+
+===== Unity.Collections.IJobNativeMultiHashMapMergedSharedKeyIndices =====
+  : ExecuteJobFunction
+  method ExecuteFirst()
+  method ExecuteNext()
+
+===== Unity.Collections.JobNativeMultiHashMapUniqueHashExtensions =====
+  : System.Object
+  method Schedule()
+
+===== Unity.Collections.IJobNativeMultiHashMapVisitKeyValue`2 =====
+  : ExecuteJobFunction
+  method ExecuteNext()
+
+===== Unity.Collections.JobNativeMultiHashMapVisitKeyValue =====
+  : System.Object
+  method Schedule()
+
+===== Unity.Collections.NativeHashMapExtensions =====
+  : System.Object
+  method Unique()
+  method GetUniqueKeyArray()
+
+===== Unity.Collections.IJobNativeMultiHashMapVisitKeyMutableValue`2 =====
+  : ExecuteJobFunction
+  method ExecuteNext()
+
+===== Unity.Collections.JobNativeMultiHashMapVisitKeyMutableValue =====
+  : System.Object
+  method Schedule()
+
+===== Unity.Collections.NativeListData =====
+  : System.ValueType
+  field  buffer
+  field  length
+  field  capacity
+
+===== Unity.Collections.NativeList`1 =====
+  : System.ValueType
+  field  m_ListData
+  field  m_Allocator
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method IsBlittableAndThrow()
+  method get_Item()
+  method set_Item()
+  method get_Length()
+  method get_Capacity()
+  method set_Capacity()
+  method Add()
+  method AddRange()
+  method AddRange()
+  method RemoveAtSwapBack()
+  method get_IsCreated()
+  method Dispose()
+  method Clear()
+  method op_Implicit()
+  method AsArray()
+  method ToDeferredJobArray()
+  method AsDeferredJobArray()
+  method ToArray()
+  method ToArray()
+  method CopyFrom()
+  method ResizeUninitialized()
+
+===== Unity.Collections.NativeListDebugView`1 =====
+  : System.Object
+  field  m_Array
+  method .ctor()
+  method get_Items()
+
+===== Unity.Collections.NativeQueueBlockHeader =====
+  : System.ValueType
+  field  nextBlock
+  field  itemsInBlock
+
+===== Unity.Collections.NativeQueueBlockPoolData =====
+  : System.ValueType
+  field  firstBlock
+  field  allocatedBlocks
+  field  MaxBlocks
+  field  BlockSize
+  field  allocLock
+  method AllocateBlock()
+  method FreeBlock()
+
+===== Unity.Collections.NativeQueueBlockPool =====
+  : System.Object
+  field  data
+  method get_QueueBlockPool()
+  method OnDomainUnload()
+
+===== Unity.Collections.NativeQueueData =====
+  : System.ValueType
+  field  m_FirstBlock
+  field  m_LastBlock
+  field  m_ItemsPerBlock
+  field  m_CurrentReadIndexInBlock
+  field  IntsPerCacheLine
+  field  m_CurrentWriteBlockTLS
+  method AllocateWriteBlockMT()
+  method AllocateQueue()
+  method DeallocateQueue()
+
+===== Unity.Collections.NativeQueue`1 =====
+  : System.ValueType
+  field  m_Buffer
+  field  m_QueuePool
+  field  m_AllocatorLabel
+  method .ctor()
+  method get_Count()
+  method get_PersistentMemoryBlockCount()
+  method set_PersistentMemoryBlockCount()
+  method get_MemoryBlockSize()
+  method Peek()
+  method Enqueue()
+  method Dequeue()
+  method TryDequeue()
+  method Clear()
+  method get_IsCreated()
+  method Dispose()
+  method ToConcurrent()
+
+===== Unity.Collections.NativeSortExtension =====
+  : System.Object
+  field  k_IntrosortSizeThreshold
+  method Sort()
+  method Sort()
+  method Sort()
+  method Sort()
+  method IntroSort()
+  method InsertionSort()
+  method Partition()
+  method HeapSort()
+  method Heapify()
+  method Swap()
+  method SwapIfGreaterWithItems()
+
+===== Unity.Collections.ResizableArray64Byte`1 =====
+  : System.ValueType
+  field  totalSizeInBytes
+  field  bufferSizeInBytes
+  field  bufferSizeInInts
+  field  m_count
+  field  m_buffer
+  method CheckElementAccess()
+  method CheckResize()
+  method GetUnsafePointer()
+  method get_Length()
+  method set_Length()
+  method get_Capacity()
+  method get_Item()
+  method set_Item()
+  method Add()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== Unity.Collections.LowLevel.Unsafe.NativeListUnsafeUtility =====
+  : System.Object
+  method GetUnsafePtr()
+  method GetInternalListDataPtrUnchecked()
+
+===== Unity.Collections.LowLevel.Unsafe.UnsafeList =====
+  : System.ValueType
+  field  m_pointer
+  field  m_size
+  field  m_capacity
+  method Dispose()
+  method Resize()
+  method SetCapacity()
+  method SetCapacity()
+  method IndexOf()
+  method Contains()
+  method Add()
+  method AddRange()
+  method RemoveRangeSwapBack()
+  method RemoveRangeSwapBack()
+  method RemoveAtSwapBack()
+  method RemoveAtSwapBack()
+  method Append()
+  method Append()
+
+===== Unity.Collections.LowLevel.Unsafe.UnsafePtrListDebugView =====
+  : System.Object
+  field  m_UnsafePtrList
+  method .ctor()
+  method get_Items()
+
+===== Unity.Collections.LowLevel.Unsafe.UnsafePtrList =====
+  : System.ValueType
+  field  m_pointer
+  field  m_size
+  field  m_capacity
+  method GetUnsafeList()
+  method Dispose()
+  method Resize()
+  method SetCapacity()
+  method IndexOf()
+  method Contains()
+  method Add()
+  method RemoveRangeSwapBack()
+  method RemoveAtSwapBack()
+  method RemoveAtSwapBack()
+  method Append()
+
+===== Unity.Collections.LowLevel.Unsafe.UnsafeUtilityEx =====
+  : System.Object
+  method AsRef()
+  method ArrayElementAsRef()
+  method RestrictNoAlias()
+  method MemSet()
+
+===== Unity.Collections.Experimental.StructLayoutData4 =====
+  : System.ValueType
+  field  ChunkSizeBytes
+  field  ElementSize
+  field  ElementsPerChunk
+  field  m_Fields
+  method get_IsCreated()
+  method get_FieldCount()
+  method .ctor()
+  method ChunksNeeded()
+  method ChunkIndex()
+  method ChunkOffset()
+  method GetFieldInfo()
+  method ComputeFieldInfo()
+  method FindFields()
+
+===== Unity.Collections.Experimental.NativeArrayChunked8`1 =====
+  : System.ValueType
+  field  ms_CachedLayout
+  field  m_Base
+  field  m_Length
+  field  m_Allocator
+  method get_Length()
+  method get_Allocator()
+  method CheckReadAccess()
+  method CheckWriteAccess()
+  method .ctor()
+  method .ctor()
+  method Dispose()
+  method get_Item()
+  method set_Item()
+
+===== Unity.Collections.Experimental.NativeArrayFullSOA`1 =====
+  : System.ValueType
+  field  ms_CachedLayout
+  field  m_Base
+  field  m_Length
+  field  m_Allocator
+  method get_Length()
+  method get_Allocator()
+  method CheckReadAccess()
+  method CheckWriteAccess()
+  method .ctor()
+  method .ctor()
+  method Dispose()
+  method get_Item()
+  method set_Item()
+
+===== <padding1>e__FixedBuffer =====
+  : System.ValueType
+  field  FixedElementField
+
+===== <firstFreeTLS>e__FixedBuffer =====
+  : System.ValueType
+  field  FixedElementField
+
+===== Concurrent =====
+  : System.ValueType
+  field  m_Buffer
+  field  m_ThreadIndex
+  method get_Capacity()
+  method TryAdd()
+
+===== Concurrent =====
+  : System.ValueType
+  field  m_Buffer
+  field  m_ThreadIndex
+  method get_Capacity()
+  method Add()
+
+===== NativeMultiHashMapUniqueHashJobStruct`1 =====
+  : System.ValueType
+  field  HashMap
+  field  JobData
+  field  jobReflectionData
+  method Initialize()
+  method Execute()
+
+===== NativeMultiHashMapVisitKeyValueJobStruct`3 =====
+  : System.ValueType
+  field  HashMap
+  field  JobData
+  field  jobReflectionData
+  method Initialize()
+  method Execute()
+
+===== NativeMultiHashMapVisitKeyMutableValueJobStruct`3 =====
+  : System.ValueType
+  field  HashMap
+  field  JobData
+  field  jobReflectionData
+  method Initialize()
+  method Execute()
+
+===== Concurrent =====
+  : System.ValueType
+  field  m_Buffer
+  field  m_QueuePool
+  field  m_ThreadIndex
+  method Enqueue()
+
+===== DefaultComparer`1 =====
+  : System.ValueType
+  method Compare()
+
+===== <m_buffer>e__FixedBuffer =====
+  : System.ValueType
+  field  FixedElementField
+
+===== FieldInfo =====
+  : System.ValueType
+  field  Offset
+
+===== ExecuteJobFunction =====
+  : System.MulticastDelegate
+  method .ctor()
+  method Invoke()
+  method BeginInvoke()
+  method EndInvoke()
+
+===== ExecuteJobFunction =====
+  : System.MulticastDelegate
+  method .ctor()
+  method Invoke()
+  method BeginInvoke()
+  method EndInvoke()
+
+===== ExecuteJobFunction =====
+  : System.MulticastDelegate
+  method .ctor()
+  method Invoke()
+  method BeginInvoke()
+  method EndInvoke()

@@ -1,0 +1,13 @@
+
+===== <Module> =====
+  : UnityEngine.JsonUtility
+
+===== UnityEngine.JsonUtility =====
+  : System.Object
+  method ToJsonInternal()
+  method FromJsonInternal()
+  method ToJson()
+  method ToJson()
+  method FromJson()
+  method FromJson()
+  method FromJsonOverwrite()

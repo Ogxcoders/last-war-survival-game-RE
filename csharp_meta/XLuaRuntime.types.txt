@@ -1,0 +1,402 @@
+
+===== <Module> =====
+  : LuaIndexes
+
+===== XLua.GenFlag =====
+  : System.Enum
+  field  value__
+  field  No
+  field  GCOptimize
+
+===== XLua.LuaCallCSharpAttribute =====
+  : System.Attribute
+  field  flag
+  method get_Flag()
+  method .ctor()
+
+===== XLua.CSharpCallLuaAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== XLua.BlackListAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== XLua.OptimizeFlag =====
+  : System.Enum
+  field  value__
+  field  Default
+  field  PackAsTable
+
+===== XLua.GCOptimizeAttribute =====
+  : System.Attribute
+  field  flag
+  method get_Flag()
+  method .ctor()
+
+===== XLua.ReflectionUseAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== XLua.DoNotGenAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== XLua.AdditionalPropertiesAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== XLua.HotfixFlag =====
+  : System.Enum
+  field  value__
+  field  Stateless
+  field  Stateful
+  field  ValueTypeBoxing
+  field  IgnoreProperty
+  field  IgnoreNotPublic
+  field  Inline
+  field  IntKey
+  field  AdaptByDelegate
+  field  IgnoreCompilerGenerated
+  field  NoBaseProxy
+
+===== XLua.HotfixAttribute =====
+  : System.Attribute
+  field  flag
+  method get_Flag()
+  method .ctor()
+
+===== XLua.HotfixDelegateAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== XLua.SysGenConfig =====
+  : System.Object
+  method get_GCOptimize()
+  method get_AdditionalProperties()
+
+===== XLua.LuaException =====
+  : System.Exception
+  method .ctor()
+
+===== XLua.ObjectPool =====
+  : System.Object
+  field  LIST_END
+  field  ALLOCED
+  field  list
+  field  freelist
+  field  count
+  method get_Item()
+  method Clear()
+  method extend_capacity()
+  method Add()
+  method TryGetValue()
+  method Get()
+  method Remove()
+  method Replace()
+  method Check()
+  method .ctor()
+
+===== XLua.ReferenceEqualsComparer =====
+  : System.Object
+  method Equals()
+  method GetHashCode()
+  method .ctor()
+
+===== XLua.MonoPInvokeCallbackAttribute =====
+  : System.Attribute
+  field  type
+  method .ctor()
+
+===== XLua.LuaTypes =====
+  : System.Enum
+  field  value__
+  field  LUA_TNONE
+  field  LUA_TNIL
+  field  LUA_TNUMBER
+  field  LUA_TSTRING
+  field  LUA_TBOOLEAN
+  field  LUA_TTABLE
+  field  LUA_TFUNCTION
+  field  LUA_TUSERDATA
+  field  LUA_TTHREAD
+  field  LUA_TLIGHTUSERDATA
+
+===== XLua.LuaGCOptions =====
+  : System.Enum
+  field  value__
+  field  LUA_GCSTOP
+  field  LUA_GCRESTART
+  field  LUA_GCCOLLECT
+  field  LUA_GCCOUNT
+  field  LUA_GCCOUNTB
+  field  LUA_GCSTEP
+  field  LUA_GCSETPAUSE
+  field  LUA_GCSETSTEPMUL
+
+===== XLua.LuaThreadStatus =====
+  : System.Enum
+  field  value__
+  field  LUA_RESUME_ERROR
+  field  LUA_OK
+  field  LUA_YIELD
+  field  LUA_ERRRUN
+  field  LUA_ERRSYNTAX
+  field  LUA_ERRMEM
+  field  LUA_ERRERR
+
+===== XLua.RawObject =====
+  : LuaIndexes
+  method get_Target()
+
+===== XLua.TypeExtensions =====
+  : System.Object
+  method IsValueType()
+  method IsEnum()
+  method IsPrimitive()
+  method IsAbstract()
+  method IsSealed()
+  method IsInterface()
+  method IsClass()
+  method BaseType()
+  method IsGenericType()
+  method IsGenericTypeDefinition()
+  method IsNestedPublic()
+  method IsPublic()
+  method GetFriendlyName()
+
+===== XLua.Cast.Any`1 =====
+  : System.Object
+  field  mTarget
+  method .ctor()
+  method get_Target()
+
+===== XLua.Cast.Byte =====
+  : 
+  method .ctor()
+
+===== XLua.Cast.SByte =====
+  : 
+  method .ctor()
+
+===== XLua.Cast.Char =====
+  : 
+  method .ctor()
+
+===== XLua.Cast.Int16 =====
+  : 
+  method .ctor()
+
+===== XLua.Cast.UInt16 =====
+  : 
+  method .ctor()
+
+===== XLua.Cast.Int32 =====
+  : 
+  method .ctor()
+
+===== XLua.Cast.UInt32 =====
+  : 
+  method .ctor()
+
+===== XLua.Cast.Int64 =====
+  : 
+  method .ctor()
+
+===== XLua.Cast.UInt64 =====
+  : 
+  method .ctor()
+
+===== XLua.Cast.Float =====
+  : 
+  method .ctor()
+
+===== XLua.LuaDLL.lua_CSFunction =====
+  : System.MulticastDelegate
+  method .ctor()
+  method Invoke()
+  method BeginInvoke()
+  method EndInvoke()
+
+===== XLua.LuaDLL.Lua =====
+  : System.Object
+  field  LUADLL
+  method lua_tothread()
+  method xlua_get_lib_version()
+  method lua_gc()
+  method lua_getupvalue()
+  method lua_setupvalue()
+  method lua_pushthread()
+  method lua_isfunction()
+  method lua_islightuserdata()
+  method lua_istable()
+  method lua_isthread()
+  method luaL_error()
+  method lua_setfenv()
+  method luaL_newstate()
+  method lua_close()
+  method luaopen_xlua()
+  method luaL_openlibs()
+  method xlua_objlen()
+  method lua_createtable()
+  method lua_newtable()
+  method xlua_getglobal()
+  method xlua_setglobal()
+  method xlua_getloaders()
+  method lua_settop()
+  method lua_pop()
+  method lua_insert()
+  method lua_remove()
+  method lua_rawget()
+  method lua_rawset()
+  method lua_setmetatable()
+  method lua_rawequal()
+  method lua_pushvalue()
+  method lua_pushcclosure()
+  method lua_replace()
+  method lua_gettop()
+  method lua_type()
+  method lua_isnil()
+  method lua_isnumber()
+  method lua_isboolean()
+  method luaL_ref()
+  method luaL_ref()
+  method xlua_rawgeti()
+  method xlua_rawseti()
+  method lua_getref()
+  method pcall_prepare()
+  method luaL_unref()
+  method lua_unref()
+  method lua_isstring()
+  method lua_isinteger()
+  method lua_pushnil()
+  method lua_pushstdcallcfunction()
+  method xlua_upvalueindex()
+  method lua_pcall()
+  method lua_tonumber()
+  method xlua_tointeger()
+  method xlua_touint()
+  method lua_toboolean()
+  method lua_topointer()
+  method lua_tolstring()
+  method lua_tostring()
+  method lua_atpanic()
+  method lua_pushnumber()
+  method lua_pushboolean()
+  method xlua_pushinteger()
+  method xlua_pushuint()
+  method lua_pushstring()
+  method xlua_pushlstring()
+  method xlua_pushasciistring()
+  method lua_pushstring()
+  method lua_tobytes()
+  method luaL_newmetatable()
+  method xlua_pgettable()
+  method xlua_psettable()
+  method luaL_getmetatable()
+  method xluaL_loadbuffer()
+  method luaL_loadbuffer()
+  method xlua_tocsobj_safe()
+  method xlua_tocsobj_fast()
+  method lua_error()
+  method lua_checkstack()
+  method lua_next()
+  method lua_pushlightuserdata()
+  method xlua_tag()
+  method luaL_where()
+  method xlua_tryget_cachedud()
+  method xlua_pushcsobj()
+  method gen_obj_indexer()
+  method gen_obj_newindexer()
+  method gen_cls_indexer()
+  method gen_cls_newindexer()
+  method get_error_func_ref()
+  method load_error_func()
+  method luaopen_i64lib()
+  method luaopen_socket_core()
+  method lua_pushint64()
+  method lua_pushuint64()
+  method lua_isint64()
+  method lua_isuint64()
+  method lua_toint64()
+  method lua_touint64()
+  method xlua_push_csharp_function()
+  method xlua_csharp_str_error()
+  method xlua_csharp_error()
+  method xlua_pack_int8_t()
+  method xlua_unpack_int8_t()
+  method xlua_pack_int16_t()
+  method xlua_unpack_int16_t()
+  method xlua_pack_int32_t()
+  method xlua_unpack_int32_t()
+  method xlua_pack_int64_t()
+  method xlua_unpack_int64_t()
+  method xlua_pack_float()
+  method xlua_unpack_float()
+  method xlua_pack_double()
+  method xlua_unpack_double()
+  method xlua_pushstruct()
+  method xlua_pushcstable()
+  method lua_touserdata()
+  method xlua_gettypeid()
+  method xlua_get_registry_index()
+  method xlua_pgettable_bypath()
+  method xlua_psettable_bypath()
+  method xlua_pack_float2()
+  method xlua_unpack_float2()
+  method xlua_pack_float3()
+  method xlua_unpack_float3()
+  method xlua_pack_float4()
+  method xlua_unpack_float4()
+  method xlua_pack_float5()
+  method xlua_unpack_float5()
+  method xlua_pack_float6()
+  method xlua_unpack_float6()
+  method xlua_pack_decimal()
+  method xlua_unpack_decimal()
+  method xlua_is_eq_str()
+  method xlua_is_eq_str()
+  method xlua_gl()
+  method luaopen_rapidjson()
+  method LoadRapidJson()
+  method luaopen_lpeg()
+  method LoadLpeg()
+  method luaopen_pb()
+  method LoadLuaProfobuf()
+  method luaopen_ffi()
+  method LoadFFI()
+  method loadPbSchemeBinary()
+  method Load_luaUtil()
+  method luaopen_split()
+  method LoadStringExt()
+  method luaopen_native()
+  method LoadLuaCNativeCode()
+  method .ctor()
+
+===== Slot =====
+  : System.ValueType
+  field  next
+  field  obj
+  method .ctor()
+
+===== <>c =====
+  : System.Object
+  field  <>9
+  field  <>9__12_0
+  method .cctor()
+  method .ctor()
+  method <GetFriendlyName>b__12_0()
+
+===== InternalGlobals =====
+  : System.Object
+  field  GetStrBuff
+  field  SetStrBuff
+  method get_strBuff()
+  method set_strBuff()
+  method .ctor()
+
+===== LuaIndexes =====
+  : System.Object
+  field  GetLUA_REGISTRYINDEX
+  method get_LUA_REGISTRYINDEX()
+  method .ctor()

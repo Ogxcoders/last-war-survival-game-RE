@@ -1,0 +1,1 @@
+{"b'index'":{"b'id'":[1,"b'number'"],"b'zombie_id'":[2,"b'string'"],"b'count'":[3,"b'string'"],"b'path'":[4,"b'string'"],"b'spawn_radius'":[5,"b'number'"],"b'delay'":[6,"b'number'"],"b'interval'":[7,"b'number'"],"b'times'":[8,"b'number'"]},"b'data'":[[1,"b'1;2;3;4;5;6;7;8;9;10;11;12'","b'1;1;1;1;1;1;1;1;1;1;1;1'","b'15,20;29,48'",3,0,8,4]]}

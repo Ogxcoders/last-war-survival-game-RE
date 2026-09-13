@@ -1,0 +1,295 @@
+
+===== <Module> =====
+  : UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+
+===== UnityEngine.AssetFileNameExtensionAttribute =====
+  : System.Attribute
+  field  <preferredExtension>k__BackingField
+  field  <otherExtensions>k__BackingField
+  method get_preferredExtension()
+  method get_otherExtensions()
+  method .ctor()
+
+===== UnityEngine.ThreadAndSerializationSafeAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== UnityEngine.IL2CPPStructAlignmentAttribute =====
+  : System.Attribute
+  field  Align
+  method .ctor()
+
+===== UnityEngine.WritableAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== UnityEngine.RejectDragAndDropMaterial =====
+  : System.Attribute
+  method .ctor()
+
+===== UnityEngine.UnityEngineModuleAssembly =====
+  : System.Attribute
+  method .ctor()
+
+===== UnityEngine.NativeClassAttribute =====
+  : System.Attribute
+  field  <QualifiedNativeName>k__BackingField
+  field  <Declaration>k__BackingField
+  method get_QualifiedNativeName()
+  method set_QualifiedNativeName()
+  method get_Declaration()
+  method set_Declaration()
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.UnityString =====
+  : System.Object
+  method Format()
+  method .ctor()
+
+===== UnityEngine.Bindings.VisibleToOtherModulesAttribute =====
+  : System.Attribute
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.Bindings.IBindingsAttribute =====
+  : UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+
+===== UnityEngine.Bindings.IBindingsNameProviderAttribute =====
+  : UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+  method get_Name()
+  method set_Name()
+
+===== UnityEngine.Bindings.IBindingsHeaderProviderAttribute =====
+  : UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+  method get_Header()
+  method set_Header()
+
+===== UnityEngine.Bindings.IBindingsIsThreadSafeProviderAttribute =====
+  : UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+  method get_IsThreadSafe()
+  method set_IsThreadSafe()
+
+===== UnityEngine.Bindings.IBindingsIsFreeFunctionProviderAttribute =====
+  : UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+  method get_IsFreeFunction()
+  method set_IsFreeFunction()
+  method get_HasExplicitThis()
+  method set_HasExplicitThis()
+
+===== UnityEngine.Bindings.IBindingsThrowsProviderAttribute =====
+  : UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+  method get_ThrowsException()
+  method set_ThrowsException()
+
+===== UnityEngine.Bindings.IBindingsGenerateMarshallingTypeAttribute =====
+  : UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+  method get_CodegenOptions()
+  method set_CodegenOptions()
+
+===== UnityEngine.Bindings.IBindingsWritableSelfProviderAttribute =====
+  : UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
+  method get_WritableSelf()
+  method set_WritableSelf()
+
+===== UnityEngine.Bindings.NativeConditionalAttribute =====
+  : System.Attribute
+  field  <Condition>k__BackingField
+  field  <StubReturnStatement>k__BackingField
+  field  <Enabled>k__BackingField
+  method get_Condition()
+  method set_Condition()
+  method get_StubReturnStatement()
+  method set_StubReturnStatement()
+  method get_Enabled()
+  method set_Enabled()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.Bindings.NativeHeaderAttribute =====
+  : System.Attribute
+  field  <Header>k__BackingField
+  method get_Header()
+  method set_Header()
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.Bindings.NativeNameAttribute =====
+  : System.Attribute
+  field  <Name>k__BackingField
+  method get_Name()
+  method set_Name()
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.Bindings.NativeWritableSelfAttribute =====
+  : System.Attribute
+  field  <WritableSelf>k__BackingField
+  method get_WritableSelf()
+  method set_WritableSelf()
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.Bindings.NativeMethodAttribute =====
+  : System.Attribute
+  field  <Name>k__BackingField
+  field  <IsThreadSafe>k__BackingField
+  field  <IsFreeFunction>k__BackingField
+  field  <ThrowsException>k__BackingField
+  field  <HasExplicitThis>k__BackingField
+  field  <WritableSelf>k__BackingField
+  method get_Name()
+  method set_Name()
+  method get_IsThreadSafe()
+  method set_IsThreadSafe()
+  method get_IsFreeFunction()
+  method set_IsFreeFunction()
+  method get_ThrowsException()
+  method set_ThrowsException()
+  method get_HasExplicitThis()
+  method set_HasExplicitThis()
+  method get_WritableSelf()
+  method set_WritableSelf()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.Bindings.TargetType =====
+  : System.Enum
+  field  value__
+  field  Function
+  field  Field
+
+===== UnityEngine.Bindings.NativePropertyAttribute =====
+  : UnityEngine.Bindings.NativeMethodAttribute
+  field  <TargetType>k__BackingField
+  method get_TargetType()
+  method set_TargetType()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.Bindings.CodegenOptions =====
+  : System.Enum
+  field  value__
+  field  Auto
+  field  Custom
+  field  Force
+
+===== UnityEngine.Bindings.NativeAsStructAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== UnityEngine.Bindings.NativeTypeAttribute =====
+  : System.Attribute
+  field  <Header>k__BackingField
+  field  <IntermediateScriptingStructName>k__BackingField
+  field  <CodegenOptions>k__BackingField
+  method get_Header()
+  method set_Header()
+  method get_IntermediateScriptingStructName()
+  method set_IntermediateScriptingStructName()
+  method get_CodegenOptions()
+  method set_CodegenOptions()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.Bindings.NotNullAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== UnityEngine.Bindings.UnmarshalledAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== UnityEngine.Bindings.FreeFunctionAttribute =====
+  : UnityEngine.Bindings.NativeMethodAttribute
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.Bindings.ThreadSafeAttribute =====
+  : UnityEngine.Bindings.NativeMethodAttribute
+  method .ctor()
+
+===== UnityEngine.Bindings.StaticAccessorType =====
+  : System.Enum
+  field  value__
+  field  Dot
+  field  Arrow
+  field  DoubleColon
+  field  ArrowWithDefaultReturnIfNull
+
+===== UnityEngine.Bindings.StaticAccessorAttribute =====
+  : System.Attribute
+  field  <Name>k__BackingField
+  field  <Type>k__BackingField
+  method get_Name()
+  method set_Name()
+  method get_Type()
+  method set_Type()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.Bindings.NativeThrowsAttribute =====
+  : System.Attribute
+  field  <ThrowsException>k__BackingField
+  method get_ThrowsException()
+  method set_ThrowsException()
+  method .ctor()
+  method .ctor()
+
+===== UnityEngine.Bindings.IgnoreAttribute =====
+  : System.Attribute
+  field  <DoesNotContributeToSize>k__BackingField
+  method get_DoesNotContributeToSize()
+  method set_DoesNotContributeToSize()
+  method .ctor()
+
+===== UnityEngine.Bindings.MarshalUnityObjectAs =====
+  : System.Attribute
+  field  <MarshalAsType>k__BackingField
+  method get_MarshalAsType()
+  method set_MarshalAsType()
+  method .ctor()
+
+===== UnityEngine.Scripting.UsedByNativeCodeAttribute =====
+  : System.Attribute
+  field  <Name>k__BackingField
+  method .ctor()
+  method .ctor()
+  method get_Name()
+  method set_Name()
+
+===== UnityEngine.Scripting.RequiredByNativeCodeAttribute =====
+  : System.Attribute
+  field  <Name>k__BackingField
+  field  <Optional>k__BackingField
+  field  <GenerateProxy>k__BackingField
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method get_Name()
+  method set_Name()
+  method get_Optional()
+  method set_Optional()
+  method get_GenerateProxy()
+  method set_GenerateProxy()
+
+===== UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute =====
+  : System.Attribute
+  method .ctor()

@@ -1,1 +1,0 @@
-{"scene_name":"LastWar_Scene_mrtx_01","res_list":[]}

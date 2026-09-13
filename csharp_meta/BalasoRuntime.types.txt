@@ -1,0 +1,22 @@
+
+===== <Module> =====
+  : AuthorizationStatus
+
+===== Balaso.AppTrackingTransparency =====
+  : System.Object
+  field  currentSynchronizationContext
+  field  OnAuthorizationRequestDone
+  method .cctor()
+  method get_TrackingAuthorizationStatus()
+  method UpdateConversionValue()
+  method RegisterAppForAdNetworkAttribution()
+  method RequestTrackingAuthorization()
+  method IdentifierForAdvertising()
+
+===== AuthorizationStatus =====
+  : System.Enum
+  field  value__
+  field  NOT_DETERMINED
+  field  RESTRICTED
+  field  DENIED
+  field  AUTHORIZED

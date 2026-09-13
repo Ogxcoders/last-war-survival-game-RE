@@ -1,1 +1,0 @@
-{"scene_name":"LastWar_Scene_dust_01_clean_bridge_boss_Old","res_list":[]}

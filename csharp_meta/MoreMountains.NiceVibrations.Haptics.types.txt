@@ -1,0 +1,235 @@
+
+===== <Module> =====
+  : <ContinuousHapticPatternCoroutine>d__27
+
+===== MoreMountains.NiceVibrations.MMNVAHAPMetadata =====
+  : System.Object
+  field  Project
+  field  Created
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNVAHAPEventParameter =====
+  : System.Object
+  field  ParameterID
+  field  ParameterValue
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNVAHAPEvent =====
+  : System.Object
+  field  Time
+  field  EventType
+  field  EventDuration
+  field  EventParameters
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNVAHAPParameterCurveControlPoint =====
+  : System.Object
+  field  Time
+  field  ParameterValue
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNVAHAPParameterCurve =====
+  : System.Object
+  field  ParameterID
+  field  Time
+  field  ParameterCurveControlPoints
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNVAHAPPattern =====
+  : System.Object
+  field  Event
+  field  ParameterCurve
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNVAHAP =====
+  : System.Object
+  field  Version
+  field  Metadata
+  field  Pattern
+  method Remap()
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNVAltThread`1 =====
+  : System.Object
+  field  _altThread
+  field  _threadShouldStop
+  field  _methodsList
+  field  _argumentsList
+  method Run()
+  method CloseThread()
+  method Process()
+  method .ctor()
+  method .cctor()
+  method <Run>b__4_0()
+
+===== MoreMountains.NiceVibrations.MMNVAndroid =====
+  : System.Object
+  field  _androidVibrateThread
+  field  _androidVibrateThreadData
+  field  _sdkVersion
+  field  UnityPlayer
+  field  CurrentActivity
+  field  AndroidVibrator
+  field  VibrationEffectClass
+  field  VibrationEffect
+  field  DefaultAmplitude
+  field  AndroidVibrateMethodRawClass
+  field  AndroidVibrateMethodRawClassParameters
+  method AndroidVibrate()
+  method AndroidVibrate()
+  method AndroidVibrate()
+  method AndroidVibrate()
+  method AndroidVibrateThread()
+  method AndroidVibrateNoThread()
+  method ClearThreads()
+  method AndroidCancelVibrations()
+  method AndroidHasVibrator()
+  method AndroidHasAmplitudeControl()
+  method AndroidVibrationEffectClassInitialization()
+  method AndroidSDKVersion()
+  method .cctor()
+
+===== MoreMountains.NiceVibrations.MMNVAndroidWaveForm =====
+  : System.Object
+  field  Pattern
+  field  Amplitudes
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNVAndroidWaveFormAsset =====
+  : UnityEngine.ScriptableObject
+  field  WaveForm
+  field  AHAPFile
+  field  IntensityMultiplier
+  field  SharpnessMultiplier
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNVEnumConditionAttribute =====
+  : UnityEngine.PropertyAttribute
+  field  ConditionEnum
+  field  Hidden
+  field  bitArray
+  method ContainsBitFlag()
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.HapticTypes =====
+  : System.Enum
+  field  value__
+  field  Selection
+  field  Success
+  field  Warning
+  field  Failure
+  field  LightImpact
+  field  MediumImpact
+  field  HeavyImpact
+  field  RigidImpact
+  field  SoftImpact
+  field  None
+
+===== MoreMountains.NiceVibrations.MMNVInspectorButtonAttribute =====
+  : UnityEngine.PropertyAttribute
+  field  MethodName
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNVPlatform =====
+  : System.Object
+  method Android()
+  method iOS()
+
+===== MoreMountains.NiceVibrations.MMNVRumbleWaveForm =====
+  : System.Object
+  field  Pattern
+  field  LowFrequencyAmplitudes
+  field  HighFrequencyAmplitudes
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNVRumbleWaveFormAsset =====
+  : UnityEngine.ScriptableObject
+  field  WaveForm
+  field  AHAPFile
+  field  IntensityMultiplier
+  field  SharpnessMultiplier
+  method .ctor()
+
+===== MoreMountains.NiceVibrations.MMNViOS =====
+  : System.Object
+  field  iOSHapticsInitialized
+  method MMNViOS_InstantiateFeedbackGenerators()
+  method MMNViOS_ReleaseFeedbackGenerators()
+  method MMNViOS_SelectionHaptic()
+  method MMNViOS_SuccessHaptic()
+  method MMNViOS_WarningHaptic()
+  method MMNViOS_FailureHaptic()
+  method MMNViOS_LightImpactHaptic()
+  method MMNViOS_MediumImpactHaptic()
+  method MMNViOS_HeavyImpactHaptic()
+  method MMNViOS_RigidImpactHaptic()
+  method MMNViOS_SoftImpactHaptic()
+  method iOSInitializeHaptics()
+  method iOSReleaseHaptics()
+  method iOSTriggerHaptics()
+  method iOSSDKVersion()
+  method ComputeiOSVersion()
+  method iOSHapticsSupported()
+  method .cctor()
+
+===== MoreMountains.NiceVibrations.MMNViOSCoreHaptics =====
+  : System.Object
+  field  OnHapticPatternStopped
+  field  OnHapticPatternError
+  field  OnHapticPatternReset
+  field  _initialContinuousIntensity
+  field  _initialContinuousSharpness
+  method add_OnHapticPatternStopped()
+  method remove_OnHapticPatternStopped()
+  method add_OnHapticPatternError()
+  method remove_OnHapticPatternError()
+  method add_OnHapticPatternReset()
+  method remove_OnHapticPatternReset()
+  method MMNViOS_CoreHapticsSupported()
+  method MMNViOS_CoreHapticsSetDebugMode()
+  method MMNViOS_CreateEngine()
+  method MMNViOS_StopEngine()
+  method MMNViOS_PlayTransientHapticPattern()
+  method MMNViOS_PlayContinuousHapticPattern()
+  method MMNViOS_UpdateContinuousHapticPattern()
+  method MMNViOS_StopContinuousHaptic()
+  method MMNViOS_PlayCoreHapticsFromJSON()
+  method MMNViOS_CoreHapticsRegisterHapticEngineFinishedCallback()
+  method MMNViOS_CoreHapticsRegisterHapticEngineErrorCallback()
+  method MMNViOS_CoreHapticsRegisterHapticEngineResetCallback()
+  method .cctor()
+  method PlayCoreHapticsFromJSON()
+  method PlayTransientHapticPattern()
+  method PlayContinuousHapticPattern()
+  method ContinuousHapticPatternCoroutine()
+  method UpdateContinuousHapticPattern()
+  method UpdateContinuousHapticPatternRational()
+  method StopHapticPatterns()
+  method CreateEngine()
+  method StopEngine()
+  method SetDebugMode()
+  method CoreHapticsSupported()
+  method HapticStoppedCallback()
+  method HapticsErrorCallback()
+  method HapticsResetCallback()
+
+===== MMNVAndroidVibrateThreadData =====
+  : System.ValueType
+  field  Pattern
+  field  Amplitudes
+  field  Repeat
+  method .ctor()
+
+===== <ContinuousHapticPatternCoroutine>d__27 =====
+  : System.Object
+  field  <>1__state
+  field  <>2__current
+  field  intensity
+  field  sharpness
+  field  threaded
+  method .ctor()
+  method System.IDisposable.Dispose()
+  method MoveNext()
+  method System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+  method System.Collections.IEnumerator.Reset()
+  method System.Collections.IEnumerator.get_Current()

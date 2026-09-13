@@ -1,0 +1,1105 @@
+
+===== <Module> =====
+  : <>c__DisplayClass2_0
+
+===== AppsFlyerTrackerCallbacks =====
+  : UnityEngine.MonoBehaviour
+  method Start()
+  method Update()
+  method didReceiveConversionData()
+  method didReceiveConversionDataWithError()
+  method didFinishValidateReceipt()
+  method didFinishValidateReceiptWithError()
+  method onAppOpenAttribution()
+  method onAppOpenAttributionFailure()
+  method onInAppBillingSuccess()
+  method onInAppBillingFailure()
+  method onInviteLinkGenerated()
+  method onOpenStoreLinkGenerated()
+  method BaseVersionCompare()
+  method printCallback()
+  method .ctor()
+
+===== DynamicBone =====
+  : UnityEngine.MonoBehaviour
+  field  m_Root
+  field  m_Roots
+  field  m_UpdateRate
+  field  m_UpdateMode
+  field  m_Damping
+  field  m_DampingDistrib
+  field  m_Elasticity
+  field  m_ElasticityDistrib
+  field  m_Stiffness
+  field  m_StiffnessDistrib
+  field  m_Inert
+  field  m_InertDistrib
+  field  m_Friction
+  field  m_FrictionDistrib
+  field  m_Radius
+  field  m_RadiusDistrib
+  field  m_EndLength
+  field  m_EndOffset
+  field  m_Gravity
+  field  m_Force
+  field  m_BlendWeight
+  field  m_Colliders
+  field  m_Exclusions
+  field  m_FreezeAxis
+  field  m_DistantDisable
+  field  m_ReferenceObject
+  field  m_DistanceToObject
+  field  m_Multithread
+  field  m_ObjectMove
+  field  m_ObjectPrevPosition
+  field  m_ObjectScale
+  field  m_Time
+  field  m_Weight
+  field  m_DistantDisabled
+  field  m_PreUpdateCount
+  field  m_ParticleTrees
+  field  m_DeltaTime
+  field  m_EffectiveColliders
+  field  m_WorkAdded
+  field  s_PendingWorks
+  field  s_EffectiveWorks
+  field  s_AllWorksDoneEvent
+  field  s_RemainWorkCount
+  field  s_WorkQueueSemaphore
+  field  s_WorkQueueIndex
+  field  s_UpdateCount
+  field  s_PrepareFrame
+  method Start()
+  method FixedUpdate()
+  method Update()
+  method LateUpdate()
+  method Prepare()
+  method IsNeedUpdate()
+  method PreUpdate()
+  method CheckDistance()
+  method OnEnable()
+  method OnDisable()
+  method OnValidate()
+  method IsRootChanged()
+  method OnDidApplyAnimationProperties()
+  method OnDrawGizmosSelected()
+  method DrawGizmos()
+  method SetWeight()
+  method GetWeight()
+  method UpdateParticles()
+  method SetupParticles()
+  method AppendParticleTree()
+  method AppendParticles()
+  method UpdateParameters()
+  method UpdateParameters()
+  method InitTransforms()
+  method InitTransforms()
+  method ResetParticlesPosition()
+  method ResetParticlesPosition()
+  method UpdateParticles1()
+  method UpdateParticles1()
+  method UpdateParticles2()
+  method UpdateParticles2()
+  method SkipUpdateParticles()
+  method SkipUpdateParticles()
+  method MirrorVector()
+  method ApplyParticlesToTransforms()
+  method ApplyParticlesToTransforms()
+  method AddPendingWork()
+  method AddWorkToQueue()
+  method GetWorkFromQueue()
+  method ThreadProc()
+  method InitThreadPool()
+  method ExecuteWorks()
+  method .ctor()
+  method .cctor()
+
+===== DynamicBoneCollider =====
+  : DynamicBoneColliderBase
+  field  m_Radius
+  field  m_Height
+  field  m_Radius2
+  field  m_ScaledRadius
+  field  m_ScaledRadius2
+  field  m_C0
+  field  m_C1
+  field  m_C01Distance
+  field  m_CollideType
+  method OnValidate()
+  method Prepare()
+  method Collide()
+  method OutsideSphere()
+  method InsideSphere()
+  method OutsideCapsule()
+  method InsideCapsule()
+  method OutsideCapsule2()
+  method InsideCapsule2()
+  method OnDrawGizmosSelected()
+  method DrawCapsule()
+  method .ctor()
+
+===== DynamicBoneColliderBase =====
+  : UnityEngine.MonoBehaviour
+  field  m_Direction
+  field  m_Center
+  field  m_Bound
+  field  <PrepareFrame>k__BackingField
+  method set_PrepareFrame()
+  method get_PrepareFrame()
+  method Start()
+  method Prepare()
+  method Collide()
+  method .ctor()
+
+===== DynamicBonePlaneCollider =====
+  : DynamicBoneColliderBase
+  field  m_Plane
+  method OnValidate()
+  method Prepare()
+  method Collide()
+  method OnDrawGizmosSelected()
+  method .ctor()
+
+===== WindowFullScreen =====
+  : System.Object
+  field  WindowHeight
+  field  WindowWidth
+  field  isFullScreen
+  method SetFullScreen()
+  method ResetFullScreen()
+  method SwitchFullScreen()
+  method .cctor()
+
+===== DG.Tweening.DOTweenModuleAudio =====
+  : System.Object
+  method DOFade()
+  method DOPitch()
+  method DOSetFloat()
+  method DOComplete()
+  method DOKill()
+  method DOFlip()
+  method DOGoto()
+  method DOPause()
+  method DOPlay()
+  method DOPlayBackwards()
+  method DOPlayForward()
+  method DORestart()
+  method DORewind()
+  method DOSmoothRewind()
+  method DOTogglePause()
+
+===== DG.Tweening.DOTweenModulePhysics =====
+  : System.Object
+  method DOMove()
+  method DOMoveX()
+  method DOMoveY()
+  method DOMoveZ()
+  method DORotate()
+  method DOLookAt()
+  method DOJump()
+  method DOPath()
+  method DOLocalPath()
+  method DOPath()
+  method DOLocalPath()
+
+===== DG.Tweening.DOTweenModulePhysics2D =====
+  : System.Object
+  method DOMove()
+  method DOMoveX()
+  method DOMoveY()
+  method DORotate()
+  method DOJump()
+  method DOPath()
+  method DOLocalPath()
+
+===== DG.Tweening.DOTweenModuleSprite =====
+  : System.Object
+  method DOColor()
+  method DOFade()
+  method DOGradientColor()
+  method DOBlendableColor()
+
+===== DG.Tweening.DOTweenModuleUI =====
+  : System.Object
+  method DOFade()
+  method DOColor()
+  method DOFade()
+  method DOColor()
+  method DOFade()
+  method DOFillAmount()
+  method DOGradientColor()
+  method DOFlexibleSize()
+  method DOMinSize()
+  method DOPreferredSize()
+  method DOColor()
+  method DOFade()
+  method DOScale()
+  method DOAnchorPos()
+  method DOAnchorPosX()
+  method DOAnchorPosY()
+  method DOAnchorPos3D()
+  method DOAnchorPos3DX()
+  method DOAnchorPos3DY()
+  method DOAnchorPos3DZ()
+  method DOAnchorMax()
+  method DOAnchorMin()
+  method DOPivot()
+  method DOPivotX()
+  method DOPivotY()
+  method DOSizeDelta()
+  method DOPunchAnchorPos()
+  method DOShakeAnchorPos()
+  method DOShakeAnchorPos()
+  method DOJumpAnchorPos()
+  method DONormalizedPos()
+  method DOHorizontalNormalizedPos()
+  method DOVerticalNormalizedPos()
+  method DOValue()
+  method DOColor()
+  method DOCounter()
+  method DOFade()
+  method DOText()
+  method DOBlendableColor()
+  method DOBlendableColor()
+  method DOBlendableColor()
+
+===== DG.Tweening.DOTweenModuleUnityVersion =====
+  : System.Object
+  method DOGradientColor()
+  method DOGradientColor()
+  method WaitForCompletion()
+  method WaitForRewind()
+  method WaitForKill()
+  method WaitForElapsedLoops()
+  method WaitForPosition()
+  method WaitForStart()
+  method DOOffset()
+  method DOTiling()
+  method AsyncWaitForCompletion()
+  method AsyncWaitForRewind()
+  method AsyncWaitForKill()
+  method AsyncWaitForElapsedLoops()
+  method AsyncWaitForPosition()
+  method AsyncWaitForStart()
+
+===== DG.Tweening.DOTweenCYInstruction =====
+  : System.Object
+
+===== DG.Tweening.DOTweenModuleUtils =====
+  : System.Object
+  field  _initialized
+  method Init()
+  method Preserver()
+
+===== DG.Tweening.DOTweenAnimation =====
+  : DG.Tweening.Core.ABSAnimationComponent
+  field  OnReset
+  field  targetIsSelf
+  field  targetGO
+  field  tweenTargetIsTargetGO
+  field  delay
+  field  duration
+  field  easeType
+  field  easeCurve
+  field  loopType
+  field  loops
+  field  id
+  field  isRelative
+  field  isFrom
+  field  isIndependentUpdate
+  field  autoKill
+  field  isActive
+  field  isValid
+  field  target
+  field  animationType
+  field  targetType
+  field  forcedTargetType
+  field  autoPlay
+  field  useTargetAsV3
+  field  endValueFloat
+  field  endValueV3
+  field  endValueV2
+  field  endValueColor
+  field  endValueString
+  field  endValueRect
+  field  endValueTransform
+  field  optionalBool0
+  field  optionalFloat0
+  field  optionalInt0
+  field  optionalRotationMode
+  field  optionalScrambleMode
+  field  optionalString
+  field  isAutoMirrorUIProcessedInArabic
+  field  _tweenCreated
+  field  _playCount
+  method add_OnReset()
+  method remove_OnReset()
+  method Dispatch_OnReset()
+  method Awake()
+  method Start()
+  method Reset()
+  method OnDestroy()
+  method CreateTween()
+  method DOPlay()
+  method DOPlayBackwards()
+  method DOPlayForward()
+  method DOPause()
+  method DOTogglePause()
+  method DORewind()
+  method DORestart()
+  method DORestart()
+  method DOComplete()
+  method DOKill()
+  method DOPlayById()
+  method DOPlayAllById()
+  method DOPauseAllById()
+  method DOPlayBackwardsById()
+  method DOPlayBackwardsAllById()
+  method DOPlayForwardById()
+  method DOPlayForwardAllById()
+  method DOPlayNext()
+  method DORewindAndPlayNext()
+  method DORewindAllById()
+  method DORestartById()
+  method DORestartAllById()
+  method GetTweens()
+  method TypeToDOTargetType()
+  method CreateEditorPreview()
+  method GetTweenGO()
+  method ReEvaluateRelativeTween()
+  method .ctor()
+  method <CreateTween>b__48_0()
+
+===== DG.Tweening.DOTweenAnimationExtensions =====
+  : System.Object
+  method IsSameOrSubclassOf()
+
+===== DG.Tweening.DOTweenProShortcuts =====
+  : System.Object
+  method .cctor()
+  method DOSpiral()
+  method DOSpiral()
+
+===== UpdateMode =====
+  : System.Enum
+  field  value__
+  field  Normal
+  field  AnimatePhysics
+  field  UnscaledTime
+  field  Default
+
+===== FreezeAxis =====
+  : System.Enum
+  field  value__
+  field  None
+  field  X
+  field  Y
+  field  Z
+
+===== Particle =====
+  : System.Object
+  field  m_Transform
+  field  m_ParentIndex
+  field  m_ChildCount
+  field  m_Damping
+  field  m_Elasticity
+  field  m_Stiffness
+  field  m_Inert
+  field  m_Friction
+  field  m_Radius
+  field  m_BoneLength
+  field  m_isCollide
+  field  m_TransformNotNull
+  field  m_Position
+  field  m_PrevPosition
+  field  m_EndOffset
+  field  m_InitLocalPosition
+  field  m_InitLocalRotation
+  field  m_TransformPosition
+  field  m_TransformLocalPosition
+  field  m_TransformLocalToWorldMatrix
+  method .ctor()
+
+===== ParticleTree =====
+  : System.Object
+  field  m_Root
+  field  m_LocalGravity
+  field  m_RootWorldToLocalMatrix
+  field  m_BoneTotalLength
+  field  m_Particles
+  field  m_RestGravity
+  method .ctor()
+
+===== <>c__DisplayClass69_0 =====
+  : System.Object
+  field  root
+  method .ctor()
+  method <SetupParticles>b__0()
+
+===== Direction =====
+  : System.Enum
+  field  value__
+  field  X
+  field  Y
+  field  Z
+
+===== Bound =====
+  : System.Enum
+  field  value__
+  field  Outside
+  field  Inside
+
+===== <>c__DisplayClass0_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOFade>b__0()
+  method <DOFade>b__1()
+
+===== <>c__DisplayClass1_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOPitch>b__0()
+  method <DOPitch>b__1()
+
+===== <>c__DisplayClass2_0 =====
+  : System.Object
+  field  target
+  field  floatName
+  method .ctor()
+  method <DOSetFloat>b__0()
+  method <DOSetFloat>b__1()
+
+===== <>c__DisplayClass0_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOMove>b__0()
+
+===== <>c__DisplayClass1_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOMoveX>b__0()
+
+===== <>c__DisplayClass2_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOMoveY>b__0()
+
+===== <>c__DisplayClass3_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOMoveZ>b__0()
+
+===== <>c__DisplayClass4_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DORotate>b__0()
+
+===== <>c__DisplayClass5_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOLookAt>b__0()
+
+===== <>c__DisplayClass6_0 =====
+  : System.Object
+  field  target
+  field  startPosY
+  field  offsetYSet
+  field  offsetY
+  field  s
+  field  endValue
+  field  yTween
+  method .ctor()
+  method <DOJump>b__0()
+  method <DOJump>b__1()
+  method <DOJump>b__2()
+  method <DOJump>b__3()
+  method <DOJump>b__4()
+
+===== <>c__DisplayClass7_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOPath>b__0()
+
+===== <>c__DisplayClass8_0 =====
+  : System.Object
+  field  trans
+  field  target
+  method .ctor()
+  method <DOLocalPath>b__0()
+  method <DOLocalPath>b__1()
+
+===== <>c__DisplayClass9_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOPath>b__0()
+
+===== <>c__DisplayClass10_0 =====
+  : System.Object
+  field  trans
+  field  target
+  method .ctor()
+  method <DOLocalPath>b__0()
+  method <DOLocalPath>b__1()
+
+===== <>c__DisplayClass0_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOMove>b__0()
+
+===== <>c__DisplayClass1_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOMoveX>b__0()
+
+===== <>c__DisplayClass2_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOMoveY>b__0()
+
+===== <>c__DisplayClass3_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DORotate>b__0()
+
+===== <>c__DisplayClass4_0 =====
+  : System.Object
+  field  target
+  field  startPosY
+  field  offsetYSet
+  field  offsetY
+  field  s
+  field  endValue
+  field  yTween
+  method .ctor()
+  method <DOJump>b__0()
+  method <DOJump>b__1()
+  method <DOJump>b__2()
+  method <DOJump>b__3()
+  method <DOJump>b__4()
+  method <DOJump>b__5()
+
+===== <>c__DisplayClass5_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOPath>b__0()
+  method <DOPath>b__1()
+
+===== <>c__DisplayClass6_0 =====
+  : System.Object
+  field  trans
+  field  target
+  method .ctor()
+  method <DOLocalPath>b__0()
+  method <DOLocalPath>b__1()
+
+===== <>c__DisplayClass0_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOColor>b__0()
+  method <DOColor>b__1()
+
+===== <>c__DisplayClass1_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOFade>b__0()
+  method <DOFade>b__1()
+
+===== <>c__DisplayClass3_0 =====
+  : System.Object
+  field  to
+  field  target
+  method .ctor()
+  method <DOBlendableColor>b__0()
+  method <DOBlendableColor>b__1()
+
+===== Utils =====
+  : System.Object
+  method SwitchToRectTransform()
+
+===== <>c__DisplayClass0_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOFade>b__0()
+  method <DOFade>b__1()
+
+===== <>c__DisplayClass1_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOColor>b__0()
+  method <DOColor>b__1()
+
+===== <>c__DisplayClass2_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOFade>b__0()
+  method <DOFade>b__1()
+
+===== <>c__DisplayClass3_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOColor>b__0()
+  method <DOColor>b__1()
+
+===== <>c__DisplayClass4_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOFade>b__0()
+  method <DOFade>b__1()
+
+===== <>c__DisplayClass5_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOFillAmount>b__0()
+  method <DOFillAmount>b__1()
+
+===== <>c__DisplayClass7_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOFlexibleSize>b__0()
+  method <DOFlexibleSize>b__1()
+
+===== <>c__DisplayClass8_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOMinSize>b__0()
+  method <DOMinSize>b__1()
+
+===== <>c__DisplayClass9_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOPreferredSize>b__0()
+  method <DOPreferredSize>b__1()
+
+===== <>c__DisplayClass10_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOColor>b__0()
+  method <DOColor>b__1()
+
+===== <>c__DisplayClass11_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOFade>b__0()
+  method <DOFade>b__1()
+
+===== <>c__DisplayClass12_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOScale>b__0()
+  method <DOScale>b__1()
+
+===== <>c__DisplayClass13_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOAnchorPos>b__0()
+  method <DOAnchorPos>b__1()
+
+===== <>c__DisplayClass14_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOAnchorPosX>b__0()
+  method <DOAnchorPosX>b__1()
+
+===== <>c__DisplayClass15_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOAnchorPosY>b__0()
+  method <DOAnchorPosY>b__1()
+
+===== <>c__DisplayClass16_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOAnchorPos3D>b__0()
+  method <DOAnchorPos3D>b__1()
+
+===== <>c__DisplayClass17_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOAnchorPos3DX>b__0()
+  method <DOAnchorPos3DX>b__1()
+
+===== <>c__DisplayClass18_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOAnchorPos3DY>b__0()
+  method <DOAnchorPos3DY>b__1()
+
+===== <>c__DisplayClass19_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOAnchorPos3DZ>b__0()
+  method <DOAnchorPos3DZ>b__1()
+
+===== <>c__DisplayClass20_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOAnchorMax>b__0()
+  method <DOAnchorMax>b__1()
+
+===== <>c__DisplayClass21_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOAnchorMin>b__0()
+  method <DOAnchorMin>b__1()
+
+===== <>c__DisplayClass22_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOPivot>b__0()
+  method <DOPivot>b__1()
+
+===== <>c__DisplayClass23_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOPivotX>b__0()
+  method <DOPivotX>b__1()
+
+===== <>c__DisplayClass24_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOPivotY>b__0()
+  method <DOPivotY>b__1()
+
+===== <>c__DisplayClass25_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOSizeDelta>b__0()
+  method <DOSizeDelta>b__1()
+
+===== <>c__DisplayClass26_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOPunchAnchorPos>b__0()
+  method <DOPunchAnchorPos>b__1()
+
+===== <>c__DisplayClass27_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOShakeAnchorPos>b__0()
+  method <DOShakeAnchorPos>b__1()
+
+===== <>c__DisplayClass28_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOShakeAnchorPos>b__0()
+  method <DOShakeAnchorPos>b__1()
+
+===== <>c__DisplayClass29_0 =====
+  : System.Object
+  field  target
+  field  startPosY
+  field  offsetYSet
+  field  offsetY
+  field  s
+  field  endValue
+  method .ctor()
+  method <DOJumpAnchorPos>b__0()
+  method <DOJumpAnchorPos>b__1()
+  method <DOJumpAnchorPos>b__2()
+  method <DOJumpAnchorPos>b__3()
+  method <DOJumpAnchorPos>b__4()
+  method <DOJumpAnchorPos>b__5()
+
+===== <>c__DisplayClass30_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DONormalizedPos>b__0()
+  method <DONormalizedPos>b__1()
+
+===== <>c__DisplayClass31_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOHorizontalNormalizedPos>b__0()
+  method <DOHorizontalNormalizedPos>b__1()
+
+===== <>c__DisplayClass32_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOVerticalNormalizedPos>b__0()
+  method <DOVerticalNormalizedPos>b__1()
+
+===== <>c__DisplayClass33_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOValue>b__0()
+  method <DOValue>b__1()
+
+===== <>c__DisplayClass34_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOColor>b__0()
+  method <DOColor>b__1()
+
+===== <>c__DisplayClass35_0 =====
+  : System.Object
+  field  v
+  field  target
+  field  addThousandsSeparator
+  field  cInfo
+  method .ctor()
+  method <DOCounter>b__0()
+  method <DOCounter>b__1()
+
+===== <>c__DisplayClass36_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOFade>b__0()
+  method <DOFade>b__1()
+
+===== <>c__DisplayClass37_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOText>b__0()
+  method <DOText>b__1()
+
+===== <>c__DisplayClass38_0 =====
+  : System.Object
+  field  to
+  field  target
+  method .ctor()
+  method <DOBlendableColor>b__0()
+  method <DOBlendableColor>b__1()
+
+===== <>c__DisplayClass39_0 =====
+  : System.Object
+  field  to
+  field  target
+  method .ctor()
+  method <DOBlendableColor>b__0()
+  method <DOBlendableColor>b__1()
+
+===== <>c__DisplayClass40_0 =====
+  : System.Object
+  field  to
+  field  target
+  method .ctor()
+  method <DOBlendableColor>b__0()
+  method <DOBlendableColor>b__1()
+
+===== <>c__DisplayClass8_0 =====
+  : System.Object
+  field  target
+  field  propertyID
+  method .ctor()
+  method <DOOffset>b__0()
+  method <DOOffset>b__1()
+
+===== <>c__DisplayClass9_0 =====
+  : System.Object
+  field  target
+  field  propertyID
+  method .ctor()
+  method <DOTiling>b__0()
+  method <DOTiling>b__1()
+
+===== <AsyncWaitForCompletion>d__10 =====
+  : System.ValueType
+  field  <>1__state
+  field  <>t__builder
+  field  t
+  field  <>u__1
+  method MoveNext()
+  method SetStateMachine()
+
+===== <AsyncWaitForRewind>d__11 =====
+  : System.ValueType
+  field  <>1__state
+  field  <>t__builder
+  field  t
+  field  <>u__1
+  method MoveNext()
+  method SetStateMachine()
+
+===== <AsyncWaitForKill>d__12 =====
+  : System.ValueType
+  field  <>1__state
+  field  <>t__builder
+  field  t
+  field  <>u__1
+  method MoveNext()
+  method SetStateMachine()
+
+===== <AsyncWaitForElapsedLoops>d__13 =====
+  : System.ValueType
+  field  <>1__state
+  field  <>t__builder
+  field  t
+  field  elapsedLoops
+  field  <>u__1
+  method MoveNext()
+  method SetStateMachine()
+
+===== <AsyncWaitForPosition>d__14 =====
+  : System.ValueType
+  field  <>1__state
+  field  <>t__builder
+  field  t
+  field  position
+  field  <>u__1
+  method MoveNext()
+  method SetStateMachine()
+
+===== <AsyncWaitForStart>d__15 =====
+  : System.ValueType
+  field  <>1__state
+  field  <>t__builder
+  field  t
+  field  <>u__1
+  method MoveNext()
+  method SetStateMachine()
+
+===== WaitForCompletion =====
+  : UnityEngine.CustomYieldInstruction
+  field  t
+  method get_keepWaiting()
+  method .ctor()
+
+===== WaitForRewind =====
+  : UnityEngine.CustomYieldInstruction
+  field  t
+  method get_keepWaiting()
+  method .ctor()
+
+===== WaitForKill =====
+  : UnityEngine.CustomYieldInstruction
+  field  t
+  method get_keepWaiting()
+  method .ctor()
+
+===== WaitForElapsedLoops =====
+  : UnityEngine.CustomYieldInstruction
+  field  t
+  field  elapsedLoops
+  method get_keepWaiting()
+  method .ctor()
+
+===== WaitForPosition =====
+  : UnityEngine.CustomYieldInstruction
+  field  t
+  field  position
+  method get_keepWaiting()
+  method .ctor()
+
+===== WaitForStart =====
+  : UnityEngine.CustomYieldInstruction
+  field  t
+  method get_keepWaiting()
+  method .ctor()
+
+===== Physics =====
+  : System.Object
+  method SetOrientationOnPath()
+  method HasRigidbody2D()
+  method HasRigidbody()
+  method CreateDOTweenPathTween()
+
+===== AnimationType =====
+  : System.Enum
+  field  value__
+  field  None
+  field  Move
+  field  LocalMove
+  field  Rotate
+  field  LocalRotate
+  field  Scale
+  field  Color
+  field  Fade
+  field  Text
+  field  PunchPosition
+  field  PunchRotation
+  field  PunchScale
+  field  ShakePosition
+  field  ShakeRotation
+  field  ShakeScale
+  field  CameraAspect
+  field  CameraBackgroundColor
+  field  CameraFieldOfView
+  field  CameraOrthoSize
+  field  CameraPixelRect
+  field  CameraRect
+  field  UIWidthHeight
+
+===== TargetType =====
+  : System.Enum
+  field  value__
+  field  Unset
+  field  Camera
+  field  CanvasGroup
+  field  Image
+  field  Light
+  field  RectTransform
+  field  Renderer
+  field  SpriteRenderer
+  field  Rigidbody
+  field  Rigidbody2D
+  field  Text
+  field  Transform
+  field  tk2dBaseSprite
+  field  tk2dTextMesh
+  field  TextMeshPro
+  field  TextMeshProUGUI
+
+===== <>c__DisplayClass1_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOSpiral>b__0()
+  method <DOSpiral>b__1()
+
+===== <>c__DisplayClass2_0 =====
+  : System.Object
+  field  target
+  method .ctor()
+  method <DOSpiral>b__0()

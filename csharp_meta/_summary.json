@@ -1,0 +1,592 @@
+{
+ "AIHelper": {
+  "types": 21,
+  "methods": 171,
+  "fields": 42
+ },
+ "AppsFlyer": {
+  "types": 17,
+  "methods": 163,
+  "fields": 105
+ },
+ "ArabicSupportRuntime": {
+  "types": 34,
+  "methods": 121,
+  "fields": 309
+ },
+ "Assembly-CSharp-firstpass": {
+  "types": 109,
+  "methods": 458,
+  "fields": 320
+ },
+ "Assembly-CSharp": {
+  "types": 5023,
+  "methods": 48075,
+  "fields": 21980
+ },
+ "BalasoRuntime": {
+  "types": 3,
+  "methods": 6,
+  "fields": 7
+ },
+ "BaseUtils": {
+  "types": 439,
+  "methods": 3936,
+  "fields": 1905
+ },
+ "BestHttp": {
+  "types": 1967,
+  "methods": 16006,
+  "fields": 8657
+ },
+ "Cinemachine": {
+  "types": 164,
+  "methods": 908,
+  "fields": 790
+ },
+ "DOTween": {
+  "types": 191,
+  "methods": 1097,
+  "fields": 649
+ },
+ "DOTweenPro": {
+  "types": 14,
+  "methods": 54,
+  "fields": 101
+ },
+ "DefinesRuntime": {
+  "types": 138,
+  "methods": 22,
+  "fields": 3509
+ },
+ "FM_MonoLib": {
+  "types": 3,
+  "methods": 12,
+  "fields": 1
+ },
+ "FibMatrix.BaseUtils": {
+  "types": 6,
+  "methods": 20,
+  "fields": 12
+ },
+ "FibMatrix.PerfTools": {
+  "types": 29,
+  "methods": 197,
+  "fields": 142
+ },
+ "FibMatrix.Rendering": {
+  "types": 121,
+  "methods": 513,
+  "fields": 437
+ },
+ "GPUSkinning": {
+  "types": 10,
+  "methods": 52,
+  "fields": 47
+ },
+ "HeightFog": {
+  "types": 13,
+  "methods": 64,
+  "fields": 125
+ },
+ "ICSharpCode.SharpZipLib": {
+  "types": 150,
+  "methods": 1341,
+  "fields": 870
+ },
+ "Joker.Share": {
+  "types": 134,
+  "methods": 853,
+  "fields": 382
+ },
+ "LZ4": {
+  "types": 17,
+  "methods": 127,
+  "fields": 88
+ },
+ "Mono.Android": {
+  "types": 2,
+  "methods": 16,
+  "fields": 3
+ },
+ "Mono.Security": {
+  "types": 180,
+  "methods": 1431,
+  "fields": 1028
+ },
+ "MoreMountains.NiceVibrations.Demos": {
+  "types": 48,
+  "methods": 263,
+  "fields": 376
+ },
+ "MoreMountains.NiceVibrations.Haptics": {
+  "types": 22,
+  "methods": 94,
+  "fields": 75
+ },
+ "MoreMountains.NiceVibrations": {
+  "types": 7,
+  "methods": 33,
+  "fields": 67
+ },
+ "Newtonsoft.Json": {
+  "types": 493,
+  "methods": 4152,
+  "fields": 2160
+ },
+ "Nova": {
+  "types": 6,
+  "methods": 19,
+  "fields": 30
+ },
+ "ParkourStage.Runtime": {
+  "types": 33,
+  "methods": 237,
+  "fields": 162
+ },
+ "QuadTreeRuntime": {
+  "types": 7,
+  "methods": 75,
+  "fields": 30
+ },
+ "RuntimeInspector.Runtime": {
+  "types": 119,
+  "methods": 1045,
+  "fields": 589
+ },
+ "SQLiteForUnity3d": {
+  "types": 49,
+  "methods": 361,
+  "fields": 236
+ },
+ "Sirenix.OdinInspector.Attributes": {
+  "types": 128,
+  "methods": 319,
+  "fields": 334
+ },
+ "SmartFox2X": {
+  "types": 378,
+  "methods": 4121,
+  "fields": 2210
+ },
+ "Smartfox2xLw": {
+  "types": 207,
+  "methods": 2196,
+  "fields": 1236
+ },
+ "System.Buffers": {
+  "types": 1,
+  "methods": 0,
+  "fields": 0
+ },
+ "System.ComponentModel.Composition": {
+  "types": 264,
+  "methods": 1802,
+  "fields": 789
+ },
+ "System.Configuration": {
+  "types": 111,
+  "methods": 789,
+  "fields": 44
+ },
+ "System.Core": {
+  "types": 871,
+  "methods": 6759,
+  "fields": 3301
+ },
+ "System.Data.DataSetExtensions": {
+  "types": 18,
+  "methods": 98,
+  "fields": 69
+ },
+ "System.Data": {
+  "types": 814,
+  "methods": 10637,
+  "fields": 6384
+ },
+ "System.Diagnostics.StackTrace": {
+  "types": 1,
+  "methods": 0,
+  "fields": 0
+ },
+ "System.Drawing.Common": {
+  "types": 169,
+  "methods": 2331,
+  "fields": 1079
+ },
+ "System.Globalization.Extensions": {
+  "types": 1,
+  "methods": 0,
+  "fields": 0
+ },
+ "System.IO.Compression.FileSystem": {
+  "types": 6,
+  "methods": 26,
+  "fields": 45
+ },
+ "System.IO.Compression": {
+  "types": 76,
+  "methods": 484,
+  "fields": 565
+ },
+ "System.Memory": {
+  "types": 1,
+  "methods": 0,
+  "fields": 0
+ },
+ "System.Net.Http": {
+  "types": 216,
+  "methods": 1820,
+  "fields": 1200
+ },
+ "System.Numerics.Vectors": {
+  "types": 2,
+  "methods": 0,
+  "fields": 41
+ },
+ "System.Numerics": {
+  "types": 29,
+  "methods": 665,
+  "fields": 168
+ },
+ "System.Runtime.CompilerServices.Unsafe": {
+  "types": 2,
+  "methods": 35,
+  "fields": 0
+ },
+ "System.Runtime.Serialization": {
+  "types": 425,
+  "methods": 5216,
+  "fields": 2670
+ },
+ "System.Runtime": {
+  "types": 1,
+  "methods": 0,
+  "fields": 0
+ },
+ "System.ServiceModel.Internals": {
+  "types": 186,
+  "methods": 1208,
+  "fields": 883
+ },
+ "System.Transactions": {
+  "types": 44,
+  "methods": 217,
+  "fields": 124
+ },
+ "System.Web.Services": {
+  "types": 193,
+  "methods": 1380,
+  "fields": 524
+ },
+ "System.Xml.Linq": {
+  "types": 105,
+  "methods": 989,
+  "fields": 504
+ },
+ "System.Xml": {
+  "types": 1383,
+  "methods": 13304,
+  "fields": 10167
+ },
+ "System": {
+  "types": 1649,
+  "methods": 13469,
+  "fields": 8630
+ },
+ "Tayx.Graphy": {
+  "types": 42,
+  "methods": 276,
+  "fields": 321
+ },
+ "ThinkingAnalytics": {
+  "types": 31,
+  "methods": 273,
+  "fields": 110
+ },
+ "ThinkingSDK": {
+  "types": 51,
+  "methods": 384,
+  "fields": 199
+ },
+ "UIExtensionRuntime": {
+  "types": 257,
+  "methods": 2022,
+  "fields": 1632
+ },
+ "Unity.Collections": {
+  "types": 54,
+  "methods": 231,
+  "fields": 91
+ },
+ "Unity.Mathematics": {
+  "types": 97,
+  "methods": 9335,
+  "fields": 360
+ },
+ "Unity.RenderPipeline.Universal.ShaderLibrary": {
+  "types": 4,
+  "methods": 0,
+  "fields": 7
+ },
+ "Unity.RenderPipelines.Core.Runtime": {
+  "types": 241,
+  "methods": 1397,
+  "fields": 750
+ },
+ "Unity.RenderPipelines.Universal.Runtime": {
+  "types": 205,
+  "methods": 1088,
+  "fields": 1292
+ },
+ "Unity.TextMeshPro": {
+  "types": 189,
+  "methods": 1700,
+  "fields": 1795
+ },
+ "Unity.Timeline": {
+  "types": 125,
+  "methods": 895,
+  "fields": 398
+ },
+ "UnityEngine.AIModule": {
+  "types": 33,
+  "methods": 424,
+  "fields": 113
+ },
+ "UnityEngine.AndroidJNIModule": {
+  "types": 27,
+  "methods": 450,
+  "fields": 81
+ },
+ "UnityEngine.AnimationModule": {
+  "types": 104,
+  "methods": 1598,
+  "fields": 387
+ },
+ "UnityEngine.AssetBundleModule": {
+  "types": 12,
+  "methods": 106,
+  "fields": 37
+ },
+ "UnityEngine.AudioModule": {
+  "types": 50,
+  "methods": 532,
+  "fields": 115
+ },
+ "UnityEngine.CoreModule": {
+  "types": 963,
+  "methods": 8327,
+  "fields": 3244
+ },
+ "UnityEngine.DirectorModule": {
+  "types": 2,
+  "methods": 58,
+  "fields": 3
+ },
+ "UnityEngine.GridModule": {
+  "types": 5,
+  "methods": 50,
+  "fields": 12
+ },
+ "UnityEngine.IMGUIModule": {
+  "types": 63,
+  "methods": 1151,
+  "fields": 382
+ },
+ "UnityEngine.ImageConversionModule": {
+  "types": 2,
+  "methods": 24,
+  "fields": 0
+ },
+ "UnityEngine.InputLegacyModule": {
+  "types": 18,
+  "methods": 184,
+  "fields": 70
+ },
+ "UnityEngine.InputModule": {
+  "types": 7,
+  "methods": 23,
+  "fields": 27
+ },
+ "UnityEngine.JSONSerializeModule": {
+  "types": 2,
+  "methods": 7,
+  "fields": 0
+ },
+ "UnityEngine.ParticleSystemModule": {
+  "types": 103,
+  "methods": 1820,
+  "fields": 406
+ },
+ "UnityEngine.Physics2DModule": {
+  "types": 55,
+  "methods": 1123,
+  "fields": 125
+ },
+ "UnityEngine.PhysicsModule": {
+  "types": 46,
+  "methods": 918,
+  "fields": 152
+ },
+ "UnityEngine.ScreenCaptureModule": {
+  "types": 3,
+  "methods": 9,
+  "fields": 4
+ },
+ "UnityEngine.SharedInternalsModule": {
+  "types": 40,
+  "methods": 133,
+  "fields": 42
+ },
+ "UnityEngine.SubsystemsModule": {
+  "types": 17,
+  "methods": 79,
+  "fields": 12
+ },
+ "UnityEngine.TerrainModule": {
+  "types": 47,
+  "methods": 519,
+  "fields": 180
+ },
+ "UnityEngine.TextCoreModule": {
+  "types": 82,
+  "methods": 577,
+  "fields": 985
+ },
+ "UnityEngine.TextRenderingModule": {
+  "types": 17,
+  "methods": 166,
+  "fields": 85
+ },
+ "UnityEngine.TilemapModule": {
+  "types": 20,
+  "methods": 198,
+  "fields": 64
+ },
+ "UnityEngine.UI": {
+  "types": 196,
+  "methods": 1735,
+  "fields": 797
+ },
+ "UnityEngine.UIElementsModule": {
+  "types": 644,
+  "methods": 4996,
+  "fields": 2390
+ },
+ "UnityEngine.UIModule": {
+  "types": 11,
+  "methods": 139,
+  "fields": 18
+ },
+ "UnityEngine.UnityAnalyticsModule": {
+  "types": 18,
+  "methods": 214,
+  "fields": 51
+ },
+ "UnityEngine.UnityWebRequestAssetBundleModule": {
+  "types": 3,
+  "methods": 24,
+  "fields": 0
+ },
+ "UnityEngine.UnityWebRequestAudioModule": {
+  "types": 4,
+  "methods": 15,
+  "fields": 0
+ },
+ "UnityEngine.UnityWebRequestModule": {
+  "types": 19,
+  "methods": 272,
+  "fields": 77
+ },
+ "UnityEngine.UnityWebRequestTextureModule": {
+  "types": 3,
+  "methods": 13,
+  "fields": 3
+ },
+ "UnityEngine.UnityWebRequestWWWModule": {
+  "types": 4,
+  "methods": 53,
+  "fields": 4
+ },
+ "UnityEngine.VFXModule": {
+  "types": 23,
+  "methods": 316,
+  "fields": 185
+ },
+ "UnityEngine.VRModule": {
+  "types": 43,
+  "methods": 262,
+  "fields": 121
+ },
+ "UnityEngine.VideoModule": {
+  "types": 24,
+  "methods": 228,
+  "fields": 62
+ },
+ "UnityEngine.XRModule": {
+  "types": 45,
+  "methods": 335,
+  "fields": 245
+ },
+ "UnityEngine": {
+  "types": 23,
+  "methods": 12,
+  "fields": 10
+ },
+ "UnityUIExtensions": {
+  "types": 4,
+  "methods": 8,
+  "fields": 20
+ },
+ "Whinarn.UnityMeshSimplifier.Runtime": {
+  "types": 26,
+  "methods": 313,
+  "fields": 143
+ },
+ "XAssetProRuntime": {
+  "types": 72,
+  "methods": 638,
+  "fields": 583
+ },
+ "XLuaRuntime": {
+  "types": 40,
+  "methods": 219,
+  "fields": 63
+ },
+ "ZstdNetNativeWrapper": {
+  "types": 23,
+  "methods": 174,
+  "fields": 117
+ },
+ "mscorlib": {
+  "types": 2947,
+  "methods": 26699,
+  "fields": 15133
+ },
+ "netstandard": {
+  "types": 1,
+  "methods": 0,
+  "fields": 0
+ },
+ "spine-csharp": {
+  "types": 115,
+  "methods": 1166,
+  "fields": 661
+ },
+ "spine-timeline": {
+  "types": 14,
+  "methods": 53,
+  "fields": 44
+ },
+ "spine-unity": {
+  "types": 113,
+  "methods": 732,
+  "fields": 489
+ },
+ "unity-webview": {
+  "types": 5,
+  "methods": 71,
+  "fields": 41
+ }
+}

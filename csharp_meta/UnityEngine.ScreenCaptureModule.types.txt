@@ -1,0 +1,22 @@
+
+===== <Module> =====
+  : StereoScreenCaptureMode
+
+===== UnityEngine.ScreenCapture =====
+  : System.Object
+  method CaptureScreenshot()
+  method CaptureScreenshot()
+  method CaptureScreenshot()
+  method CaptureScreenshotAsTexture()
+  method CaptureScreenshotAsTexture()
+  method CaptureScreenshotAsTexture()
+  method CaptureScreenshotIntoRenderTexture()
+  method CaptureScreenshot()
+  method CaptureScreenshotAsTexture()
+
+===== StereoScreenCaptureMode =====
+  : System.Enum
+  field  value__
+  field  LeftEye
+  field  RightEye
+  field  BothEyes

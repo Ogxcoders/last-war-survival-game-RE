@@ -1,0 +1,1 @@
+{"b'index'":{"b'id'":[1,"b'number'"],"b'region'":[2,"b'string'"],"b'functionname'":[3,"b'string'",true],"b'version'":[4,"b'string'"]},"b'data'":{"1001":[1001,"b'us-east-1'",1]},"b'vExt'":["b'arn:aws:lambda:us-east-1:916534085272:function:HelloWorld'"]}

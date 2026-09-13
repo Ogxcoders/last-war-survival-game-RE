@@ -1,0 +1,25 @@
+
+===== <Module> =====
+  : UnityEngine.Networking.DownloadHandlerTexture
+
+===== UnityEngine.Networking.UnityWebRequestTexture =====
+  : System.Object
+  method GetTexture()
+  method GetTexture()
+  method GetTexture()
+  method GetTexture()
+
+===== UnityEngine.Networking.DownloadHandlerTexture =====
+  : UnityEngine.Networking.DownloadHandler
+  field  mTexture
+  field  mHasTexture
+  field  mNonReadable
+  method Create()
+  method InternalCreateTexture()
+  method .ctor()
+  method .ctor()
+  method GetData()
+  method get_texture()
+  method InternalGetTexture()
+  method InternalGetTextureNative()
+  method GetContent()

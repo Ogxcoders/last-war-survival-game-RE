@@ -1,0 +1,71 @@
+
+===== <Module> =====
+  : UnityEngineInternal.Input.NativeInputSystem
+
+===== UnityEngineInternal.Input.NativeUpdateCallback =====
+  : System.MulticastDelegate
+  method .ctor()
+  method Invoke()
+  method BeginInvoke()
+  method EndInvoke()
+
+===== UnityEngineInternal.Input.NativeInputEventType =====
+  : System.Enum
+  field  value__
+  field  DeviceRemoved
+  field  DeviceConfigChanged
+  field  Text
+  field  State
+  field  Delta
+
+===== UnityEngineInternal.Input.NativeInputEventBuffer =====
+  : System.ValueType
+  field  structSize
+  field  eventBuffer
+  field  eventCount
+  field  sizeInBytes
+  field  capacityInBytes
+
+===== UnityEngineInternal.Input.NativeInputEvent =====
+  : System.ValueType
+  field  structSize
+  field  type
+  field  sizeInBytes
+  field  deviceId
+  field  time
+  field  eventId
+  method .ctor()
+
+===== UnityEngineInternal.Input.NativeInputUpdateType =====
+  : System.Enum
+  field  value__
+  field  Dynamic
+  field  Fixed
+  field  BeforeRender
+  field  Editor
+  field  IgnoreFocus
+
+===== UnityEngineInternal.Input.NativeInputSystem =====
+  : System.Object
+  field  onUpdate
+  field  onBeforeUpdate
+  field  onShouldRunUpdate
+  field  s_OnDeviceDiscoveredCallback
+  method get_onDeviceDiscovered()
+  method set_onDeviceDiscovered()
+  method .cctor()
+  method NotifyBeforeUpdate()
+  method NotifyUpdate()
+  method NotifyDeviceDiscovered()
+  method ShouldRunUpdate()
+  method set_hasDeviceDiscoveredCallback()
+  method get_currentTime()
+  method get_currentTimeOffsetToRealtimeSinceStartup()
+  method AllocateDeviceId()
+  method QueueInputEvent()
+  method QueueInputEvent()
+  method IOCTL()
+  method SetPollingFrequency()
+  method Update()
+  method SetUpdateMask()
+  method .ctor()

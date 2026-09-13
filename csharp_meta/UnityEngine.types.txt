@@ -1,0 +1,91 @@
+
+===== <Module> =====
+  : UnityEngine.VR.VRNodeState
+
+===== UnityEngine.BlendWeights =====
+  : System.Enum
+  field  value__
+
+===== UnityEngine.ProceduralMaterial =====
+  : System.Object
+  method .ctor()
+
+===== UnityEngine.ProceduralProcessorUsage =====
+  : System.Enum
+  field  value__
+
+===== UnityEngine.ProceduralCacheSize =====
+  : System.Enum
+  field  value__
+
+===== UnityEngine.ProceduralLoadingBehavior =====
+  : System.Enum
+  field  value__
+
+===== UnityEngine.ProceduralPropertyType =====
+  : System.Enum
+  field  value__
+
+===== UnityEngine.ProceduralOutputType =====
+  : System.Enum
+  field  value__
+
+===== UnityEngine.ProceduralPropertyDescription =====
+  : System.Object
+  method .ctor()
+
+===== UnityEngine.ProceduralTexture =====
+  : System.Object
+  method .ctor()
+
+===== UnityEngine.GUIText =====
+  : System.Object
+  method .ctor()
+
+===== UnityEngine.GUIElement =====
+  : System.Object
+  method .ctor()
+
+===== UnityEngine.GUILayer =====
+  : System.Object
+  method .ctor()
+
+===== UnityEngine.GUITexture =====
+  : System.Object
+  method .ctor()
+
+===== UnityEngine.VR.VRDeviceType =====
+  : System.Enum
+  field  value__
+
+===== UnityEngine.VR.TrackingSpaceType =====
+  : System.Enum
+  field  value__
+
+===== UnityEngine.VR.UserPresenceState =====
+  : System.Enum
+  field  value__
+
+===== UnityEngine.VR.VRSettings =====
+  : System.Object
+  method .ctor()
+
+===== UnityEngine.VR.VRDevice =====
+  : System.Object
+  method .ctor()
+
+===== UnityEngine.VR.VRStats =====
+  : System.Object
+  method .ctor()
+
+===== UnityEngine.VR.InputTracking =====
+  : System.Object
+  method .ctor()
+
+===== UnityEngine.VR.VRNode =====
+  : System.Enum
+  field  value__
+
+===== UnityEngine.VR.VRNodeState =====
+  : System.Object
+  method .ctor()

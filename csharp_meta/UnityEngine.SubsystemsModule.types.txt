@@ -1,0 +1,142 @@
+
+===== <Module> =====
+  : UnityEngine.Subsystems.ExampleSubsystemDescriptor
+
+===== UnityEngine.ISubsystemDescriptor =====
+  : UnityEngine.Subsystems.ExampleSubsystemDescriptor
+  method get_id()
+  method Create()
+
+===== UnityEngine.ISubsystemDescriptorImpl =====
+  : UnityEngine.Subsystems.ExampleSubsystemDescriptor
+  method get_ptr()
+  method set_ptr()
+
+===== UnityEngine.IntegratedSubsystemDescriptor =====
+  : System.Object
+  field  m_Ptr
+  method get_id()
+  method UnityEngine.ISubsystemDescriptorImpl.get_ptr()
+  method UnityEngine.ISubsystemDescriptorImpl.set_ptr()
+  method UnityEngine.ISubsystemDescriptor.Create()
+  method CreateImpl()
+  method .ctor()
+
+===== UnityEngine.SubsystemDescriptor =====
+  : System.Object
+  field  <id>k__BackingField
+  field  <subsystemImplementationType>k__BackingField
+  method get_id()
+  method set_id()
+  method get_subsystemImplementationType()
+  method set_subsystemImplementationType()
+  method UnityEngine.ISubsystemDescriptor.Create()
+  method CreateImpl()
+  method .ctor()
+
+===== UnityEngine.IntegratedSubsystemDescriptor`1 =====
+  : UnityEngine.IntegratedSubsystemDescriptor
+  method CreateImpl()
+  method Create()
+  method .ctor()
+
+===== UnityEngine.SubsystemDescriptor`1 =====
+  : UnityEngine.SubsystemDescriptor
+  method CreateImpl()
+  method Create()
+  method .ctor()
+
+===== UnityEngine.Internal_SubsystemInstances =====
+  : System.Object
+  field  s_IntegratedSubsystemInstances
+  field  s_StandaloneSubsystemInstances
+  method Internal_InitializeManagedInstance()
+  method Internal_ClearManagedInstances()
+  method Internal_RemoveInstanceByPtr()
+  method Internal_GetInstanceByPtr()
+  method Internal_AddStandaloneSubsystem()
+  method Internal_FindStandaloneSubsystemInstanceGivenDescriptor()
+  method .cctor()
+
+===== UnityEngine.Internal_SubsystemDescriptors =====
+  : System.Object
+  field  s_IntegratedSubsystemDescriptors
+  field  s_StandaloneSubsystemDescriptors
+  method Internal_AddDescriptor()
+  method Internal_InitializeManagedDescriptor()
+  method Internal_ClearManagedDescriptors()
+  method Create()
+  method GetId()
+  method .cctor()
+
+===== UnityEngine.SubsystemManager =====
+  : System.Object
+  field  reloadSubsytemsStarted
+  field  reloadSubsytemsCompleted
+  method .cctor()
+  method GetAllSubsystemDescriptors()
+  method ReportSingleSubsystemAnalytics()
+  method GetSubsystemDescriptors()
+  method GetInstances()
+  method DestroyInstance_Internal()
+  method StaticConstructScriptingClassMap()
+  method add_reloadSubsytemsStarted()
+  method remove_reloadSubsytemsStarted()
+  method Internal_ReloadSubsystemsStarted()
+  method add_reloadSubsytemsCompleted()
+  method remove_reloadSubsytemsCompleted()
+  method Internal_ReloadSubsystemsCompleted()
+
+===== UnityEngine.ISubsystem =====
+  : UnityEngine.Subsystems.ExampleSubsystemDescriptor
+  method Start()
+  method Stop()
+  method Destroy()
+  method get_running()
+
+===== UnityEngine.IntegratedSubsystem =====
+  : System.Object
+  field  m_Ptr
+  field  m_subsystemDescriptor
+  method SetHandle()
+  method Start()
+  method Stop()
+  method Destroy()
+  method get_running()
+  method get_valid()
+  method Internal_IsRunning()
+  method .ctor()
+
+===== UnityEngine.IntegratedSubsystem`1 =====
+  : UnityEngine.IntegratedSubsystem
+  method get_SubsystemDescriptor()
+  method .ctor()
+
+===== UnityEngine.Subsystem =====
+  : System.Object
+  field  m_subsystemDescriptor
+  method Start()
+  method Stop()
+  method Destroy()
+  method get_running()
+  method OnDestroy()
+  method .ctor()
+
+===== UnityEngine.Subsystem`1 =====
+  : UnityEngine.Subsystem
+  method get_SubsystemDescriptor()
+  method .ctor()
+
+===== UnityEngine.Subsystems.ExampleSubsystem =====
+  : 
+  method PrintExample()
+  method GetBool()
+  method .ctor()
+
+===== UnityEngine.Subsystems.ExampleSubsystemDescriptor =====
+  : 
+  method get_supportsEditorMode()
+  method get_disableBackbufferMSAA()
+  method get_stereoscopicBackbuffer()
+  method get_usePBufferEGL()
+  method .ctor()

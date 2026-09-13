@@ -1,0 +1,30 @@
+
+===== <Module> =====
+  : UnityEngine.ImageConversion
+
+===== UnityEngine.ImageConversion =====
+  : System.Object
+  method get_EnableLegacyPngGammaRuntimeLoadBehavior()
+  method set_EnableLegacyPngGammaRuntimeLoadBehavior()
+  method GetEnableLegacyPngGammaRuntimeLoadBehavior()
+  method SetEnableLegacyPngGammaRuntimeLoadBehavior()
+  method EncodeToTGA()
+  method EncodeToPNG()
+  method EncodeToJPG()
+  method EncodeToJPG()
+  method EncodeToEXR()
+  method EncodeToEXR()
+  method LoadImage()
+  method LoadImage()
+  method EncodeArrayToTGA()
+  method EncodeArrayToPNG()
+  method EncodeArrayToJPG()
+  method EncodeArrayToEXR()
+  method EncodeNativeArrayToTGA()
+  method EncodeNativeArrayToPNG()
+  method EncodeNativeArrayToJPG()
+  method EncodeNativeArrayToEXR()
+  method UnsafeEncodeNativeArrayToTGA()
+  method UnsafeEncodeNativeArrayToPNG()
+  method UnsafeEncodeNativeArrayToJPG()
+  method UnsafeEncodeNativeArrayToEXR()

@@ -1,0 +1,40 @@
+
+===== <Module> =====
+  : UnityEngine.UI.Extensions.MaskSamplingMode
+
+===== UnityEngine.UI.Extensions.ShaderLibrary =====
+  : System.Object
+  field  shaderInstances
+  field  preLoadedShaders
+  method GetShaderInstance()
+  method .cctor()
+
+===== UnityEngine.UI.Extensions.SoftMaskScript =====
+  : UnityEngine.MonoBehaviour
+  field  mat
+  field  cachedCanvas
+  field  cachedCanvasTransform
+  field  m_WorldCorners
+  field  m_CanvasCorners
+  field  MaskArea
+  field  AlphaMaskSprite
+  field  SamplingMode
+  field  PixelsPerUnitMultiplier
+  field  CutOff
+  field  HardBlend
+  field  FlipAlphaMask
+  field  DontClipMaskScalingRect
+  field  maskOffset
+  field  maskScale
+  method Start()
+  method Update()
+  method SetMask()
+  method GetCanvasRect()
+  method OnDestroy()
+  method .ctor()
+
+===== UnityEngine.UI.Extensions.MaskSamplingMode =====
+  : System.Enum
+  field  value__
+  field  Clamp
+  field  Slice

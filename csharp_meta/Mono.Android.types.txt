@@ -1,0 +1,25 @@
+
+===== <Module> =====
+  : Android.Runtime.AndroidEnvironment
+
+===== Android.Runtime.AndroidEnvironment =====
+  : System.Object
+  field  AndroidLogAppName
+  field  lock_
+  field  certStoreInitOk
+  method monodroid_free()
+  method _monodroid_timezone_get_default_id()
+  method _monodroid_getifaddrs()
+  method _monodroid_freeifaddrs()
+  method GetDefaultTimeZone()
+  method GetDefaultSyncContext()
+  method GetDefaultProxy()
+  method GetInterfaceAddresses()
+  method FreeInterfaceAddresses()
+  method DetectCPUAndArchitecture()
+  method TrustEvaluateSsl()
+  method _gd_mono_init_cert_store()
+  method _gd_mono_android_cert_store_lookup()
+  method InitCertStore()
+  method CertStoreLookup()
+  method .cctor()

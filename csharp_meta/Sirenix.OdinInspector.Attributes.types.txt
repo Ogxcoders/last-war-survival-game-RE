@@ -1,0 +1,1037 @@
+
+===== <Module> =====
+  : TabSubGroupAttribute
+
+===== Sirenix.OdinInspector.AssetListAttribute =====
+  : System.Attribute
+  field  AutoPopulate
+  field  Tags
+  field  LayerNames
+  field  AssetNamePrefix
+  field  Path
+  field  CustomFilterMethod
+  method .ctor()
+
+===== Sirenix.OdinInspector.AssetSelectorAttribute =====
+  : System.Attribute
+  field  IsUniqueList
+  field  DrawDropdownForListElements
+  field  DisableListAddButtonBehaviour
+  field  ExcludeExistingValuesInList
+  field  ExpandAllMenuItems
+  field  FlattenTreeView
+  field  DropdownWidth
+  field  DropdownHeight
+  field  DropdownTitle
+  field  SearchInFolders
+  field  Filter
+  method set_Paths()
+  method get_Paths()
+  method .ctor()
+
+===== Sirenix.OdinInspector.AssetsOnlyAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.BoxGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  field  ShowLabel
+  field  CenterLabel
+  field  LabelText
+  method .ctor()
+  method .ctor()
+  method CombineValuesWith()
+
+===== Sirenix.OdinInspector.ButtonAttribute =====
+  : Sirenix.OdinInspector.ShowInInspectorAttribute
+  field  ButtonHeight
+  field  Name
+  field  Style
+  field  Expanded
+  field  DisplayParameters
+  field  DirtyOnClick
+  field  drawResult
+  field  drawResultIsSet
+  method set_DrawResult()
+  method get_DrawResult()
+  method get_DrawResultIsSet()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.ButtonGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.ButtonStyle =====
+  : System.Enum
+  field  value__
+  field  CompactBox
+  field  FoldoutButton
+  field  Box
+
+===== Sirenix.OdinInspector.ChildGameObjectsOnlyAttribute =====
+  : System.Attribute
+  field  IncludeSelf
+  field  IncludeInactive
+  method .ctor()
+
+===== Sirenix.OdinInspector.CustomValueDrawerAttribute =====
+  : System.Attribute
+  field  Action
+  method get_MethodName()
+  method set_MethodName()
+  method .ctor()
+
+===== Sirenix.OdinInspector.DisableInInlineEditorsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.DisableInNonPrefabsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.DisableInPrefabAssetsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.DisableInPrefabInstancesAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.DisableInPrefabsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.DoNotDrawAsReferenceAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.DontValidateAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.EnableGUIAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.EnumPagingAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.FilePathAttribute =====
+  : System.Attribute
+  field  AbsolutePath
+  field  Extensions
+  field  ParentFolder
+  field  RequireValidPath
+  field  RequireExistingPath
+  field  UseBackslashes
+  field  <ReadOnly>k__BackingField
+  method get_ReadOnly()
+  method set_ReadOnly()
+  method .ctor()
+
+===== Sirenix.OdinInspector.FolderPathAttribute =====
+  : System.Attribute
+  field  AbsolutePath
+  field  ParentFolder
+  field  RequireValidPath
+  field  RequireExistingPath
+  field  UseBackslashes
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideDuplicateReferenceBoxAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideIfGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  field  Value
+  method get_Animate()
+  method set_Animate()
+  method get_MemberName()
+  method set_MemberName()
+  method get_Condition()
+  method set_Condition()
+  method .ctor()
+  method .ctor()
+  method CombineValuesWith()
+
+===== Sirenix.OdinInspector.HideInInlineEditorsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideInNonPrefabsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideInPrefabAssetsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideInPrefabInstancesAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideInPrefabsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideInTablesAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideNetworkBehaviourFieldsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.InlinePropertyAttribute =====
+  : System.Attribute
+  field  LabelWidth
+  method .ctor()
+
+===== Sirenix.OdinInspector.LabelWidthAttribute =====
+  : System.Attribute
+  field  Width
+  method .ctor()
+
+===== Sirenix.OdinInspector.OnCollectionChangedAttribute =====
+  : System.Attribute
+  field  Before
+  field  After
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.OnInspectorDisposeAttribute =====
+  : Sirenix.OdinInspector.ShowInInspectorAttribute
+  field  Action
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.OnInspectorInitAttribute =====
+  : Sirenix.OdinInspector.ShowInInspectorAttribute
+  field  Action
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.OnStateUpdateAttribute =====
+  : System.Attribute
+  field  Action
+  method .ctor()
+
+===== Sirenix.OdinInspector.PreviewFieldAttribute =====
+  : System.Attribute
+  field  alignment
+  field  alignmentHasValue
+  field  Height
+  method get_Alignment()
+  method set_Alignment()
+  method get_AlignmentHasValue()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.ProgressBarAttribute =====
+  : System.Attribute
+  field  Min
+  field  Max
+  field  MinGetter
+  field  MaxGetter
+  field  R
+  field  G
+  field  B
+  field  Height
+  field  ColorGetter
+  field  BackgroundColorGetter
+  field  Segmented
+  field  CustomValueStringGetter
+  field  drawValueLabel
+  field  valueLabelAlignment
+  field  <DrawValueLabelHasValue>k__BackingField
+  field  <ValueLabelAlignmentHasValue>k__BackingField
+  method get_MinMember()
+  method set_MinMember()
+  method get_MaxMember()
+  method set_MaxMember()
+  method get_ColorMember()
+  method set_ColorMember()
+  method get_BackgroundColorMember()
+  method set_BackgroundColorMember()
+  method get_CustomValueStringMember()
+  method set_CustomValueStringMember()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method get_DrawValueLabel()
+  method set_DrawValueLabel()
+  method get_DrawValueLabelHasValue()
+  method set_DrawValueLabelHasValue()
+  method get_ValueLabelAlignment()
+  method set_ValueLabelAlignment()
+  method get_ValueLabelAlignmentHasValue()
+  method set_ValueLabelAlignmentHasValue()
+  method get_Color()
+
+===== Sirenix.OdinInspector.PropertyRangeAttribute =====
+  : System.Attribute
+  field  Min
+  field  Max
+  field  MinGetter
+  field  MaxGetter
+  method get_MinMember()
+  method set_MinMember()
+  method get_MaxMember()
+  method set_MaxMember()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.PropertySpaceAttribute =====
+  : System.Attribute
+  field  SpaceBefore
+  field  SpaceAfter
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.ResponsiveButtonGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  field  DefaultButtonSize
+  field  UniformLayout
+  method .ctor()
+  method CombineValuesWith()
+
+===== Sirenix.OdinInspector.ShowIfGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  field  Value
+  method get_Animate()
+  method set_Animate()
+  method get_MemberName()
+  method set_MemberName()
+  method get_Condition()
+  method set_Condition()
+  method .ctor()
+  method .ctor()
+  method CombineValuesWith()
+
+===== Sirenix.OdinInspector.ShowInInlineEditorsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.ShowPropertyResolverAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.SuffixLabelAttribute =====
+  : System.Attribute
+  field  Label
+  field  Overlay
+  method .ctor()
+
+===== Sirenix.OdinInspector.TableColumnWidthAttribute =====
+  : System.Attribute
+  field  Width
+  field  Resizable
+  method .ctor()
+
+===== Sirenix.OdinInspector.TableListAttribute =====
+  : System.Attribute
+  field  NumberOfItemsPerPage
+  field  IsReadOnly
+  field  DefaultMinColumnWidth
+  field  ShowIndexLabels
+  field  DrawScrollView
+  field  MinScrollViewHeight
+  field  MaxScrollViewHeight
+  field  AlwaysExpanded
+  field  HideToolbar
+  field  CellPadding
+  field  showPagingHasValue
+  field  showPaging
+  method get_ShowPaging()
+  method set_ShowPaging()
+  method get_ShowPagingHasValue()
+  method get_ScrollViewHeight()
+  method set_ScrollViewHeight()
+  method .ctor()
+
+===== Sirenix.OdinInspector.TableMatrixAttribute =====
+  : System.Attribute
+  field  IsReadOnly
+  field  ResizableColumns
+  field  VerticalTitle
+  field  HorizontalTitle
+  field  DrawElementMethod
+  field  RowHeight
+  field  SquareCells
+  field  HideColumnIndices
+  field  HideRowIndices
+  field  RespectIndentLevel
+  field  Transpose
+  method .ctor()
+
+===== Sirenix.OdinInspector.TypeFilterAttribute =====
+  : System.Attribute
+  field  FilterGetter
+  field  DropdownTitle
+  field  DrawValueNormally
+  method get_MemberName()
+  method set_MemberName()
+  method .ctor()
+
+===== Sirenix.OdinInspector.TypeInfoBoxAttribute =====
+  : System.Attribute
+  field  Message
+  method .ctor()
+
+===== Sirenix.OdinInspector.VerticalGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  field  PaddingTop
+  field  PaddingBottom
+  method .ctor()
+  method .ctor()
+  method CombineValuesWith()
+
+===== Sirenix.OdinInspector.AttributeTargetFlags =====
+  : System.Object
+  field  Default
+
+===== Sirenix.OdinInspector.SearchableAttribute =====
+  : System.Attribute
+  field  FuzzySearch
+  field  FilterOptions
+  field  Recursive
+  method .ctor()
+
+===== Sirenix.OdinInspector.IncludeMyAttributesAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.InlineEditorObjectFieldModes =====
+  : System.Enum
+  field  value__
+  field  Boxed
+  field  Foldout
+  field  Hidden
+  field  CompletelyHidden
+
+===== Sirenix.OdinInspector.ISearchFilterable =====
+  : TabSubGroupAttribute
+  method IsMatch()
+
+===== Sirenix.OdinInspector.ObjectFieldAlignment =====
+  : System.Enum
+  field  value__
+  field  Left
+  field  Center
+  field  Right
+
+===== Sirenix.OdinInspector.OdinRegisterAttributeAttribute =====
+  : System.Attribute
+  field  AttributeType
+  field  Categories
+  field  Description
+  field  DocumentationUrl
+  field  IsEnterprise
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.SearchFilterOptions =====
+  : System.Enum
+  field  value__
+  field  PropertyName
+  field  PropertyNiceName
+  field  TypeOfValue
+  field  ValueToString
+  field  ISearchFilterableInterface
+  field  All
+
+===== Sirenix.OdinInspector.TitleAlignments =====
+  : System.Enum
+  field  value__
+  field  Left
+  field  Centered
+  field  Right
+  field  Split
+
+===== Sirenix.OdinInspector.TitleGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  field  Subtitle
+  field  Alignment
+  field  HorizontalLine
+  field  BoldTitle
+  field  Indent
+  method .ctor()
+  method CombineValuesWith()
+
+===== Sirenix.OdinInspector.ButtonSizes =====
+  : System.Enum
+  field  value__
+  field  Small
+  field  Medium
+  field  Large
+  field  Gigantic
+
+===== Sirenix.OdinInspector.ColorPaletteAttribute =====
+  : System.Attribute
+  field  PaletteName
+  field  ShowAlpha
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.CustomContextMenuAttribute =====
+  : System.Attribute
+  field  MenuItem
+  field  Action
+  method get_MethodName()
+  method set_MethodName()
+  method .ctor()
+
+===== Sirenix.OdinInspector.DelayedPropertyAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.DetailedInfoBoxAttribute =====
+  : System.Attribute
+  field  Message
+  field  Details
+  field  InfoMessageType
+  field  VisibleIf
+  method .ctor()
+
+===== Sirenix.OdinInspector.DictionaryDisplayOptions =====
+  : System.Enum
+  field  value__
+  field  OneLine
+  field  Foldout
+  field  CollapsedFoldout
+  field  ExpandedFoldout
+
+===== Sirenix.OdinInspector.DictionaryDrawerSettings =====
+  : System.Attribute
+  field  KeyLabel
+  field  ValueLabel
+  field  DisplayMode
+  field  IsReadOnly
+  field  KeyColumnWidth
+  method .ctor()
+
+===== Sirenix.OdinInspector.DisableContextMenuAttribute =====
+  : System.Attribute
+  field  DisableForMember
+  field  DisableForCollectionElements
+  method .ctor()
+
+===== Sirenix.OdinInspector.DisableIfAttribute =====
+  : System.Attribute
+  field  Condition
+  field  Value
+  method get_MemberName()
+  method set_MemberName()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.DisableInEditorModeAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.DisableInPlayModeAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.DisplayAsStringAttribute =====
+  : System.Attribute
+  field  Overflow
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.DontApplyToListElementsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.DrawWithUnityAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.InlineButtonAttribute =====
+  : System.Attribute
+  field  Action
+  field  Label
+  field  ShowIf
+  method get_MemberMethod()
+  method set_MemberMethod()
+  method .ctor()
+
+===== Sirenix.OdinInspector.ShowForPrefabOnlyAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.EnableForPrefabOnlyAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.EnableIfAttribute =====
+  : System.Attribute
+  field  Condition
+  field  Value
+  method get_MemberName()
+  method set_MemberName()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.EnumToggleButtonsAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideIfAttribute =====
+  : System.Attribute
+  field  Condition
+  field  Value
+  field  Animate
+  method get_MemberName()
+  method set_MemberName()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideInPlayModeAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideInEditorModeAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideMonoScriptAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideReferenceObjectPickerAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.HorizontalGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  field  Width
+  field  MarginLeft
+  field  MarginRight
+  field  PaddingLeft
+  field  PaddingRight
+  field  MinWidth
+  field  MaxWidth
+  field  Title
+  field  LabelWidth
+  method .ctor()
+  method .ctor()
+  method CombineValuesWith()
+
+===== Sirenix.OdinInspector.InlineEditorAttribute =====
+  : System.Attribute
+  field  expanded
+  field  DrawHeader
+  field  DrawGUI
+  field  DrawPreview
+  field  MaxHeight
+  field  PreviewWidth
+  field  PreviewHeight
+  field  IncrementInlineEditorDrawerDepth
+  field  ObjectFieldMode
+  field  DisableGUIForVCSLockedAssets
+  field  <ExpandedHasValue>k__BackingField
+  method get_Expanded()
+  method set_Expanded()
+  method get_ExpandedHasValue()
+  method set_ExpandedHasValue()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.SuppressInvalidAttributeErrorAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.InlineEditorModes =====
+  : System.Enum
+  field  value__
+  field  GUIOnly
+  field  GUIAndHeader
+  field  GUIAndPreview
+  field  SmallPreview
+  field  LargePreview
+  field  FullEditor
+
+===== Sirenix.OdinInspector.ShowDrawerChainAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.ShowOdinSerializedPropertiesInInspectorAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.FoldoutGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  field  expanded
+  field  <HasDefinedExpanded>k__BackingField
+  method get_Expanded()
+  method set_Expanded()
+  method get_HasDefinedExpanded()
+  method set_HasDefinedExpanded()
+  method .ctor()
+  method .ctor()
+  method CombineValuesWith()
+
+===== Sirenix.OdinInspector.GUIColorAttribute =====
+  : System.Attribute
+  field  Color
+  field  GetColor
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.HideLabelAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.IndentAttribute =====
+  : System.Attribute
+  field  IndentLevel
+  method .ctor()
+
+===== Sirenix.OdinInspector.InfoBoxAttribute =====
+  : System.Attribute
+  field  Message
+  field  InfoMessageType
+  field  VisibleIf
+  field  GUIAlwaysEnabled
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.MinMaxSliderAttribute =====
+  : System.Attribute
+  field  MinValue
+  field  MaxValue
+  field  MinValueGetter
+  field  MaxValueGetter
+  field  MinMaxValueGetter
+  field  ShowFields
+  method get_MinMember()
+  method set_MinMember()
+  method get_MaxMember()
+  method set_MaxMember()
+  method get_MinMaxMember()
+  method set_MinMaxMember()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.ToggleLeftAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.LabelTextAttribute =====
+  : System.Attribute
+  field  Text
+  field  NicifyText
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.ListDrawerSettingsAttribute =====
+  : System.Attribute
+  field  HideAddButton
+  field  HideRemoveButton
+  field  ListElementLabelName
+  field  CustomAddFunction
+  field  CustomRemoveIndexFunction
+  field  CustomRemoveElementFunction
+  field  OnBeginListElementGUI
+  field  OnEndListElementGUI
+  field  AlwaysAddDefaultValue
+  field  AddCopiesLastElement
+  field  ElementColor
+  field  onTitleBarGUI
+  field  numberOfItemsPerPage
+  field  paging
+  field  draggable
+  field  isReadOnly
+  field  showItemCount
+  field  pagingHasValue
+  field  draggableHasValue
+  field  isReadOnlyHasValue
+  field  showItemCountHasValue
+  field  expanded
+  field  expandedHasValue
+  field  numberOfItemsPerPageHasValue
+  field  showIndexLabels
+  field  showIndexLabelsHasValue
+  method get_ShowPaging()
+  method set_ShowPaging()
+  method get_DraggableItems()
+  method set_DraggableItems()
+  method get_NumberOfItemsPerPage()
+  method set_NumberOfItemsPerPage()
+  method get_IsReadOnly()
+  method set_IsReadOnly()
+  method get_ShowItemCount()
+  method set_ShowItemCount()
+  method get_Expanded()
+  method set_Expanded()
+  method get_ShowIndexLabels()
+  method set_ShowIndexLabels()
+  method get_OnTitleBarGUI()
+  method set_OnTitleBarGUI()
+  method get_PagingHasValue()
+  method get_ShowItemCountHasValue()
+  method get_NumberOfItemsPerPageHasValue()
+  method get_DraggableHasValue()
+  method get_IsReadOnlyHasValue()
+  method get_ExpandedHasValue()
+  method get_ShowIndexLabelsHasValue()
+  method .ctor()
+
+===== Sirenix.OdinInspector.MaxValueAttribute =====
+  : System.Attribute
+  field  MaxValue
+  field  Expression
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.MinValueAttribute =====
+  : System.Attribute
+  field  MinValue
+  field  Expression
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.MultiLinePropertyAttribute =====
+  : System.Attribute
+  field  Lines
+  method .ctor()
+
+===== Sirenix.OdinInspector.PropertyTooltipAttribute =====
+  : System.Attribute
+  field  Tooltip
+  method .ctor()
+
+===== Sirenix.OdinInspector.ReadOnlyAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.OnInspectorGUIAttribute =====
+  : Sirenix.OdinInspector.ShowInInspectorAttribute
+  field  Prepend
+  field  Append
+  field  PrependMethodName
+  field  AppendMethodName
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.OnValueChangedAttribute =====
+  : System.Attribute
+  field  Action
+  field  IncludeChildren
+  field  InvokeOnUndoRedo
+  field  InvokeOnInitialize
+  method get_MethodName()
+  method set_MethodName()
+  method .ctor()
+
+===== Sirenix.OdinInspector.PropertyGroupAttribute =====
+  : System.Attribute
+  field  GroupID
+  field  GroupName
+  field  Order
+  field  HideWhenChildrenAreInvisible
+  field  VisibleIf
+  field  AnimateVisibility
+  method .ctor()
+  method .ctor()
+  method Combine()
+  method CombineValuesWith()
+
+===== Sirenix.OdinInspector.PropertyOrderAttribute =====
+  : System.Attribute
+  field  Order
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.RequiredAttribute =====
+  : System.Attribute
+  field  ErrorMessage
+  field  MessageType
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.SceneObjectsOnlyAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.ValueDropdownAttribute =====
+  : System.Attribute
+  field  ValuesGetter
+  field  NumberOfItemsBeforeEnablingSearch
+  field  IsUniqueList
+  field  DrawDropdownForListElements
+  field  DisableListAddButtonBehaviour
+  field  ExcludeExistingValuesInList
+  field  ExpandAllMenuItems
+  field  AppendNextDrawer
+  field  DisableGUIInAppendedDrawer
+  field  DoubleClickToConfirm
+  field  FlattenTreeView
+  field  DropdownWidth
+  field  DropdownHeight
+  field  DropdownTitle
+  field  SortDropdownItems
+  field  HideChildProperties
+  field  CopyValues
+  method get_MemberName()
+  method set_MemberName()
+  method .ctor()
+
+===== Sirenix.OdinInspector.IValueDropdownItem =====
+  : TabSubGroupAttribute
+  method GetText()
+  method GetValue()
+
+===== Sirenix.OdinInspector.ValueDropdownList`1 =====
+  : 
+  method Add()
+  method Add()
+  method .ctor()
+
+===== Sirenix.OdinInspector.ValueDropdownItem =====
+  : System.ValueType
+  field  Text
+  field  Value
+  method .ctor()
+  method ToString()
+  method Sirenix.OdinInspector.IValueDropdownItem.GetText()
+  method Sirenix.OdinInspector.IValueDropdownItem.GetValue()
+
+===== Sirenix.OdinInspector.ValueDropdownItem`1 =====
+  : System.ValueType
+  field  Text
+  field  Value
+  method .ctor()
+  method Sirenix.OdinInspector.IValueDropdownItem.GetText()
+  method Sirenix.OdinInspector.IValueDropdownItem.GetValue()
+  method ToString()
+
+===== Sirenix.OdinInspector.ShowInInspectorAttribute =====
+  : System.Attribute
+  method .ctor()
+
+===== Sirenix.OdinInspector.TabGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  field  DEFAULT_NAME
+  field  TabName
+  field  UseFixedHeight
+  field  Paddingless
+  field  HideTabGroupIfTabGroupOnlyHasOneTab
+  field  <Tabs>k__BackingField
+  method .ctor()
+  method .ctor()
+  method get_Tabs()
+  method set_Tabs()
+  method CombineValuesWith()
+  method Sirenix.OdinInspector.Internal.ISubGroupProviderAttribute.GetSubGroupAttributes()
+  method Sirenix.OdinInspector.Internal.ISubGroupProviderAttribute.RepathMemberAttribute()
+
+===== Sirenix.OdinInspector.TitleAttribute =====
+  : System.Attribute
+  field  Title
+  field  Subtitle
+  field  Bold
+  field  HorizontalLine
+  field  TitleAlignment
+  method .ctor()
+
+===== Sirenix.OdinInspector.ToggleAttribute =====
+  : System.Attribute
+  field  ToggleMemberName
+  field  CollapseOthersOnExpand
+  method .ctor()
+
+===== Sirenix.OdinInspector.ToggleGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  field  ToggleGroupTitle
+  field  CollapseOthersOnExpand
+  field  <TitleStringMemberName>k__BackingField
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method get_ToggleMemberName()
+  method get_TitleStringMemberName()
+  method set_TitleStringMemberName()
+  method CombineValuesWith()
+
+===== Sirenix.OdinInspector.ValidateInputAttribute =====
+  : System.Attribute
+  field  DefaultMessage
+  field  Condition
+  field  MessageType
+  field  IncludeChildren
+  field  ContinuousValidationCheck
+  method get_MemberName()
+  method set_MemberName()
+  method get_ContiniousValidationCheck()
+  method set_ContiniousValidationCheck()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.ShowIfAttribute =====
+  : System.Attribute
+  field  Condition
+  field  Value
+  field  Animate
+  method get_MemberName()
+  method set_MemberName()
+  method .ctor()
+  method .ctor()
+
+===== Sirenix.OdinInspector.WrapAttribute =====
+  : System.Attribute
+  field  Min
+  field  Max
+  method .ctor()
+
+===== Sirenix.OdinInspector.InfoMessageType =====
+  : System.Enum
+  field  value__
+  field  None
+  field  Info
+  field  Warning
+  field  Error
+
+===== Sirenix.OdinInspector.Internal.ISubGroupProviderAttribute =====
+  : TabSubGroupAttribute
+  method GetSubGroupAttributes()
+  method RepathMemberAttribute()
+
+===== <>c =====
+  : System.Object
+  field  <>9
+  field  <>9__12_0
+  method .cctor()
+  method .ctor()
+  method <set_Paths>b__12_0()
+
+===== TabSubGroupAttribute =====
+  : Sirenix.OdinInspector.PropertyGroupAttribute
+  method .ctor()

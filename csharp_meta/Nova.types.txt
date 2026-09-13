@@ -1,0 +1,67 @@
+
+===== <Module> =====
+  : <>c__DisplayClass10_0
+
+===== Nova.Runtime.Core.Scripts.ApplyDistortionPass =====
+  : UnityEngine.Rendering.Universal.ScriptableRenderPass
+  field  RenderPassName
+  field  ProfilingSamplerName
+  field  _applyToSceneView
+  field  _distortionBufferPropertyId
+  field  _mainTexPropertyId
+  field  _material
+  field  _profilingSampler
+  field  _renderer
+  field  _distortedUvBufferIdentifier
+  field  _tempRenderTargetHandle
+  field  _distortInPostFx
+  method .ctor()
+  method Setup()
+  method Execute()
+  method FrameCleanup()
+
+===== Nova.Runtime.Core.Scripts.DistortedUvBufferPass =====
+  : UnityEngine.Rendering.Universal.ScriptableRenderPass
+  field  ProfilerTag
+  field  _profilingSampler
+  field  _renderQueueRange
+  field  _shaderTagId
+  field  _getCameraDepthTargetIdentifier
+  field  _filteringSettings
+  field  _renderTargetIdentifier
+  method .ctor()
+  method Setup()
+  method Execute()
+
+===== Nova.Runtime.Core.Scripts.NovaDistortionCounter =====
+  : UnityEngine.MonoBehaviour
+  field  <Count>k__BackingField
+  field  _rendererUseNovaDistortion
+  method get_Count()
+  method set_Count()
+  method Awake()
+  method OnEnable()
+  method OnDisable()
+  method UpdateValidity()
+  method .ctor()
+
+===== Nova.Runtime.Core.Scripts.ScreenSpaceDistortion =====
+  : UnityEngine.Rendering.Universal.ScriptableRendererFeature
+  field  DistortionLightMode
+  field  _applyToSceneView
+  field  _distortInPostFx
+  field  _tryUseDepthTest
+  field  _rtScale
+  field  _applyDistortionShader
+  field  _useDistortionCounter
+  field  _applyDistortionPass
+  field  _distortedUvBufferPass
+  method Create()
+  method AddRenderPasses()
+  method .ctor()
+
+===== <>c__DisplayClass10_0 =====
+  : System.Object
+  field  renderer
+  method .ctor()
+  method <AddRenderPasses>b__0()

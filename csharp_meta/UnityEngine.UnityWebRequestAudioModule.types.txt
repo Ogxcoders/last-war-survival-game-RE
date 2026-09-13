@@ -1,0 +1,27 @@
+
+===== <Module> =====
+  : UnityEngine.Networking.DownloadHandlerMovieTexture
+
+===== UnityEngine.Networking.UnityWebRequestMultimedia =====
+  : System.Object
+  method GetAudioClip()
+  method GetAudioClip()
+
+===== UnityEngine.Networking.DownloadHandlerAudioClip =====
+  : UnityEngine.Networking.DownloadHandler
+  method Create()
+  method InternalCreateAudioClip()
+  method .ctor()
+  method .ctor()
+  method GetData()
+  method GetText()
+  method get_audioClip()
+  method get_streamAudio()
+  method set_streamAudio()
+  method get_compressed()
+  method set_compressed()
+  method GetContent()
+
+===== UnityEngine.Networking.DownloadHandlerMovieTexture =====
+  : UnityEngine.Networking.DownloadHandler
+  method .ctor()

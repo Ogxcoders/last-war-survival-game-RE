@@ -1,0 +1,19 @@
+
+===== <Module> =====
+  : ShadowData
+
+===== UnityEngine.Rendering.Universal.ShaderInput =====
+  : System.Object
+
+===== LightData =====
+  : System.ValueType
+  field  position
+  field  color
+  field  attenuation
+  field  spotDirection
+  field  occlusionProbeChannels
+
+===== ShadowData =====
+  : System.ValueType
+  field  worldToShadowMatrix
+  field  shadowParams

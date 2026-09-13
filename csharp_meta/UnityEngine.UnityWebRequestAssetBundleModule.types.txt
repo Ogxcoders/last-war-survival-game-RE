@@ -1,0 +1,33 @@
+
+===== <Module> =====
+  : UnityEngine.Networking.DownloadHandlerAssetBundle
+
+===== UnityEngine.Networking.UnityWebRequestAssetBundle =====
+  : System.Object
+  method GetAssetBundle()
+  method GetAssetBundle()
+  method GetAssetBundle()
+  method GetAssetBundle()
+  method GetAssetBundle()
+  method GetAssetBundle()
+  method GetAssetBundle()
+  method GetAssetBundle()
+  method GetAssetBundle()
+  method GetAssetBundle()
+
+===== UnityEngine.Networking.DownloadHandlerAssetBundle =====
+  : UnityEngine.Networking.DownloadHandler
+  method Create()
+  method CreateCached()
+  method InternalCreateAssetBundle()
+  method InternalCreateAssetBundleCached()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method GetData()
+  method GetText()
+  method get_assetBundle()
+  method GetContent()
+  method CreateCached_Injected()

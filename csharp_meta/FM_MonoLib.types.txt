@@ -1,0 +1,22 @@
+
+===== <Module> =====
+  : UpdateDllContext
+
+===== FM_Mono.Runtime =====
+  : System.Object
+  method _fm_mono_get_persistent_data_path()
+  method IsDllLocalDirLocked()
+  method LockDllLocalDir()
+  method UnlockDllLocalDir()
+  method get_persistentDataPath()
+  method CreateDllUpdate()
+  method .ctor()
+
+===== UpdateDllContext =====
+  : System.Object
+  field  _assemblyPath
+  method Initialize()
+  method CopyDllTo()
+  method CopyDllTo()
+  method Dispose()
+  method .ctor()

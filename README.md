@@ -1,42 +1,81 @@
-# Last War: Survival Game 1.0.328 (MOD) — Reverse-Engineered Game Assets
+# Last War: Survival Game — Complete Reverse Engineering
 
-Complete asset extraction from the Android APK
-`Last-War-Survival-Game-1.0.328-mod.apk` (Unity 2019.4.41f1, Mono + xLua).
+Full reverse-engineering corpus for **Last War: Survival Game** (`1.0.328`, MOD APK),
+recovered from the encrypted Unity/Mono build. Everything in this repository was
+extracted or decoded with the tooling in [`scripts/`](scripts/) — no leaks, no
+re-uploads of third-party dumps.
 
-**Source**: 7,037 Unity AssetBundles inside `assets/AssetBundles/BundleFragment0.bytes`
-(495 MB, split via the game's custom `BundleOffsetTable.bytes` — ULEB128-prefixed
-names + u64 offsets), plus core boot data from `assets/bin/Data/`.
+## What is here
 
-## Contents
+| Directory | Contents |
+|-----------|----------|
+| [`Heroes/`](Heroes/) `Zombies/` `Characters/` `Monsters/` `World_Buildings/` `Models_Anim/` | 62+ hero texture sets, OBJ meshes, zombie/monster/vehicle/building models |
+| [`UI_Icons/`](UI_Icons/) `Activity_UI/` `Effects/` | 15k UI sprites & atlases, Spine skeleton data, VFX textures |
+| [`Audio/`](Audio/) `Fonts/` | 562 WAV clips (music/SFX/voice), 24 TTF/OTF fonts |
+| [`Core_Data/`](Core_Data/) | Unity boot data (`level0`, `sharedassets0`, `globalgamemanagers`, `unity default resources`) + bundle version markers |
+| [`csharp_meta/`](csharp_meta/) | **All 118 Mono assemblies decrypted** (`.mdl` → `.dll`) and dumped: **24,284 types / 224,551 methods / 120,939 fields** — incl. `Assembly-CSharp` (5,023 types, 48,075 methods) |
+| [`tables_json/`](tables_json/) | **All 1,061 game data tables** (custom Lua 5.3 bytecode) converted to JSON via a purpose-built mini-VM |
+| `tables_decompiled_lua.tar.gz` | All 1,061 tables decompiled to readable Lua source (unluac) |
+| [`locale/`](locale/) | **906,575 localized strings** across 19 languages |
+| [`dex/`](dex/) | 36,352 Java/Kotlin class inventory |
+| [`native_libs/`](native_libs/) | ELF inventory of all 21 arm64 libraries |
+| `AndroidManifest.decoded.txt` | Full decoded binary manifest |
+| `_manifest_all.csv` | Master index of all 24,723 extracted asset files → source bundle |
+| [`docs/`](docs/) | The reverse-engineering write-ups (encryption, formats) |
+| [`scripts/`](scripts/) | Every tool built along the way |
 
-| Folder | What's inside |
-|---|---|
-| `UI_Icons/` | 14,000+ UI sprites, icons, atlases, Spine `.skel`/`.atlas` data |
-| `Activity_UI/` | Seasonal/event UI (Easter 2025, limited-time events) |
-| `Audio/` | WAV audio — `Music/`, `SFX/`, `Voice/` (hero dubbing, plot lines), `Misc/` |
-| `Fonts/` | Game fonts (TTF/OTF) |
-| `Core_Data/` | Boot assets from `bin/Data` (unity default resources, sharedassets, globalgamemanagers, level0) |
-| `Heroes/` | Per-hero `textures/` (diffuse/normal/shadow) + `mesh/*.obj` 3D models |
-| `Zombies/` `Characters/` `Monsters/` | Enemy & unit textures + OBJ meshes |
-| `World_Buildings/` | Building/environment textures + world edge data |
-| `Models_Anim/` | Vehicle & shared model textures |
-| `Effects/` | VFX textures (glow/smoke/noise/mask) + effect meshes |
-| `Other/` | Auto-packaged misc assets |
+## Documentation
 
-`_manifest.csv` maps every file back to its source bundle
-(`part,category,type,name,file,bundle`).
+1. **[APK structure](docs/01-apk-structure.md)** — layout, native libraries, Android components, mod analysis
+2. **[Encryption & obfuscation schemes](docs/02-encryption-schemes.md)** — `.mdl` XOR scheme, AssetBundle fragment/offset table, locale archives
+3. **[Custom Lua 5.3 bytecode format](docs/03-lua-bytecode-format.md)** — the full reverse-engineered spec (header, LoadString, LoadFunction), verified by disassembling `libxlua.so`
 
-## Formats
+## Headline reversals
 
-- Textures/Sprites → **PNG**
-- Audio → **WAV**
-- 3D models → **Wavefront OBJ**
-- Fonts → **TTF/OTF**
-- Spine/data → **TXT**
+- **`.mdl` assemblies** — per-file XOR key (`data[0] ^ 'M'`), key value == encrypted
+  region length, plus an `e_lfanew` byte-swap. All 118 decrypt to valid PE/CLR images.
+- **AssetBundle packing** — 7,036 bundles reconstructed from one 495 MB fragment +
+  ULEB128-based offset table.
+- **Custom Lua 5.3** — `format=1` header, `sizeof(int)` header byte dropped,
+  `lastlinedefined` removed, byte-prefixed strings. Proven by static analysis of
+  the modified VM (`luaV_execute`, `luaU_undump`, `LoadFunction`, `LoadString`)
+  and by decompiling all 1,061 data tables with zero failures.
+- **Locale format** — gzip + `u32 version + LEB128-length-prefixed UTF-8 pairs`.
 
-## Also available
+## Data table anatomy
 
-The same assets packaged as 4 downloadable zips:
-`LastWar_1.0.328_Assets_Part1_UI_Icons.zip` (475 MB),
-`Part2_Audio_Fonts.zip` (131 MB), `Part3_Models_World.zip` (328 MB),
-`Part4_Effects_Other.zip` (87 MB).
+```lua
+return {
+  index = {                       -- column schema
+    id    = {1, "number"},
+    point = {2, "number"},
+    reward= {3, "string", true},
+  },
+  data = { ... }                  -- rows
+}
+```
+
+Tables cover heroes, buildings, PVE triggers, seasons, monsters, skills,
+economy, activities and more (`tables_json/` has one JSON per table).
+
+## Network footprint
+
+- Game protocol: SmartFox2X (`SmartFox2X.mdl` / `Smartfox2xLw.mdl`)
+- Analytics: `https://shumei-api.lastwargame.com:19091/...` (deviceprofile / cloudconf)
+- Anti-cheat: Tencent ANogs (`libanogs.so`)
+- MOD: `libLITEAPKS.COM.so` injection library (liteapks.com menu)
+
+## Reproduction pipeline
+
+```
+APK ─ unzip ─► assets/Assemblies/*.mdl ─ decrypt_mdl.py ─► .dll ─ analyze_dotnet.py ─► csharp_meta/
+    └─────────► assets/AssetBundles ─ split_bundles.py ─► 7,036 bundles ─ extract_assets_4parts.py ─► assets/
+                assets/table/*.data ─ lua53_normalizer.py ─► .luac ─ unluac ─► .lua
+                                     └───────────── table2json.py ─► tables_json/
+                assets/locale/*.bin ─ LEB128 parser ─► locale/*.json
+```
+
+## Legal
+
+Game assets and code belong to their respective owners (Last War: Survival Game).
+This repository is for **educational and research purposes only**.

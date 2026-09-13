@@ -1,0 +1,139 @@
+
+===== <Module> =====
+  : Spine.Unity.Playables.SpineSkeletonFlipTrack
+
+===== SpineSkeletonFlipBehaviour =====
+  : UnityEngine.Playables.PlayableBehaviour
+  field  flipX
+  field  flipY
+  method .ctor()
+
+===== SpineSkeletonFlipClip =====
+  : UnityEngine.Playables.PlayableAsset
+  field  template
+  method get_clipCaps()
+  method CreatePlayable()
+  method .ctor()
+
+===== Spine.Unity.Playables.SkeletonAnimationPlayableHandle =====
+  : Spine.Unity.Playables.SpinePlayableHandleBase
+  field  skeletonAnimation
+  method get_Skeleton()
+  method get_SkeletonData()
+  method Awake()
+  method InitializeReference()
+  method .ctor()
+
+===== Spine.Unity.Playables.SkeletonGraphicPlayableHandle =====
+  : Spine.Unity.Playables.SpinePlayableHandleBase
+  field  skeletonGraphic
+  method get_Skeleton()
+  method get_SkeletonData()
+  method Awake()
+  method InitializeReference()
+  method .ctor()
+
+===== Spine.Unity.Playables.SpineEventDelegate =====
+  : System.MulticastDelegate
+  method .ctor()
+  method Invoke()
+  method BeginInvoke()
+  method EndInvoke()
+
+===== Spine.Unity.Playables.SpinePlayableHandleBase =====
+  : UnityEngine.MonoBehaviour
+  field  AnimationEvents
+  method get_SkeletonData()
+  method get_Skeleton()
+  method add_AnimationEvents()
+  method remove_AnimationEvents()
+  method HandleEvents()
+  method .ctor()
+
+===== Spine.Unity.Playables.SpineAnimationStateBehaviour =====
+  : UnityEngine.Playables.PlayableBehaviour
+  field  timelineClip
+  field  animationReference
+  field  loop
+  field  customDuration
+  field  useBlendDuration
+  field  isInitialized
+  field  mixDuration
+  field  holdPrevious
+  field  dontPauseWithDirector
+  field  dontEndWithClip
+  field  endMixOutDuration
+  field  attachmentThreshold
+  field  eventThreshold
+  field  drawOrderThreshold
+  method .ctor()
+
+===== Spine.Unity.Playables.SpineAnimationStateClip =====
+  : UnityEngine.Playables.PlayableAsset
+  field  template
+  field  timelineClip
+  method get_clipCaps()
+  method CreatePlayable()
+  method get_duration()
+  method .ctor()
+
+===== Spine.Unity.Playables.SpineAnimationStateGraphicTrack =====
+  : UnityEngine.Timeline.TrackAsset
+  field  trackIndex
+  method CreateTrackMixer()
+  method .ctor()
+
+===== Spine.Unity.Playables.SpineAnimationStateMixerBehaviour =====
+  : UnityEngine.Playables.PlayableBehaviour
+  field  lastInputWeights
+  field  lastAnyClipPlaying
+  field  trackIndex
+  field  startingClips
+  field  animationStateComponent
+  field  pauseWithDirector
+  field  endAtClipEnd
+  field  endMixOutDuration
+  field  isPaused
+  field  pausedTrackEntry
+  field  previousTimeScale
+  field  timelineStartedTrackEntry
+  field  dummyAnimationState
+  method OnBehaviourPause()
+  method OnGraphStop()
+  method OnBehaviourPlay()
+  method HandlePause()
+  method HandleResume()
+  method HandleClipEnd()
+  method ProcessFrame()
+  method PreviewEditModePose()
+  method GetCustomMixDuration()
+  method .ctor()
+
+===== Spine.Unity.Playables.SpineAnimationStateTrack =====
+  : UnityEngine.Timeline.TrackAsset
+  field  trackIndex
+  method CreateTrackMixer()
+  method .ctor()
+
+===== Spine.Unity.Playables.SpineSkeletonFlipMixerBehaviour =====
+  : UnityEngine.Playables.PlayableBehaviour
+  field  originalScaleX
+  field  originalScaleY
+  field  baseScaleX
+  field  baseScaleY
+  field  playableHandle
+  field  m_FirstFrameHappened
+  field  director
+  method OnPlayableCreate()
+  method OnPlayableDestroy()
+  method OnDirectorStopped()
+  method ProcessFrame()
+  method SetSkeletonScaleFromFlip()
+  method OnStop()
+  method .ctor()
+
+===== Spine.Unity.Playables.SpineSkeletonFlipTrack =====
+  : UnityEngine.Timeline.TrackAsset
+  method CreateTrackMixer()
+  method GatherProperties()
+  method .ctor()

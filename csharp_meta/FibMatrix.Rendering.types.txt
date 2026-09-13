@@ -1,0 +1,1313 @@
+
+===== <Module> =====
+  : RenderingLayerMaskItem
+
+===== BF_MeshExtrusion =====
+  : UnityEngine.MonoBehaviour
+  field  originalMesh
+  field  meshFilter
+  field  offsetValue
+  field  offsetVector
+  field  offsetValueMem
+  field  offsetVectorMem
+  field  numberOfStacks
+  field  numberOfStacksMem
+  field  oldTri
+  field  oldVert
+  field  oldNorm
+  field  oldUV
+  field  triangles
+  field  vertexs
+  field  uvs
+  field  cols
+  method Awake()
+  method OnEnable()
+  method Update()
+  method CheckValues()
+  method ClearGeometry()
+  method BuildGeometry()
+  method .ctor()
+
+===== VerticalDepthRendererFeature =====
+  : UnityEngine.Rendering.Universal.ScriptableRendererFeature
+  field  m_ScriptablePass
+  field  destination
+  field  DestinationName
+  field  renderPassEvent
+  field  layerMask
+  field  <verticalDepthCamera>k__BackingField
+  field  <rtDepth>k__BackingField
+  field  <rtColor>k__BackingField
+  field  <autoDisable>k__BackingField
+  method get_verticalDepthCamera()
+  method set_verticalDepthCamera()
+  method get_rtDepth()
+  method set_rtDepth()
+  method get_rtColor()
+  method set_rtColor()
+  method get_autoDisable()
+  method set_autoDisable()
+  method Create()
+  method AddRenderPasses()
+  method .ctor()
+
+===== RenderTiming =====
+  : UnityEngine.MonoBehaviour
+  field  instance
+  field  logTiming
+  field  isInitialized
+  field  commandBufferStart
+  field  commandBufferEnd
+  field  loggingCoroutine
+  method get_isSupported()
+  method get_deltaTime()
+  method SetDebugFunction()
+  method GetStartTimingFunc()
+  method GetEndTimingFunc()
+  method GetTiming()
+  method DebugCallback()
+  method Awake()
+  method Init()
+  method LateUpdate()
+  method FrameEnd()
+  method OnEnable()
+  method OnDisable()
+  method ConsoleDisplay()
+  method .ctor()
+
+===== FibMatrix.Rendering.FrustumCulling =====
+  : UnityEngine.MonoBehaviour
+  field  meshFilter
+  field  enable
+  field  sizeNotBeCulled
+  method get_bounds()
+  method Start()
+  method OnStateChanged()
+  method .ctor()
+
+===== FibMatrix.Rendering.MistComponent =====
+  : UnityEngine.MonoBehaviour
+  field  instance
+  field  <enableFading>k__BackingField
+  field  <duration>k__BackingField
+  field  <defaultBlock>k__BackingField
+  field  edgeBlurIteration
+  field  edgeBlurSize
+  field  blurMaterial
+  field  BlurMaterialPixDistMulAddPropertyName
+  field  BlurMaterialMainTexPropertyName
+  field  BlurMaterialPixDistMulAddPropertyId
+  field  BlurMaterialMainTexPropertyId
+  field  GLOBAL_MIST_MASK_TEX_NAME
+  field  GLOBAL_MIST_MASK_SIZE_INFO_NAME
+  field  GLOBAL_MIST_MASK_TEX_ID
+  field  GLOBAL_MIST_MASK_SIZE_INFO_ID
+  field  m_MistMaskData
+  field  m_MistMaskTex
+  field  m_MistMaskBlured
+  field  m_MistMaskBluredIndex
+  field  RawMistTexColors
+  field  CurrentMistTexColors
+  field  RawMistData
+  field  m_PixelChanged
+  field  Border
+  field  <DevelopDataDirectory>k__BackingField
+  field  <Develop>k__BackingField
+  field  m_Spheres
+  field  coroutineFading
+  method get_enableFading()
+  method set_enableFading()
+  method get_duration()
+  method set_duration()
+  method get_defaultBlock()
+  method set_defaultBlock()
+  method get_m_DataWidth()
+  method get_m_DataHeight()
+  method get_m_TextureWidth()
+  method get_m_TextureHeight()
+  method get_EdgeBlurEnable()
+  method get_DevelopDataDirectory()
+  method set_DevelopDataDirectory()
+  method get_Develop()
+  method set_Develop()
+  method Tp3dGetWorldPosByPosDevelop()
+  method MistDevelop()
+  method Clean()
+  method OnEnable()
+  method OnDisable()
+  method OnDestroy()
+  method CreateMist()
+  method ReleaseMist()
+  method CreateBaseMask()
+  method ReleaseBaseMask()
+  method CreateBlurMask()
+  method ReleaseBlurMask()
+  method UpdateMistMaskTexture()
+  method DestroyInternal()
+  method ResetMist()
+  method GetMistCoordByPositionWS()
+  method GetPositionWSByMistCoord()
+  method SetMist()
+  method SetMist()
+  method FlushPixels()
+  method ApplyToRenderState()
+  method DoFlush()
+  method DoBlur()
+  method DoBlur()
+  method ReBlur()
+  method SetEdgeBlurSize()
+  method StartFading()
+  method StopFading()
+  method FadingAction()
+  method CoroutineFading()
+  method .ctor()
+  method .cctor()
+
+===== FibMatrix.Rendering.MistMaskData =====
+  : System.ValueType
+  field  mapSizeX
+  field  mapSizeZ
+  field  mapOffsetX
+  field  mapOffsetZ
+  field  mapSizeScaleX
+  field  mapSizeScaleZ
+
+===== FibMatrix.Rendering.ObjectCounter =====
+  : UnityEngine.MonoBehaviour
+  method Count()
+  method .ctor()
+
+===== FibMatrix.Rendering.OverlayBackgroundComponent =====
+  : UnityEngine.MonoBehaviour
+  field  <instance>k__BackingField
+  field  <clearDepth>k__BackingField
+  field  TestGroupName
+  field  renderers
+  field  target
+  method get_instance()
+  method set_instance()
+  method get_clearDepth()
+  method set_clearDepth()
+  method Test()
+  method Start()
+  method OnEnable()
+  method OnDisable()
+  method OnDestroy()
+  method .ctor()
+  method <Test>b__11_0()
+  method <Test>b__11_1()
+  method <Test>b__11_2()
+
+===== FibMatrix.Rendering.OverlayBackground =====
+  : System.Object
+  field  IntensityPropertyName
+  field  IntensityPropertyId
+  field  m_ClearDepthOld
+  field  LayerName
+  field  m_DefaultLayer
+  field  m_RenderFeatureLayer
+  field  RenderingLayerName
+  field  m_DefaultMask
+  field  m_OverlayBackgroundMask
+  field  m_Feature
+  field  m_RendererLayerDictionary
+  field  m_RendererBuffer
+  field  m_Tween
+  method get_OverrideMaterial()
+  method set_OverrideMaterial()
+  method get_Intensity()
+  method set_Intensity()
+  method get_RenderFeatureLayer()
+  method get_OverlayBackgroundMask()
+  method get_Feature()
+  method Register()
+  method Register()
+  method Register()
+  method ReRegister()
+  method Deregister()
+  method Deregister()
+  method Deregister()
+  method Deregister()
+  method Tween()
+  method Tween()
+  method Tween()
+  method Tween()
+  method Tween()
+  method .cctor()
+
+===== FibMatrix.Rendering.RefreshCallback =====
+  : System.Object
+  field  <Callback>k__BackingField
+  method get_Callback()
+  method set_Callback()
+  method .cctor()
+  method Invoke()
+
+===== FibMatrix.Rendering.RenderPipelineCallback =====
+  : UnityEngine.MonoBehaviour
+  field  ActionBeginCameraRendering
+  field  ActionEndCameraRendering
+  method add_ActionBeginCameraRendering()
+  method remove_ActionBeginCameraRendering()
+  method add_ActionEndCameraRendering()
+  method remove_ActionEndCameraRendering()
+  method OnEnable()
+  method OnDisable()
+  method BeginCameraRendering()
+  method EndCameraRendering()
+  method .ctor()
+
+===== FibMatrix.Rendering.RenderPipelineCallbackUtilities =====
+  : System.Object
+  method GetOrCreateRenderPipelineCallback()
+
+===== FibMatrix.Rendering.RendererSorting =====
+  : UnityEngine.MonoBehaviour
+  field  m_SortingOrder
+  field  m_SortingLayerID
+  field  meshRenderer
+  method OnEnable()
+  method DoUpdate()
+  method .ctor()
+
+===== FibMatrix.Rendering.TerrainComponent =====
+  : UnityEngine.MonoBehaviour
+  field  RayMarchingStepCountName
+  field  RayMarchingStepCountId
+  field  step
+  field  render
+  method Update()
+  method .ctor()
+
+===== FibMatrix.Rendering.TerrainFoliageFxField =====
+  : UnityEngine.MonoBehaviour
+  field  fieldTex
+  field  rendererTexName
+  field  fieldSize
+  field  m_RendererForPainting
+  field  brightnessOffset
+  field  brightnessTexValueScale
+  field  enableGrassGradient
+  field  grassGradientTex
+  field  PlaneSize
+  method OnEnable()
+  method OnDisable()
+  method SetShaderParam()
+  method Update()
+  method .ctor()
+
+===== FibMatrix.Rendering.WaterHelper =====
+  : UnityEngine.MonoBehaviour
+  field  specLightDirYDegree
+  field  waveDirection
+  field  m_Render
+  method Update()
+  method .ctor()
+
+===== FibMatrix.Rendering.CustomTrailRenderer =====
+  : UnityEngine.MonoBehaviour
+  field  trailRenderer
+  field  materialPropertyBlock
+  field  positionOld
+  field  dissolveOffset
+  field  dissolveOffsetLast
+  field  dissolveOffsetId
+  method Awake()
+  method Update()
+  method .ctor()
+
+===== FibMatrix.Rendering.PreviewableGradient =====
+  : UnityEngine.MonoBehaviour
+  field  gradient
+  field  textureSize
+  field  directory
+  field  filename
+  field  textureSizePreview
+  field  showAlpha
+  field  texture
+  method Save()
+  method Start()
+  method OnValueChanged()
+  method OnDestroy()
+  method .ctor()
+
+===== FibMatrix.Rendering.PreviewableTextureCurve =====
+  : System.Object
+  field  textureCurve
+  field  texture
+  field  <shaderPropertyName>k__BackingField
+  method get_shaderPropertyName()
+  method set_shaderPropertyName()
+  method Update()
+  method .ctor()
+  method GetTexture2D()
+  method SetDirty()
+  method Release()
+
+===== FibMatrix.Rendering.RenderSettingsAsset =====
+  : UnityEngine.MonoBehaviour
+  field  fog
+  field  fogStartDistance
+  field  fogEndDistance
+  field  fogMode
+  field  fogColor
+  field  fogDensity
+  field  ambientMode
+  field  ambientSkyColor
+  field  ambientEquatorColor
+  field  ambientGroundColor
+  field  ambientIntensity
+  field  ambientLight
+  field  subtractiveShadowColor
+  field  skybox
+  field  sun
+  field  ambientProbe
+  field  customReflection
+  field  reflectionIntensity
+  field  reflectionBounces
+  field  defaultReflectionMode
+  field  defaultReflectionResolution
+  field  haloStrength
+  field  flareStrength
+  field  flareFadeSpeed
+  method OnEnable()
+  method Store()
+  method Load()
+  method .ctor()
+
+===== FibMatrix.Rendering.VerticalDepthData =====
+  : UnityEngine.MonoBehaviour
+  field  targets
+  field  overrideTopY
+  field  topY
+  field  overrideBottomY
+  field  bottomY
+  field  textureMaxResolution
+  field  textureExpand
+  field  depthBufferBit
+  field  autoDisable
+  field  verticalDepthCamera
+  field  rt
+  field  VerticalDepthTextureName
+  field  VerticalDepthTextureParameter
+  field  VerticalDepthParameter
+  field  renderPipelineCallback
+  field  bounds
+  field  TextureSaveBoxGroupName
+  field  saved
+  method OnEnable()
+  method OnDisable()
+  method ActionPostRender()
+  method OnDestroy()
+  method Release()
+  method Update()
+  method CoroutineWaitForEndOfFrame()
+  method UpdateRenderingSetting()
+  method OnDrawGizmosSelected()
+  method Save()
+  method .ctor()
+
+===== FibMatrix.Rendering.WindWaveMotionData =====
+  : UnityEngine.MonoBehaviour
+  field  WaveMotionPrimaryTexture
+  field  WaveMotionPrimaryPropertyName
+  field  WaveMotionPrimaryPropertyId
+  field  WaveMotionNoiseStrengthTexture
+  field  WaveMotionNoiseStrengthPropertyName
+  field  WaveMotionNoiseStrengthPropertyId
+  field  WaveMotionAlphaTexture
+  field  WaveMotionAlphaPropertyName
+  field  WaveMotionAlphaPropertyId
+  field  WaveShapeTexture
+  field  WaveShapePropertyName
+  field  WaveShapePropertyId
+  method OnEnable()
+  method OnDisable()
+  method OnDestroy()
+  method Init()
+  method Clear()
+  method .ctor()
+  method .cctor()
+
+===== FibMatrix.Rendering.GameObjectExtensions =====
+  : System.Object
+  method GetOrAddComponent()
+  method TraverseAllComponents()
+  method RemoveAllComponents()
+  method GetRelativePath()
+  method IsChildOf()
+
+===== FibMatrix.Rendering.RenderObjectsSettingsExtensions =====
+  : System.Object
+  method CreateRenderObjectsPass()
+
+===== FibMatrix.Rendering.ScriptableRendererExtensions =====
+  : System.Object
+  field  RendererToFeaturesList
+  field  RendererToFeaturesDictionary
+  field  RendererFeaturesFieldInfo
+  method ActiveRendererFeature()
+  method GetRendererFeature()
+  method GetRendererFeatureByName()
+  method GetRendererFeaturesDictionary()
+  method GetRendererFeaturesList()
+  method ReflectionRendererFeatures()
+  method .cctor()
+
+===== FibMatrix.Rendering.CloudRendererFeature =====
+  : UnityEngine.Experimental.Rendering.Universal.RenderObjects
+  field  m_CloudColorPass
+  field  renderTextureScale
+  field  cloudHeight
+  method Create()
+  method AddRenderPasses()
+  method .ctor()
+
+===== FibMatrix.Rendering.CloudZPrepassRendererFeature =====
+  : UnityEngine.Experimental.Rendering.Universal.RenderObjects
+  method .ctor()
+
+===== FibMatrix.Rendering.CustomRenderObjectsFeature =====
+  : UnityEngine.Rendering.Universal.ScriptableRendererFeature
+  field  settings
+  field  renderObjectsPass
+  method Create()
+  method AddRenderPasses()
+  method .ctor()
+
+===== FibMatrix.Rendering.CustomRenderObjectsPass =====
+  : UnityEngine.Rendering.Universal.ScriptableRenderPass
+  field  renderQueueType
+  field  m_FilteringSettings
+  field  m_CameraSettings
+  field  m_RenderTargetSettings
+  field  m_ProfilerTag
+  field  m_ProfilingSampler
+  field  <overrideMaterial>k__BackingField
+  field  <overrideMaterialPassIndex>k__BackingField
+  field  m_ShaderTagIdList
+  field  destination
+  field  m_RenderStateBlock
+  method get_overrideMaterial()
+  method set_overrideMaterial()
+  method get_overrideMaterialPassIndex()
+  method set_overrideMaterialPassIndex()
+  method SetDetphState()
+  method SetStencilState()
+  method .ctor()
+  method .ctor()
+  method .ctor()
+  method Configure()
+  method Execute()
+  method FrameCleanup()
+
+===== FibMatrix.Rendering.MistZPrepassRendererFeature =====
+  : UnityEngine.Experimental.Rendering.Universal.RenderObjects
+  method .ctor()
+
+===== FibMatrix.Rendering.OverlayBackgroundRendererFeature =====
+  : UnityEngine.Rendering.Universal.ScriptableRendererFeature
+  field  renderingLayerMaskName
+  field  OverlayBackgroundSettingsTag
+  field  OpaqueSettingsTag
+  field  TransparentSettingsTag
+  field  overlayBackgroundSettings
+  field  opaqueSettings
+  field  transparentSettings
+  field  m_OverlayBackgroundRenderPass
+  field  m_OpaqueRenderPass
+  field  m_TransparentRenderPass
+  method get_overrideMaterial()
+  method set_overrideMaterial()
+  method get_clearDepth()
+  method set_clearDepth()
+  method Create()
+  method AddRenderPasses()
+  method .ctor()
+
+===== FibMatrix.Rendering.ScreenSpaceProjectorFeature =====
+  : FibMatrix.Rendering.CustomRenderObjectsFeature
+  field  rtName
+  field  rtScale
+  field  sreenRangeScale
+  field  intensity
+  field  aoColor
+  field  rtFormat
+  field  m_Pass
+  method Create()
+  method AddRenderPasses()
+  method .ctor()
+
+===== FibMatrix.Rendering.UpdateKeywordsPass =====
+  : UnityEngine.Rendering.Universal.ScriptableRenderPass
+  field  ProfilerTag
+  field  Keywords
+  method .ctor()
+  method Execute()
+
+===== FibMatrix.Rendering.UpdateKeywordsRendererFeature =====
+  : UnityEngine.Rendering.Universal.ScriptableRendererFeature
+  field  m_UpdateKeywordsPass
+  field  renderPassEvent
+  field  keywords
+  method Create()
+  method AddRenderPasses()
+  method .ctor()
+
+===== FibMatrix.Rendering.WaterColorPass =====
+  : UnityEngine.Experimental.Rendering.Universal.RenderObjectsPass
+  field  scale
+  field  smallColorRTBlit
+  field  enableSceneDepth
+  field  readDepthInsteadOfCopy
+  field  isHdrEnabled
+  field  SceneDepthOff
+  field  ReadDepthInsteadOfCopyKW
+  field  ResolveDepthForSmallRTKW
+  field  SamplerWaterColorTextureKW
+  field  SmallWaterRT
+  field  <waterColorTextureName>k__BackingField
+  field  <destination>k__BackingField
+  field  m_ProfilerTag
+  field  m_ProfilerTagClear
+  field  m_ARGBHalfSupport
+  method get_waterColorTextureName()
+  method set_waterColorTextureName()
+  method get_destination()
+  method set_destination()
+  method .ctor()
+  method Setup()
+  method Configure()
+  method Execute()
+  method FrameCleanup()
+
+===== FibMatrix.Rendering.WaterRendererFeature =====
+  : UnityEngine.Experimental.Rendering.Universal.RenderObjects
+  field  smallColorRTBlit
+  field  destinationScale
+  field  readDepthInsteadOfCopy
+  field  WaterColorTextureName
+  field  m_WaterColorPass
+  field  m_RenderQueueType
+  method get_renderQueueType()
+  method set_renderQueueType()
+  method Create()
+  method AddRenderPasses()
+  method .ctor()
+
+===== FibMatrix.Rendering.ZPrepassRendererFeature =====
+  : UnityEngine.Rendering.Universal.ScriptableRendererFeature
+  field  ZPrepassSettingEditorTag
+  field  ZPrepassSettingTag
+  field  RenderObjectsSettingTag
+  field  zPrepassSettingEditor
+  field  zPrepassSetting
+  field  renderObjectsSetting
+  field  m_ZPreassPassEditor
+  field  m_ZPreassPass
+  field  m_RenderObjectsPass
+  method Create()
+  method AddRenderPasses()
+  method .ctor()
+
+===== FibMatrix.Rendering.GameObjectsSetting =====
+  : FibMatrix.Rendering.QualitySettingGroup
+  field  objects
+  method Switch()
+  method .ctor()
+
+===== FibMatrix.Rendering.MaterialPropertiesSetting =====
+  : FibMatrix.Rendering.QualitySettingGroup
+  field  attributes
+  field  renderers
+  field  materials
+  method OnBeforeSerialize()
+  method Switch()
+  method .ctor()
+
+===== FibMatrix.Rendering.MaterialPropertySettingItemBase =====
+  : System.Object
+  method Apply()
+  method Apply()
+  method .ctor()
+
+===== FibMatrix.Rendering.MaterialPropertySettingItem`1 =====
+  : FibMatrix.Rendering.MaterialPropertySettingItemBase
+  field  attribute
+  field  value
+  field  local
+  method Apply()
+  method ApplyGlobal()
+  method .ctor()
+
+===== FibMatrix.Rendering.FloatMaterialPropertySettingItem =====
+  : 
+  method Apply()
+  method ApplyGlobal()
+  method .ctor()
+
+===== FibMatrix.Rendering.Vector4MaterialPropertySettingItem =====
+  : 
+  method Apply()
+  method ApplyGlobal()
+  method .ctor()
+
+===== FibMatrix.Rendering.IntMaterialPropertySettingItem =====
+  : 
+  method Apply()
+  method ApplyGlobal()
+  method .ctor()
+
+===== FibMatrix.Rendering.BoolMaterialPropertySettingItem =====
+  : 
+  method Apply()
+  method ApplyGlobal()
+  method .ctor()
+
+===== FibMatrix.Rendering.TextureMaterialPropertySettingItem =====
+  : 
+  method Apply()
+  method ApplyGlobal()
+  method .ctor()
+
+===== FibMatrix.Rendering.MaterialRenderQueueSettingItem =====
+  : FibMatrix.Rendering.MaterialPropertySettingItemBase
+  field  overrideTag
+  field  srcBlend
+  field  dstBlend
+  field  depthTest
+  field  depthWrite
+  field  queue
+  field  offset
+  field  alphaTest
+  field  alphaBlend
+  field  alphaPremultiply
+  field  alphaTestKeywords
+  field  alphaBlendKeywords
+  field  alphahaPremultiplyKeywords
+  field  preset
+  method Apply()
+  method SwithKeywords()
+  method ApplyBlendModePreset()
+  method .ctor()
+
+===== FibMatrix.Rendering.PostProcessSetting =====
+  : FibMatrix.Rendering.QualitySettingGroup
+  field  postProcessStates
+  field  m_Volumes
+  method OnBeforeSerialize()
+  method OnEnable()
+  method OnDisable()
+  method RegisterPostProcessState()
+  method Switch()
+  method .ctor()
+
+===== FibMatrix.Rendering.VolumeComponentSettingBase =====
+  : FibMatrix.Rendering.QualitySettingBase
+  field  <Volumes>k__BackingField
+  method get_showDescription()
+  method get_Volumes()
+  method set_Volumes()
+  method .ctor()
+
+===== FibMatrix.Rendering.VolumeComponentSetting`1 =====
+  : FibMatrix.Rendering.VolumeComponentSettingBase
+  method Switch()
+  method .ctor()
+
+===== FibMatrix.Rendering.BloomSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.ChannelMixerSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.ChromaticAberrationSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.ColorAdjustmentsSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.ColorCurvesSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.ColorLookupSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.DepthOfFieldSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.FilmGrainSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.GrayscaleSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.LensDistortionSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.LiftGammaGainSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.MotionBlurSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.PaniniProjectionSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.ShadowsMidtonesHighlightsSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.SplitToningSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.TiltShiftSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.TonemappingSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.VignetteSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.WhiteBalanceSetting =====
+  : 
+  method .ctor()
+
+===== FibMatrix.Rendering.EnQualityLevel =====
+  : System.Enum
+  field  value__
+  field  Unknown
+  field  Low
+  field  MediumLow
+  field  Medium
+  field  MediumHigh
+  field  High
+
+===== FibMatrix.Rendering.QualityLevelFlags =====
+  : System.Enum
+  field  value__
+  field  Low
+  field  MediumLow
+  field  Medium
+  field  MediumHigh
+  field  High
+  field  All
+
+===== FibMatrix.Rendering.LevelState =====
+  : System.ValueType
+  field  level
+  field  enabled
+
+===== FibMatrix.Rendering.QualitySettingBase =====
+  : System.Object
+  field  description
+  field  flags
+  method get_showDescription()
+  method OnBeforeSerialize()
+  method OnAfterDeserialize()
+  method OnEnable()
+  method OnDisable()
+  method OnSwitch()
+  method Switch()
+  method get_Item()
+  method .ctor()
+
+===== FibMatrix.Rendering.QualitySettingGroup =====
+  : FibMatrix.Rendering.QualitySettingBase
+  method .ctor()
+
+===== FibMatrix.Rendering.QualitySettingSwitcher =====
+  : UnityEngine.MonoBehaviour
+  field  qualitySettings
+  method get_CurrentLevel()
+  method set_CurrentLevel()
+  method get_QualitySettingSwitcheres()
+  method get_RenderStateRegisters()
+  method Awake()
+  method OnEnable()
+  method OnDisable()
+  method SwitchInternal()
+  method .ctor()
+
+===== FibMatrix.Rendering.QualitySettingSwitcherCenter =====
+  : System.Object
+  field  <QualitySettingSwitcheres>k__BackingField
+  method get_QualitySettingSwitcheres()
+  method Switch()
+  method .ctor()
+  method .cctor()
+
+===== FibMatrix.Rendering.RenderFeatureQualitySetting`1 =====
+  : FibMatrix.Rendering.QualitySettingBase
+  method Switch()
+  method .ctor()
+
+===== FibMatrix.Rendering.RenderQualityGM =====
+  : UnityEngine.MonoBehaviour
+  field  size
+  field  oldScreenWidth
+  field  sizeStr
+  field  m_Style
+  field  m_SliderOption
+  field  m_ThreeLineOption
+  field  m_Level
+  field  TimesCount
+  field  m_Times
+  field  m_RenderPipelineCallback
+  field  m_Stopwatch
+  field  m_CameraDurations
+  field  m_SharedStringBuilder
+  field  m_GMToggle
+  field  m_PostProcesses
+  field  m_PostProcessToggle
+  field  m_Features
+  field  m_FeaturesToggle
+  field  m_RenderingLayerMaskToggle
+  field  m_ScaleSettingDictionary
+  field  m_RenderingScaleToggle
+  field  m_WaterShaderKeywords
+  field  m_WaterShaderKeywordsToggle
+  field  _runtimeInspectorHierarchy
+  method Start()
+  method OnEnable()
+  method RefreshPostProcessSetting()
+  method RefreshRenderFeatureSetting()
+  method RefreshRenderTextureScaleSetting()
+  method OnDisable()
+  method Update()
+  method ActionBeforeRender()
+  method ActionAfterRender()
+  method InitGUI()
+  method ResetGUI()
+  method OnGUI()
+  method OnInspectorHierarchy()
+  method OnInspectorHierarchyUpdate()
+  method .ctor()
+
+===== FibMatrix.Rendering.RenderQualitySetting =====
+  : System.Object
+  field  <CurrentLevel>k__BackingField
+  field  RenderQualityGM
+  method get_CurrentLevel()
+  method set_CurrentLevel()
+  method get_DeviceLevel()
+  method get_IsLowDevice()
+  method get_RenderPipelineAsset()
+  method get_ScriptableRenderer()
+  method SwitchQualityLevel()
+  method ToggleRenderQualityGM()
+  method ToggleRenderQualityGMInternal()
+  method get_RequireDepthTexture()
+  method get_RequireDepthNormalTexture()
+  method get_RequireOpaqueTexture()
+  method get_RequirePostProcess()
+  method UpdateMainCameraState()
+  method get_DepthTextureStateRegister()
+  method get_DepthNormalTextureStateRegister()
+  method get_OpaqueTextureStateRegister()
+  method get_PostProcessStateRegister()
+  method .cctor()
+
+===== FibMatrix.Rendering.DepthTextureStateRegister =====
+  : FibMatrix.Rendering.RenderStateRegister
+  method OnEnable()
+  method OnDisable()
+  method .ctor()
+
+===== FibMatrix.Rendering.DepthNormalTextureStateRegister =====
+  : FibMatrix.Rendering.RenderStateRegister
+  method OnEnable()
+  method OnDisable()
+  method .ctor()
+
+===== FibMatrix.Rendering.OpaqueTextureStateRegister =====
+  : FibMatrix.Rendering.RenderStateRegister
+  method OnEnable()
+  method OnDisable()
+  method .ctor()
+
+===== FibMatrix.Rendering.PostProcessStateRegister =====
+  : FibMatrix.Rendering.RenderStateRegister
+  method OnEnable()
+  method OnDisable()
+  method .ctor()
+
+===== FibMatrix.Rendering.RenderFeatureStateRegister`1 =====
+  : FibMatrix.Rendering.RenderStateRegister
+  method .ctor()
+  method OnEnable()
+  method OnDisable()
+
+===== FibMatrix.Rendering.RenderStateRegisterCenter =====
+  : System.Object
+  field  RenderStateRegisters
+  field  DepthTextureStateRegister
+  field  DepthNormalTextureStateRegister
+  field  OpaqueTextureStateRegister
+  field  PostProcessStateRegister
+  method .cctor()
+
+===== FibMatrix.Rendering.RenderStateRegister =====
+  : System.Object
+  field  objects
+  field  CountStringPool
+  method get_Valid()
+  method Register()
+  method Register()
+  method Deregister()
+  method OnEnable()
+  method OnDisable()
+  method ToString()
+  method .ctor()
+  method .cctor()
+
+===== FibMatrix.Rendering.RenderTextureType =====
+  : System.Enum
+  field  value__
+  field  Depth
+  field  DepthNormal
+  field  Opaque
+
+===== FibMatrix.Rendering.RenderTextureSetting =====
+  : FibMatrix.Rendering.QualitySettingGroup
+  field  type
+  method OnDisable()
+  method Switch()
+  method .ctor()
+
+===== FibMatrix.Rendering.RenderingLayerMaskSetting =====
+  : FibMatrix.BaseUtils.FibSingletonCfgBase
+  field  s_Inst
+  field  m_RenderingLayerMasks
+  method get_Instance()
+  method RefreshRenderingLayerMaskSetting()
+  method .ctor()
+  method OnBeforeSerialize()
+  method OnAfterDeserialize()
+
+===== FibMatrix.Rendering.RenderingLayerMask =====
+  : System.Object
+  field  OverrideRenderingLayerCount
+  field  OverrideRenderingLayerNames
+  field  NameToOverrideRenderingLayer
+  method Register()
+  method Deregister()
+  method Override()
+  method ValidateLayer()
+  method LayerToName()
+  method NameToLayer()
+  method NameToMask()
+  method MaskToNames()
+  method MaskToNames()
+  method NamesToMask()
+  method TestCaseLog()
+  method TestCase()
+  method .ctor()
+  method .cctor()
+
+===== FibMatrix.Rendering.ShaderKeywordsSettingItem =====
+  : System.Object
+  field  keywords
+  field  local
+  method .ctor()
+
+===== FibMatrix.Rendering.ShaderKeywordsSetting =====
+  : FibMatrix.Rendering.QualitySettingGroup
+  field  keywords
+  field  renderers
+  field  materials
+  method OnBeforeSerialize()
+  method Switch()
+  method .ctor()
+
+===== FibMatrix.Rendering.TrailRendererRestrict =====
+  : UnityEngine.MonoBehaviour
+  field  _trailRenderer
+  field  _transform
+  field  _waitingForDistanceChange
+  field  _lastPos
+  field  _posChangeValidCount
+  method Awake()
+  method OnEnable()
+  method OnDisable()
+  method Update()
+  method .ctor()
+
+===== FibMatrix.Rendering.BoundsUtilities =====
+  : System.Object
+  method CalculateBounds()
+  method CalculateBounds()
+  method ReCalculateBounds()
+  method EncapsulateMixMax()
+  method EncapsulateMixMax()
+
+===== FibMatrix.Rendering.TextureUtilities =====
+  : System.Object
+  method LoadTexture()
+  method SaveTexture()
+  method RenderTextureToTexture2D()
+  method GradientToTexture2D()
+  method GetSupportsTextureFormat()
+  method GetSupportsRenderTextureFormat()
+  method .ctor()
+
+===== FibMatrix.Rendering.WaterWindWave =====
+  : UnityEngine.MonoBehaviour
+  field  s_TimeOffsetPropertyName
+  field  s_TimeOffsetPropertyId
+  field  timeOffset
+  field  enableRandomTimeOffset
+  method Start()
+  method .ctor()
+  method .cctor()
+
+===== VerticalDepthRenderPass =====
+  : UnityEngine.Rendering.Universal.Internal.DepthOnlyPass
+  field  VerticalDepthTextureName
+  field  VerticalDepthTextureParameter
+  field  VerticalDepthParameter
+  field  verticalDepthCamera
+  field  rtDepth
+  field  rtColor
+  method .ctor()
+  method Setup()
+  method Configure()
+  method Execute()
+  method FrameCleanup()
+  method Vaild()
+
+===== MyDelegate =====
+  : System.MulticastDelegate
+  method .ctor()
+  method Invoke()
+  method BeginInvoke()
+  method EndInvoke()
+
+===== <FrameEnd>d__19 =====
+  : System.Object
+  field  <>1__state
+  field  <>2__current
+  field  <>4__this
+  method .ctor()
+  method System.IDisposable.Dispose()
+  method MoveNext()
+  method System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+  method System.Collections.IEnumerator.Reset()
+  method System.Collections.IEnumerator.get_Current()
+
+===== <ConsoleDisplay>d__22 =====
+  : System.Object
+  field  <>1__state
+  field  <>2__current
+  field  <>4__this
+  method .ctor()
+  method System.IDisposable.Dispose()
+  method MoveNext()
+  method System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+  method System.Collections.IEnumerator.Reset()
+  method System.Collections.IEnumerator.get_Current()
+
+===== <>c__DisplayClass53_0 =====
+  : System.Object
+  field  points
+  field  <>4__this
+  method .ctor()
+  method <MistDevelop>b__0()
+
+===== <CoroutineFading>d__82 =====
+  : System.Object
+  field  <>1__state
+  field  <>2__current
+  field  <>4__this
+  field  duration
+  field  <time>5__2
+  method .ctor()
+  method System.IDisposable.Dispose()
+  method MoveNext()
+  method System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+  method System.Collections.IEnumerator.Reset()
+  method System.Collections.IEnumerator.get_Current()
+
+===== LayerMaskBackup =====
+  : System.ValueType
+  field  layer
+  field  renderingLayerMask
+
+===== <>c__DisplayClass38_0 =====
+  : System.Object
+  field  active
+  field  clearDepth
+  field  deregister
+  field  completeCallback
+  method .ctor()
+  method <Tween>b__2()
+  method <Tween>b__4()
+
+===== <>c =====
+  : System.Object
+  field  <>9
+  field  <>9__38_0
+  field  <>9__38_1
+  field  <>9__38_3
+  method .cctor()
+  method .ctor()
+  method <Tween>b__38_0()
+  method <Tween>b__38_1()
+  method <Tween>b__38_3()
+
+===== <CoroutineWaitForEndOfFrame>d__22 =====
+  : System.Object
+  field  <>1__state
+  field  <>2__current
+  field  <>4__this
+  method .ctor()
+  method System.IDisposable.Dispose()
+  method MoveNext()
+  method System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+  method System.Collections.IEnumerator.Reset()
+  method System.Collections.IEnumerator.get_Current()
+
+===== <>c__DisplayClass2_0`1 =====
+  : System.Object
+  field  preprocess
+  method .ctor()
+  method <RemoveAllComponents>b__0()
+
+===== CloudRendererPass =====
+  : UnityEngine.Experimental.Rendering.Universal.RenderObjectsPass
+  field  CloudColorTexture
+  field  CloudHeight
+  field  CloudBlitFlipY
+  field  destination
+  field  renderTextureScale
+  field  cloudHeight
+  method .ctor()
+  method SetupScale()
+  method SetupHeight()
+  method Configure()
+  method Execute()
+  method FrameCleanup()
+
+===== RenderObjectsSettings =====
+  : System.Object
+  field  passTag
+  field  cameraType
+  field  Event
+  field  eventOffset
+  field  filterSettings
+  field  overrideMaterial
+  field  overrideMaterialPassIndex
+  field  overrideDepthState
+  field  depthCompareFunction
+  field  enableWrite
+  field  stencilSettings
+  field  cameraSettings
+  field  renderTargetSettings
+  method .ctor()
+
+===== RenderTargetSettings =====
+  : System.Object
+  field  overrideTarget
+  field  name
+  field  scale
+  field  size
+  field  depth
+  field  format
+  field  clearFlag
+  field  clearColor
+  field  filterMode
+  method .ctor()
+
+===== FilterSettings =====
+  : System.Object
+  field  RenderQueueType
+  field  LayerMask
+  field  PassNames
+  field  RenderingLayerMask
+  method .ctor()
+
+===== OverlayBackgroundRenderObjectsPass =====
+  : FibMatrix.Rendering.CustomRenderObjectsPass
+  field  <clearDepth>k__BackingField
+  method get_clearDepth()
+  method set_clearDepth()
+  method .ctor()
+  method Configure()
+  method Execute()
+  method FrameCleanup()
+
+===== ScreenSpaceProjectorPass =====
+  : FibMatrix.Rendering.CustomRenderObjectsPass
+  field  m_Feature
+  field  m_RT
+  method .ctor()
+  method Setup()
+  method Configure()
+  method Execute()
+  method FrameCleanup()
+
+===== KeywordsState =====
+  : System.ValueType
+  field  keywords
+  field  enable
+
+===== BlendModePreset =====
+  : System.Enum
+  field  value__
+  field  Opaque
+  field  Cutout
+  field  Fade
+  field  Transparent
+
+===== ScaleSettingItem =====
+  : System.Object
+  field  min
+  field  max
+  field  scale
+  method .ctor()
+
+===== ScaleSetting =====
+  : System.Object
+  field  org
+  field  now
+  method .ctor()
+
+===== KeywordsToggleString =====
+  : System.Object
+  field  on
+  field  off
+  method .ctor()
+
+===== <>c =====
+  : System.Object
+  field  <>9
+  field  <>9__37_0
+  method .cctor()
+  method .ctor()
+  method <OnGUI>b__37_0()
+
+===== RenderingLayerMaskItem =====
+  : System.Object
+  field  layer
+  field  name
+  field  description
+  method .ctor()
+  method OnValueChanged()
