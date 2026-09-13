@@ -1,0 +1,11 @@
+
+?
+WolfHunterMessage.protoprotobuf"K
+WorldWolfPoints
+pointId (RpointId
+
+allianceId (	R
+allianceId"K
+WorldView2WolfPointInfoMsg-
+list (2.protobuf.WorldWolfPointsRlistB
+net.im30.aps.model.protobufbproto3

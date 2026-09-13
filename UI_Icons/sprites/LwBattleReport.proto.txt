@@ -1,0 +1,250 @@
+
+?>
+LwBattleReport.protoprotobufArmyUnitInfo.protoBattleReport.proto
+Mail.proto"?
+LwBattleUnitStat
+damage (Rdamage
+injured (Rinjured
+enhance (Renhance
+weaken (Rweaken
+
+critDamage (R
+critDamage
+critNum (RcritNum
+dizzyNum (RdizzyNum(
+physicalInjured (RphysicalInjured"
+magicInjured	 (RmagicInjured
+	dotDamage
+ (R	dotDamage$
+sputterDamage (RsputterDamage&
+physicalDamage (RphysicalDamage 
+magicDamage (RmagicDamage
+	damageNum (R	damageNum
+
+defenseNum (R
+defenseNum$
+defenseDamage (RdefenseDamageV
+skillDamageMap (2..protobuf.LwBattleUnitStat.SkillDamageMapEntryRskillDamageMapY
+skillInjuredMap (2/.protobuf.LwBattleUnitStat.SkillInjuredMapEntryRskillInjuredMap
+	dispelNum (R	dispelNum&
+dispelDebufNum (RdispelDebufNum
+
+realDamage (R
+realDamage"
+shieldDamage (RshieldDamage(
+immuneBuffCount (RimmuneBuffCountA
+SkillDamageMapEntry
+key (Rkey
+value (Rvalue:8B
+SkillInjuredMapEntry
+key (Rkey
+value (Rvalue:8"?
+LwBattleUnit
+heroId (RheroId
+	heroLevel (R	heroLevel
+index (Rindex
+heroUuid (RheroUuid<
+
+skillInfos (2.protobuf.HeroSkillInfoProtoR
+skillInfos4
+effects (2.protobuf.BattleEffectInfoReffects
+maxHp (RmaxHp
+hp (Rhp$
+hpBeforeStart	 (RhpBeforeStart
+rankLv
+ (RrankLv<
+
+equipInfos (2.protobuf.HeroEquipInfoProtoR
+equipInfos.
+stat (2.protobuf.LwBattleUnitStatRstat(
+maxSoldierCount (RmaxSoldierCount"
+soldierCount (RsoldierCount
+skinId (RskinId
+unitType (RunitType@
+skillChipInfos (2.protobuf.SkillChipProtoRskillChipInfos 
+weaponLevel (RweaponLevel 
+weaponPower (RweaponPower
+summonId (RsummonId 
+exprireTime (RexprireTime
+name (	RnameF
+weaponStrengthen (2.protobuf.WeaponStrengthenRweaponStrengthen^
+soldierBeforeStart (2..protobuf.LwBattleUnit.SoldierBeforeStartEntryRsoldierBeforeStart^
+SoldierBeforeStartEntry
+key (Rkey-
+value (2.protobuf.LwSoldierLostRvalue:8">
+LwArmyUnitInfo,
+units (2.protobuf.LwBattleUnitRunits"?
+UnitBuffChange
+buffId (RbuffId@
+effectChanges (2.protobuf.BattleEffectInfoReffectChanges
+
+skillLevel (R
+skillLevel
+remove (Rremove"
+buffDuration (RbuffDuration"?
+	TargetHit
+index (Rindex
+miss (Rmiss
+crit (Rcrit
+damage (Rdamage@
+effectChanges (2.protobuf.BattleEffectInfoReffectChanges:
+buffChanges (2.protobuf.UnitBuffChangeRbuffChanges"
+damageDouble (RdamageDouble"
+shieldChange (RshieldChange 
+shieldTotal	 (RshieldTotal$
+dotDamageOnce
+ (RdotDamageOnceC
+dotDamageDetail (2.protobuf.DotDamageDetailRdotDamageDetail
+defense (Rdefense
+
+attackBack (R
+attackBack
+	debugInfo (	R	debugInfo"{
+DotDamageDetail
+buffId (RbuffId
+damage (Rdamage
+	startTime (R	startTime
+dotTimes (RdotTimes"?
+FightAction
+id (Rid
+order (Rorder
+time (Rtime 
+casterIndex (RcasterIndex
+phase (Rphase
+skillId (RskillId-
+targets (2.protobuf.TargetHitRtargets 
+skillBuffId (RskillBuffId
+
+skillLevel	 (R
+skillLevel
+	debugInfo
+ (	R	debugInfo 
+bulletIndex (RbulletIndex(
+actionParamType (RactionParamType6
+
+summonUnit (2.protobuf.LwBattleUnitR
+summonUnit 
+casterState (RcasterState
+effectId (ReffectId"U
+LwBattleDetail
+uuid (Ruuid/
+actions (2.protobuf.FightActionRactions"?
+LwSoldierLost
+	soldierId (R	soldierId
+lost (Rlost
+injured (Rinjured
+wounded (Rwounded
+dead (Rdead
+total (Rtotal
+degrade (Rdegrade"D
+LwSoldierCount
+	soldierId (R	soldierId
+count (Rcount"?
+
+LwBattlePlayerStat.
+user (2.protobuf.ReportPlayerInfoRuser
+	contentId (R	contentId(
+maxSoldierPower (RmaxSoldierPower"
+soldierPower (RsoldierPower4
+effects (2.protobuf.BattleEffectInfoReffects&
+totalHeroPower (RtotalHeroPower9
+soldierLost (2.protobuf.LwSoldierLostRsoldierLost
+armyType (RarmyType8
+soldierPowerBeforeStart	 (RsoldierPowerBeforeStart&
+isHospitalFull
+ (RisHospitalFull2
+progress (2.protobuf.ArmyProgressRprogressG
+soldierBeforeStart (2.protobuf.LwSoldierLostRsoldierBeforeStart(
+maxSoldierCount (RmaxSoldierCount8
+soldierCountBeforeStart (RsoldierCountBeforeStart"
+soldierCount (RsoldierCount&
+chipTotalLevel (RchipTotalLevel
+deadRate (RdeadRate@
+extraPowers (2.protobuf.BattleExtraPowerInfoRextraPowersO
+powerTabMap (2-.protobuf.LwBattlePlayerStat.PowerTabMapEntryRpowerTabMap0
+weaponStrengTotalLv (RweaponStrengTotalLv:
+
+battleCard (2.protobuf.BattleCardModuleR
+battleCardN
+woundedToRemainDetail (2.protobuf.LwSoldierCountRwoundedToRemainDetailB
+soldierEleven (2.protobuf.SoldierElevenProtoRsoldierEleven(
+specialUnitType (RspecialUnitType&
+armyStartPower (RarmyStartPower>
+PowerTabMapEntry
+key (Rkey
+value (Rvalue:8"?
+LwBattlePlayerCombineStat4
+player (2.protobuf.LwBattlePlayerStatRplayer
+mvp (Rmvp8
+totalDamageSoldierPower (RtotalDamageSoldierPower
+index (Rindex
+side (Rside 
+totalDamage (RtotalDamage,
+totalDamageDouble	 (RtotalDamageDouble"?
+LwAllianceCityInfo
+cityId (RcityId$
+maxDurability (RmaxDurability
+
+durability (R
+durability4
+durabilityBeforeStart (RdurabilityBeforeStart"]
+LwMonsterInvasionInfo
+damage (Rdamage
+curHp (RcurHp
+isCrit (RisCrit"V
+LwAllianceBossSand
+uid (	Ruid
+damage (Rdamage
+isCrit (RisCrit"?
+LwBattleReport
+uuid (Ruuid
+type (Rtype
+
+battleTime (R
+battleTimeC
+battlePointInfo (2.protobuf.BattlePointInfoRbattlePointInfo 
+fightResult (RfightResult4
+player (2.protobuf.LwBattlePlayerStatRplayer,
+units (2.protobuf.LwBattleUnitRunits(
+reward
+ (2.protobuf.RewardRreward0
+detail (2.protobuf.LwBattleDetailRdetail&
+winKillSoldier (RwinKillSoldier"
+plunderValue (RplunderValue(
+maxPlunderValue (RmaxPlunderValue
+	totalTime (R	totalTime
+overTime (RoverTime
+address (	Raddress
+version (RversionI
+combinePlayer (2#.protobuf.LwBattlePlayerCombineStatRcombinePlayer4
+round (2.protobuf.LwBattleCombineRoundRround(
+isCombineReport (RisCombineReport
+	isAllKill (R	isAllKillH
+allianceCityInfo (2.protobuf.LwAllianceCityInfoRallianceCityInfoK
+winKillSoldierDetail (2.protobuf.LwSoldierLostRwinKillSoldierDetailO
+hospitalFullDeadDetail  (2.protobuf.LwSoldierLostRhospitalFullDeadDetail?
+ricochetDetail! (2.protobuf.LwSoldierLostRricochetDetailQ
+monsterInvasionInfo" (2.protobuf.LwMonsterInvasionInfoRmonsterInvasionInfoW
+atkMummyBlowUpResultDetail# (2.protobuf.LwSoldierLostRatkMummyBlowUpResultDetailW
+defMummyBlowUpResultDetail$ (2.protobuf.LwSoldierLostRdefMummyBlowUpResultDetailK
+plunderMeteoriteInfo% (2.protobuf.MeteoriteInfoRplunderMeteoriteInfoH
+allianceBossSand& (2.protobuf.LwAllianceBossSandRallianceBossSand(
+monsterBuffList' (RmonsterBuffListQ
+championDuelScore( (2#.protobuf.LwBattleChampionDuelScoreRchampionDuelScore(
+marchTargetType) (RmarchTargetType6
+parallelExecuteProcess* (RparallelExecuteProcess"u
+LwBattleChampionDuelScore
+	killScore (R	killScore
+
+aliveScore (R
+aliveScore
+winScore (RwinScore"h
+LwBattleCombineRound0
+battle (2.protobuf.LwBattleReportRbattle
+
+roundIndex (R
+roundIndex"A
+LwCommonJsonOss
+type (Rtype
+jsonData (	RjsonDataB
+net.im30.aps.model.protobufbproto3

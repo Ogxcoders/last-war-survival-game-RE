@@ -1,0 +1,80 @@
+hero_icon_black_widow.png
+	size: 1024, 1024
+	filter: Linear, Linear
+bao1
+	bounds: 897, 793, 108, 118
+	offsets: 0, 1, 108, 119
+bao2
+	bounds: 2, 666, 451, 245
+	offsets: 2, 2, 457, 249
+bao3
+	bounds: 841, 239, 181, 198
+	rotate: 180
+l_dabi
+	bounds: 260, 122, 141, 201
+	rotate: 90
+l_datui
+	bounds: 497, 155, 145, 179
+	rotate: 90
+l_jiao
+	bounds: 2, 473, 191, 244
+	rotate: 90
+l_shou
+	bounds: 2, 203, 325, 144
+l_xiaobi
+	bounds: 188, 27, 134, 96
+l_xiaotui
+	bounds: 389, 233, 230, 139
+	rotate: 90
+l_yifu
+	bounds: 500, 5, 176, 109
+lian
+	bounds: 362, 437, 283, 246
+	offsets: 0, 1, 300, 247
+	rotate: 180
+maizi1
+	bounds: 661, 473, 342, 222
+maizi2
+	bounds: 394, 45, 128, 160
+	rotate: 90
+r_dabi
+	bounds: 10, 77, 189, 132
+r_dabi2
+	bounds: 3, 12, 106, 69
+r_datui
+	bounds: 531, 315, 309, 166
+	offsets: 0, 16, 309, 210
+	rotate: 180
+r_jiao
+	bounds: 159, 332, 256, 206
+	rotate: 90
+r_shou
+	bounds: 678, 178, 175, 161
+	rotate: 270
+r_xiaobi
+	bounds: 796, 24, 136, 83
+r_xiaobi2
+	bounds: 648, 66, 167, 115
+	rotate: 180
+r_xiaotui
+	bounds: 47, 358, 128, 140
+r_yifu
+	bounds: 940, 5, 155, 79
+	offsets: 0, 3, 155, 82
+	rotate: 90
+shenti
+	bounds: 455, 642, 536, 269
+shu
+	bounds: 835, 109, 158, 128
+toufa
+	bounds: 323, 13, 108, 73
+	offsets: 0, 0, 108, 75
+	rotate: 90
+yanbai
+	bounds: 246, 600, 152, 64
+yanpi
+	bounds: 676, 2, 148, 52
+	offsets: 0, 1, 148, 53
+	rotate: 180
+yanzhu
+	bounds: 908, 449, 114, 35

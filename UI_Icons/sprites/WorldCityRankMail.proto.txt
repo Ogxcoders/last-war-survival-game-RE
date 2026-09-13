@@ -1,0 +1,20 @@
+
+?
+WorldCityRankMail.protoprotobufBattleReport.proto
+Mail.proto"?
+WorldCityRankMail
+time (Rtime
+type (Rtype
+cityId (RcityId
+cityName (	RcityName9
+	rankInfos (2.protobuf.WorldCityRankInfoR	rankInfos"?
+WorldCityRankInfo:
+
+playerInfo (2.protobuf.ReportPlayerInfoR
+playerInfo4
+
+rewardInfo (2.protobuf.RewardInfoR
+rewardInfo
+scord (Rscord
+rank (RrankB
+net.im30.aps.model.protobufbproto3

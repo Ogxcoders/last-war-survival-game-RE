@@ -1,0 +1,16 @@
+
+?
+CityAreaGreenInfo.protoprotobuf"E
+CityGreenInfo
+cityId (RcityId
+	greenRate (R	greenRate"L
+WorldAllCityGreenInfo3
+infoList (2.protobuf.CityGreenInfoRinfoList"9
+GreenPoints
+points (Rpoints
+type (Rtype"^
+IndexGreenPoints
+index (Rindex
+points (Rpoints
+	timeStamp (R	timeStampB
+net.im30.aps.model.protobufbproto3

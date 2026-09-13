@@ -1,0 +1,6 @@
+npc_s3_Indiana.png
+size:888,1332
+filter:Linear,Linear
+npc_s3_Indiana
+bounds:2,2,884,1325
+offsets:0,0,884,1326

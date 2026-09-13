@@ -1,0 +1,26 @@
+
+?
+DeliteReport.protoprotobufBattleReport.proto"?
+DeliteFightReport
+uuid (Ruuid<
+selfArmyResult (2.protobuf.ArmyResultRselfArmyResult>
+otherArmyResult (2.protobuf.ArmyResultRotherArmyResult 
+fightResult (RfightResultS
+selfBattleEffectGroups (2.protobuf.BattleEffectGroupRselfBattleEffectGroupsU
+otherBattleEffectGroups (2.protobuf.BattleEffectGroupRotherBattleEffectGroups:
+unitAttrInfo (2.protobuf.UnitAttrInfoRunitAttrInfo"?
+DeliteReport"
+battleResult (RbattleResult
+	startTime (R	startTime6
+selfInfo (2.protobuf.ReportPlayerInfoRselfInfo8
+	otherInfo (2.protobuf.ReportPlayerInfoR	otherInfo?
+fightReports (2.protobuf.DeliteFightReportRfightReports
+parse (Rparse
+round (Rround
+version (Rversion
+
+selfRecord	 (R
+selfRecord
+	defRecord
+ (R	defRecordB
+net.im30.aps.model.protobufbproto3

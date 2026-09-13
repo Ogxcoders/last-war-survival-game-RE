@@ -1,0 +1,8 @@
+hero_icon_Noah.png
+size:1024,512
+filter:Linear,Linear
+scale:0.5
+hero_icon_Noah
+bounds:2,2,363,862
+offsets:51,0,447,886
+rotate:90

@@ -1,0 +1,37 @@
+
+?
+AllianceCityRecordProto.protoprotobuf"@
+AllianceCityUserRecord
+uid (	Ruid
+point (Rpoint"?
+AllianceCityRecordProtoJ
+killUserRecords (2 .protobuf.AllianceCityUserRecordRkillUserRecordsP
+destroyUserRecords (2 .protobuf.AllianceCityUserRecordRdestroyUserRecords"?
+AllianceCityOccupyInfo
+cityId (RcityId
+abbr (	Rabbr
+
+allainceId (	R
+allainceId
+color (Rcolor
+cityName (	RcityName"
+allianceName (	RallianceName&
+occupyServerId (RoccupyServerId(
+firstOccupyTime (RfirstOccupyTime"T
+WorldAllAllianceCityInfo8
+infoes (2 .protobuf.AllianceCityOccupyInfoRinfoes"g
+WorldAllianceOccupyInfoL
+AllianceOccupyInfo (2.protobuf.AllianceOccupyInfoRAllianceOccupyInfo"?
+AllianceOccupyInfo
+
+allianceId (	R
+allianceId
+abbr (	Rabbr
+color (Rcolor
+cityName (	RcityName"
+allianceName (	RallianceName&
+occupyServerId (RoccupyServerId.
+cityInfo (2.protobuf.CityInfoRcityInfo""
+CityInfo
+cityId (RcityIdB
+net.im30.aps.model.protobufbproto3

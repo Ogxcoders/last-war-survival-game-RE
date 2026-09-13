@@ -1,0 +1,13 @@
+
+?
+WorldLightData.protoprotobuf"S
+	LightData
+pointId (RpointId
+radius (Rradius
+level (Rlevel"R
+PushLightChange)
+light (2.protobuf.LightDataRlight
+state (Rstate"C
+RangeLightData1
+	lightList (2.protobuf.LightDataR	lightListB
+net.im30.aps.model.protobufbproto3

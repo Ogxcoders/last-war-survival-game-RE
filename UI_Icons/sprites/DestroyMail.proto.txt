@@ -1,0 +1,25 @@
+
+?
+DestroyMail.protoprotobufBattleReport.proto"?
+DestroyMail
+time (Rtime
+type (Rtype
+pointId (RpointIdH
+destroyPlayerInfo (2.protobuf.ReportPlayerInfoRdestroyPlayerInfoC
+destroyUnitInfo (2.protobuf.DestroyUnitInfoRdestroyUnitInfo
+
+attackType (R
+attackType@
+allianceInfo (2.protobuf.ReportAllianceInfoRallianceInfo
+serverId (RserverId"?
+DestroyUnitInfo
+type (Rtype
+itemId (RitemId&
+initDurability (RinitDurability
+
+durability (R
+durability
+dmg (Rdmg
+level (Rlevel
+	extraInfo (	R	extraInfoB
+net.im30.aps.model.protobufbproto3

@@ -1,0 +1,10 @@
+
+?
+!WorldAllianceAssistanceInfo.protoprotobuf"\
+AllianceAssistanceInfo
+pointId (RpointId
+number (Rnumber
+max (Rmax"Q
+WorldAoiAssistanceInfoMsg4
+list (2 .protobuf.AllianceAssistanceInfoRlistB
+net.im30.aps.model.protobufbproto3

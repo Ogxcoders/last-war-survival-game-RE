@@ -1,0 +1,8 @@
+
+?
+StrongholdBankMessage.protoprotobuf"m
+BankDeposit$
+depositAmount (RdepositAmount 
+depositDays (RdepositDays
+itemId (	RitemIdB
+net.im30.aps.model.protobufbproto3

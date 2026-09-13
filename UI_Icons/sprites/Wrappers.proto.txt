@@ -1,0 +1,26 @@
+
+?google.protobufbproto3
+Wrappers.protoBb?Z1google.golang.org/protobuf/types/known/wrapperspb?GPBPBWrappersProto
+com.google.protobuf"
+value (
+DoubleValue"
+value (
+
+FloatValue"
+value (
+
+Int64Value"
+value (
+UInt64Value"
+value (
+
+Int32Value"
+value (
+UInt32Value"
+value (
+	BoolValue"
+value (	
+StringValue"
+value (
+
+BytesValue

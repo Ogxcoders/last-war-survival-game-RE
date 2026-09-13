@@ -1,0 +1,110 @@
+hero_icon_Basilone.png
+	size: 2048, 1024
+	filter: Linear, Linear
+bao_1
+	bounds: 1888, 737, 147, 231
+bao_2
+	bounds: 441, 147, 143, 228
+	rotate: 90
+bao_3
+	bounds: 1243, 110, 130, 235
+	rotate: 90
+beibao
+	bounds: 614, 503, 444, 465
+	rotate: 180
+bozi
+	bounds: 1727, 141, 202, 330
+erduo_1
+	bounds: 2, 837, 56, 86
+	offsets: 0, 5, 56, 91
+erduo_2
+	bounds: 536, 813, 52, 92
+erhuan_1
+	bounds: 1151, 928, 24, 40
+erhuan_2
+	bounds: 2, 925, 33, 43
+erhuan_3
+	bounds: 1177, 932, 23, 36
+erhuan_4
+	bounds: 1671, 935, 19, 33
+lingzi_h
+	bounds: 1929, 233, 241, 117
+	rotate: 270
+lingzi_l
+	bounds: 1093, 58, 152, 212
+	rotate: 90
+lingzi_r1
+	bounds: 1800, 11, 220, 225
+	rotate: 90
+lingzi_r2
+	bounds: 1480, 52, 169, 158
+	offsets: 0, 0, 176, 158
+shenti
+	bounds: 2, 256, 633, 712
+shou_lhu
+	bounds: 637, 352, 149, 226
+	rotate: 90
+shou_rhu
+	bounds: 897, 2, 161, 168
+	rotate: 90
+shou_rz1
+	bounds: 760, 12, 158, 119
+shou_rz2
+	bounds: 1618, 75, 178, 125
+shou_rz3
+	bounds: 425, 22, 171, 123
+shou_rz4
+	bounds: 1506, 880, 163, 88
+shoubi_l
+	bounds: 1315, 485, 371, 483
+	offsets: 0, 27, 371, 510
+shoubi_r
+	bounds: 1315, 202, 354, 436
+	rotate: 270
+shouzhang_r
+	bounds: 936, 90, 149, 183
+	offsets: 117, 0, 266, 235
+	rotate: 90
+shouzhi_lz1
+	bounds: 17, 57, 156, 113
+shouzhi_lz2
+	bounds: 1638, 462, 132, 107
+shouzhi_lz3
+	bounds: 616, 55, 142, 103
+	offsets: 0, 10, 142, 113
+shouzhi_lz4
+	bounds: 137, 54, 133, 76
+	offsets: 0, 0, 133, 83
+shouzhi_lz5
+	bounds: 532, 906, 86, 62
+tou
+	bounds: 1013, 203, 217, 310
+	offsets: 18, 7, 235, 317
+	rotate: 90
+toukui_h
+	bounds: 1648, 671, 297, 238
+	rotate: 90
+toukui_q
+	bounds: 2, 111, 291, 175
+	rotate: 180
+xiaobi_l
+	bounds: 1771, 429, 275, 297
+xiaobi_r
+	bounds: 658, 133, 369, 403
+	rotate: 90
+xiashen
+	bounds: 1043, 396, 572, 270
+	rotate: 90
+xiashen_kd
+	bounds: 290, 68, 149, 173
+	offsets: 0, 0, 155, 173
+xiashen_uk
+	bounds: 1014, 932, 135, 36
+yanbai_1
+	bounds: 2, 783, 53, 52
+yanbai_2
+	bounds: 560, 763, 52, 48
+yanzhu_1
+	bounds: 615, 947, 21, 21
+yanzhu_2
+	bounds: 508, 945, 23, 23
