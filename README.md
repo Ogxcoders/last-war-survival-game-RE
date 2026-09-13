@@ -39,6 +39,8 @@ re-uploads of third-party dumps.
 | `tables_json.zip` | 12 MB | 1,061 tables as JSON |
 | `locale.zip` | 24 MB | 906k strings, 19 languages |
 | `animations.zip` | 66 MB | all Unity clips + animators + Spine skeletons |
+| `anim_unity_clips.zip` | 35 MB | 2,409 ready-to-import `.anim` files (decoded curves) |
+| `anim_unity_pack.zip` | 36 MB | one-stop Unity kit: 2,409 `.anim` + 447 `.controller` wired by GUID, `.meta` included |
 | `RE_core.zip` | 2 MB | docs + scripts + type index + inventories + manifest |
 
 ## Documentation

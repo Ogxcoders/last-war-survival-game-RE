@@ -47,3 +47,25 @@ Drop the `.anim` files next to a matching rig (or re-path them) inside
 Unity. ~6% of curves reference paths whose rig hierarchy ships outside the
 animation bundles (`UnknownPath_*`); re-point those manually if needed.
 PPtr (sprite-swap) curves are not converted.
+
+## Unity import kit (`anim_unity_pack.zip` on the Release)
+
+The one-stop download for using the animations directly in Unity:
+
+- `UnityClips/` — the 2,409 `.anim` files (clean names, `.meta` included,
+  deterministic GUIDs = `md5("LastWar.anim.<bundle>.<clip>")`)
+- `Animators/` — all 447 `.controller` files with the **full state machine graph
+  reconstructed from the build-format controller constants**:
+  - states + names (from the engine's `m_TOS` debug-name table), speeds, loop flags,
+  - state transitions, AnyState transitions (durations, exit times, interruption),
+  - conditions with parameter names recovered by CRC32 (`attack`, `dead`,
+    `walking`, `Blend`, ... — 218 of 219 references resolved),
+  - the zombie 1D blend tree,
+  - the additive synchronized layer of `ZhuanwuzahnshiController`,
+  - every state's motion wired to its `.anim` by GUID — **0 unresolved references**.
+
+Entry/Exit selector plumbing is implicit in Unity and omitted. Parameters used
+with If/IfNot conditions are emitted as bools — rename to triggers in the
+Animator window if your code expects them. Conversion logic mirrors AssetRipper's
+`VirtualAnimationFactory` / `AnimatorStateMachineContext`; see
+`scripts/gen_controllers.py` + `scripts/scan_ctrl_deps.py` in the repo.
