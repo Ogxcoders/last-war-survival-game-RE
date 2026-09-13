@@ -25,6 +25,20 @@ re-uploads of third-party dumps.
 | [`docs/`](docs/) | The reverse-engineering write-ups (encryption, formats) |
 | [`scripts/`](scripts/) | Every tool built along the way |
 
+## Downloads (Release `assets-1.0.328`)
+
+| File | Size | Contents |
+|------|------|----------|
+| `Assets_Part1_UI_Icons.zip` | 498 MB | UI sprites, atlases, Spine, activity UI |
+| `Assets_Part2_Audio_Fonts.zip` | 137 MB | 562 WAVs + 24 fonts |
+| `Assets_Part3_Models_World.zip` | 343 MB | heroes/zombies/monsters/vehicles/buildings |
+| `Assets_Part4_Effects_Other.zip` | 91 MB | VFX + misc |
+| `csharp_src.zip` | 22 MB | all 118 assemblies → 16,971 `.cs` files |
+| `tables_lua.zip` | 14 MB | 1,061 tables as readable Lua |
+| `tables_json.zip` | 12 MB | 1,061 tables as JSON |
+| `locale.zip` | 24 MB | 906k strings, 19 languages |
+| `RE_core.zip` | 2 MB | docs + scripts + type index + inventories + manifest |
+
 ## Documentation
 
 1. **[APK structure](docs/01-apk-structure.md)** — layout, native libraries, Android components, mod analysis
