@@ -1,0 +1,1 @@
+{"scene_name":"LastWar_Scene_army_002_shamo","res_list":[]}
