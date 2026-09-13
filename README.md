@@ -9,6 +9,7 @@ re-uploads of third-party dumps.
 
 | Directory | Contents |
 |-----------|----------|
+| [`Animations/`](Animations/) | **2,481 Unity AnimationClips (full curve JSON) + 447 AnimatorControllers + 86 Spine skeletons** |
 | [`Heroes/`](Heroes/) `Zombies/` `Characters/` `Monsters/` `World_Buildings/` `Models_Anim/` | 62+ hero texture sets, OBJ meshes, zombie/monster/vehicle/building models |
 | [`UI_Icons/`](UI_Icons/) `Activity_UI/` `Effects/` | 15k UI sprites & atlases, Spine skeleton data, VFX textures |
 | [`Audio/`](Audio/) `Fonts/` | 562 WAV clips (music/SFX/voice), 24 TTF/OTF fonts |
@@ -37,6 +38,7 @@ re-uploads of third-party dumps.
 | `tables_lua.zip` | 14 MB | 1,061 tables as readable Lua |
 | `tables_json.zip` | 12 MB | 1,061 tables as JSON |
 | `locale.zip` | 24 MB | 906k strings, 19 languages |
+| `animations.zip` | 66 MB | all Unity clips + animators + Spine skeletons |
 | `RE_core.zip` | 2 MB | docs + scripts + type index + inventories + manifest |
 
 ## Documentation

@@ -1,0 +1,6 @@
+hero_icon_Warleaders.png
+size:1024,1024
+filter:Linear,Linear
+scale:0.5
+hero_icon_Warleaders
+bounds:2,2,709,853

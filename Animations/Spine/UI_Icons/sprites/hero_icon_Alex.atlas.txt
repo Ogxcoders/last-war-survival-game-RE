@@ -1,0 +1,117 @@
+hero_icon_Alex.png
+	size: 2048, 1024
+	filter: Linear, Linear
+erduo
+	bounds: 126, 7, 95, 53
+kuzi
+	bounds: 911, 426, 596, 290
+	rotate: 90
+kuzi_koudai
+	bounds: 1039, 139, 285, 185
+	rotate: 90
+l_lingzi1
+	bounds: 1247, 146, 310, 140
+	rotate: 90
+l_lingzi2
+	bounds: 1790, 253, 247, 111
+l_shoubi
+	bounds: 1799, 150, 220, 65
+	offsets: 3, 2, 225, 75
+l_waitao_hou
+	bounds: 1644, 468, 345, 181
+	rotate: 90
+l_waitao_qian
+	bounds: 903, 3, 130, 207
+	rotate: 90
+l_waitao_shang
+	bounds: 472, 3, 130, 429
+	rotate: 90
+l_xiuzi
+	bounds: 1513, 466, 347, 129
+	offsets: 4, 0, 351, 129
+	rotate: 90
+l_yanbai
+	bounds: 1594, 158, 31, 39
+l_yanpi
+	bounds: 1903, 219, 32, 26
+	offsets: 0, 0, 33, 26
+	rotate: 90
+l_yanzhu
+	bounds: 1226, 394, 14, 15
+	offsets: 13, 3, 31, 24
+	rotate: 90
+l_yijiao
+	bounds: 1112, 2, 198, 135
+lingzi_hou
+	bounds: 1556, 20, 79, 129
+r_lingzi1
+	bounds: 1390, 12, 137, 164
+	rotate: 90
+r_lingzi2
+	bounds: 911, 138, 286, 126
+	rotate: 90
+r_shoubi
+	bounds: 1513, 815, 525, 207
+r_waitao
+	bounds: 2, 62, 467, 960
+r_xiuzi
+	bounds: 1203, 458, 308, 564
+r_xiuzi_hou
+	bounds: 1594, 199, 194, 265
+r_yanbai
+	bounds: 223, 8, 52, 46
+	rotate: 90
+r_yanpi
+	bounds: 271, 10, 50, 34
+	offsets: 0, 0, 50, 35
+	rotate: 90
+r_yanzhu
+	bounds: 1226, 410, 17, 18
+	offsets: 2, 2, 22, 24
+	rotate: 90
+shenti
+	bounds: 471, 135, 887, 438
+	rotate: 90
+tou
+	bounds: 1389, 151, 305, 203
+	offsets: 0, 63, 305, 266
+	rotate: 90
+toufa1
+	bounds: 2, 6, 54, 122
+	rotate: 90
+toufa10
+	bounds: 1312, 5, 39, 139
+toufa11
+	bounds: 1867, 63, 168, 84
+toufa12
+	bounds: 1799, 36, 111, 66
+	rotate: 90
+toufa13
+	bounds: 1353, 6, 138, 35
+	rotate: 90
+toufa2
+	bounds: 1790, 366, 253, 100
+	offsets: 0, 0, 253, 102
+toufa3
+	bounds: 1717, 22, 175, 80
+	rotate: 90
+toufa4
+	bounds: 1790, 217, 34, 111
+	rotate: 90
+toufa5
+	bounds: 307, 17, 43, 163
+	rotate: 90
+toufa6
+	bounds: 1827, 750, 63, 162
+	rotate: 90
+toufa7
+	bounds: 1637, 12, 185, 78
+	rotate: 90
+toufa8
+	bounds: 1931, 230, 21, 76
+	rotate: 90
+toufa9
+	bounds: 2021, 149, 21, 102
+toufa_hou
+	bounds: 1203, 429, 27, 42
+	rotate: 90

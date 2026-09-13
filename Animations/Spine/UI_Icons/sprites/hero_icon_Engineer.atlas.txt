@@ -1,0 +1,7 @@
+hero_icon_Engineer.png
+size:1024,512
+filter:Linear,Linear
+scale:0.5
+hero_icon_Engineer
+bounds:2,2,455,828
+rotate:90

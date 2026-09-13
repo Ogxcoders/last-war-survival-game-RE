@@ -1,0 +1,225 @@
+npc_blackmarket_merchant.png
+	size: 2048, 2048
+	filter: Linear, Linear
+arm_l1
+	bounds: 2, 950, 260, 442
+	rotate: 90
+arm_l11
+	bounds: 1188, 1853, 86, 40
+arm_l2
+	bounds: 1159, 1328, 463, 175
+	offsets: 0, 4, 471, 211
+arm_r1
+	bounds: 446, 864, 384, 307
+arm_r2
+	bounds: 958, 1113, 213, 407
+	offsets: 5, 0, 218, 413
+	rotate: 90
+bag1
+	bounds: 538, 1173, 194, 418
+	offsets: 0, 0, 194, 426
+	rotate: 90
+bag2
+	bounds: 1624, 1298, 380, 182
+bag3
+	bounds: 741, 1562, 125, 163
+	rotate: 90
+bag4
+	bounds: 2, 2, 839, 472
+belt1
+	bounds: 662, 1689, 97, 306
+	rotate: 90
+belt2
+	bounds: 1320, 1505, 126, 526
+	offsets: 7, 0, 133, 526
+	rotate: 90
+bill1
+	bounds: 2, 1461, 149, 218
+	rotate: 90
+bill2
+	bounds: 1586, 1637, 114, 191
+	rotate: 90
+bill3
+	bounds: 1352, 1648, 106, 232
+	rotate: 90
+bill4
+	bounds: 1779, 1633, 106, 260
+	rotate: 90
+bill5
+	bounds: 970, 1670, 100, 238
+	offsets: 0, 17, 100, 255
+	rotate: 90
+bill6
+	bounds: 1385, 1756, 82, 221
+	offsets: 6, 0, 88, 221
+	rotate: 90
+bill7
+	bounds: 1608, 1753, 195, 84
+body
+	bounds: 1404, 349, 683, 496
+	rotate: 90
+cap_a1
+	bounds: 222, 1441, 132, 322
+	offsets: 0, 0, 132, 339
+	rotate: 90
+cap_a2
+	bounds: 515, 1575, 112, 224
+	rotate: 90
+cap_a3
+	bounds: 1367, 1049, 247, 340
+	rotate: 90
+cap_b1
+	bounds: 1848, 1482, 158, 149
+cap_b2
+	bounds: 72, 1871, 87, 22
+	offsets: 1, 0, 88, 23
+cap_b3
+	bounds: 1168, 1772, 215, 76
+cap_b4
+	bounds: 1489, 1840, 53, 132
+	rotate: 90
+cap_b5
+	bounds: 826, 1788, 158, 73
+	offsets: 0, 10, 158, 85
+clothing
+	bounds: 832, 774, 570, 273
+ear
+	bounds: 243, 1810, 57, 86
+	rotate: 90
+earrings_l
+	bounds: 331, 1810, 62, 57
+earrings_r1
+	bounds: 1800, 1839, 54, 57
+	offsets: 0, 0, 59, 57
+	rotate: 90
+earrings_r2
+	bounds: 870, 1864, 29, 56
+	rotate: 90
+eye_l
+	bounds: 1343, 1850, 50, 43
+	offsets: 0, 0, 55, 43
+eye_r
+	bounds: 1276, 1851, 65, 42
+	offsets: 2, 0, 67, 43
+eyeball_l
+	bounds: 28, 1875, 19, 18
+	offsets: 1, 2, 21, 21
+eyeball_rb
+	bounds: 49, 1872, 21, 21
+	offsets: 2, 2, 24, 24
+eyelash_l
+	bounds: 2, 1886, 10, 7
+	offsets: 3, 3, 15, 13
+eyelash_r
+	bounds: 14, 1883, 12, 10
+	offsets: 3, 3, 18, 16
+face
+	bounds: 2, 1254, 205, 218
+	offsets: 0, 1, 205, 219
+	rotate: 90
+finger_l1
+	bounds: 137, 1813, 104, 55
+	offsets: 2, 0, 106, 55
+finger_l11
+	bounds: 227, 1870, 52, 23
+	offsets: 1, 0, 55, 23
+finger_l2
+	bounds: 1859, 1839, 129, 54
+	offsets: 0, 0, 136, 58
+finger_l22
+	bounds: 281, 1869, 88, 24
+	offsets: 2, 1, 91, 26
+finger_l3
+	bounds: 395, 1808, 57, 149
+	offsets: 0, 1, 57, 150
+	rotate: 90
+finger_l33
+	bounds: 371, 1869, 24, 108
+	offsets: 1, 2, 26, 112
+	rotate: 90
+finger_l4
+	bounds: 546, 1807, 57, 163
+	rotate: 90
+finger_l44
+	bounds: 643, 1866, 27, 114
+	offsets: 2, 2, 30, 118
+	rotate: 90
+hair1
+	bounds: 1009, 1858, 76, 35
+hair10
+	bounds: 2, 1612, 313, 104
+hair11
+	bounds: 1709, 1034, 262, 332
+	rotate: 90
+hair2
+	bounds: 2, 1815, 54, 133
+	rotate: 90
+hair3
+	bounds: 1395, 1850, 92, 43
+hair4
+	bounds: 928, 1863, 30, 79
+	offsets: 1, 0, 31, 79
+	rotate: 90
+hair5
+	bounds: 317, 1591, 196, 116
+	offsets: 0, 0, 196, 118
+hair6
+	bounds: 1623, 1840, 53, 175
+	rotate: 90
+hair7
+	bounds: 986, 1782, 90, 74
+hair8
+	bounds: 343, 1709, 97, 178
+	rotate: 90
+hair9
+	bounds: 2, 1718, 339, 90
+hair99
+	bounds: 481, 1867, 108, 26
+	offsets: 0, 1, 108, 28
+hand_l
+	bounds: 1805, 1741, 96, 189
+	rotate: 90
+hand_r
+	bounds: 546, 1405, 155, 257
+	offsets: 4, 0, 159, 257
+	rotate: 90
+leg_l
+	bounds: 668, 476, 652, 296
+leg_r
+	bounds: 2, 582, 280, 664
+	rotate: 90
+mouth1
+	bounds: 759, 1866, 109, 27
+mouth2
+	bounds: 161, 1871, 64, 22
+	offsets: 0, 1, 64, 23
+mouth3
+	bounds: 711, 1799, 113, 65
+neck
+	bounds: 906, 1542, 196, 126
+	offsets: 0, 3, 196, 129
+ornament1
+	bounds: 523, 1700, 137, 105
+	offsets: 0, 0, 146, 108
+ornament11
+	bounds: 591, 1867, 50, 26
+ornament22
+	bounds: 591, 1867, 50, 26
+ornament2
+	bounds: 1210, 1661, 140, 109
+	offsets: 2, 0, 151, 109
+shoulder
+	bounds: 805, 1369, 352, 156
+	offsets: 7, 13, 365, 204
+shoulder_l
+	bounds: 1104, 1527, 214, 132
+shoulder_r
+	bounds: 222, 1212, 314, 227
+	offsets: 0, 0, 325, 227
+shoulder_r1
+	bounds: 1078, 1778, 88, 78
+white_l
+	bounds: 1087, 1858, 46, 35
+white_r
+	bounds: 1135, 1858, 51, 35
+	offsets: 2, 2, 55, 39

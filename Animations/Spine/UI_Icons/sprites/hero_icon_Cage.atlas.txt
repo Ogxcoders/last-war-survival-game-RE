@@ -1,0 +1,98 @@
+hero_icon_Cage.png
+	size: 2048, 1024
+	filter: Linear, Linear
+TF_1
+	bounds: 1379, 975, 70, 41
+	offsets: 3, 0, 73, 41
+TF_3
+	bounds: 1244, 955, 72, 61
+	offsets: 6, 0, 78, 61
+TF_4
+	bounds: 1317, 967, 97, 49
+TF_5
+	bounds: 140, 2, 66, 184
+	rotate: 270
+TF_6
+	bounds: 49, 993, 59, 23
+bao
+	bounds: 612, 340, 676, 431
+	rotate: 90
+bao_1
+	bounds: 1267, 31, 153, 208
+	offsets: 0, 0, 153, 219
+	rotate: 270
+bao_2
+	bounds: 899, 7, 154, 211
+	rotate: 90
+bao_3
+	bounds: 1752, 56, 166, 213
+	rotate: 90
+bao_4
+	bounds: 515, 3, 137, 206
+bozi
+	bounds: 1476, 67, 274, 205
+	rotate: 180
+erduo_1
+	bounds: 997, 970, 77, 46
+erduo_2
+	bounds: 407, 949, 39, 67
+	offsets: 0, 6, 39, 73
+gebo_1
+	bounds: 1310, 222, 654, 331
+gebo_2
+	bounds: 1044, 321, 302, 695
+	rotate: 180
+gebo_3
+	bounds: 1720, 680, 279, 336
+gebo_4
+	bounds: 85, 210, 565, 250
+	rotate: 180
+head
+	bounds: 1011, 141, 289, 190
+kuzi_g
+	bounds: 1348, 510, 506, 370
+	rotate: 90
+lingzi_1
+	bounds: 2, 129, 362, 113
+	rotate: 270
+lingzi_2
+	bounds: 1858, 477, 201, 179
+	rotate: 90
+lingzi_3
+	bounds: 125, 64, 357, 170
+	rotate: 180
+lzhitou_1
+	bounds: 1969, 883, 66, 133
+	offsets: 0, 2, 66, 135
+lzhitou_2
+	bounds: 2, 6, 75, 146
+	rotate: 90
+lzhitou_3
+	bounds: 1720, 573, 77, 148
+lzhitou_4
+	bounds: 1114, 60, 152, 79
+lzhitou_5
+	bounds: 653, 18, 227, 92
+shangshen
+	bounds: 2, 454, 608, 562
+tuibao_g
+	bounds: 453, 901, 115, 197
+	rotate: 90
+yan_1
+	bounds: 2, 987, 45, 29
+yan_2
+	bounds: 1451, 989, 46, 27
+yanpi_1
+	bounds: 1069, 993, 43, 23
+	offsets: 0, 1, 44, 24
+yanpi_2
+	bounds: 652, 991, 43, 25
+yanzhu_1
+	bounds: 110, 1001, 17, 15
+	offsets: 6, 2, 27, 19
+yanzhu_2
+	bounds: 447, 1002, 15, 14
+	offsets: 3, 3, 20, 21
+yaobao
+	bounds: 629, 108, 238, 284
+	rotate: 90

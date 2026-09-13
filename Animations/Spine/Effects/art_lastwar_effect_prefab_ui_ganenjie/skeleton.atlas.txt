@@ -1,0 +1,26 @@
+skeleton.png
+	size: 512, 512
+	filter: Linear, Linear
+	scale: 0.12
+sportsmeetingrun01
+	bounds: 177, 199, 239, 52
+sportsmeetingrun02
+	bounds: 127, 77, 165, 120
+	offsets: 0, 0, 167, 120
+sportsmeetingrun03
+	bounds: 2, 218, 69, 33
+sportsmeetingrun04
+	bounds: 130, 210, 45, 41
+sportsmeetingrun05
+	bounds: 2, 98, 112, 123
+	offsets: 1, 0, 113, 123
+	rotate: 90
+sportsmeetingrun06
+	bounds: 73, 212, 55, 39
+sportsmeetingrun07
+	bounds: 294, 2, 188, 196
+	rotate: 90
+sportsmeetingrun08
+	bounds: 418, 192, 59, 66
+	offsets: 0, 0, 60, 67
+	rotate: 90

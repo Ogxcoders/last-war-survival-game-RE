@@ -1,0 +1,110 @@
+hero_icon_Audie_Murphy.png
+	size: 2048, 1024
+	filter: Linear, Linear
+Larm1
+	bounds: 505, 560, 416, 459
+Larm2
+	bounds: 923, 636, 383, 245
+	rotate: 90
+Rarm1
+	bounds: 731, 229, 247, 329
+Rarm2
+	bounds: 64, 11, 404, 195
+Rhand
+	bounds: 470, 17, 189, 125
+	rotate: 90
+body
+	bounds: 2, 208, 501, 811
+body2
+	bounds: 1069, 249, 143, 309
+cloth
+	bounds: 1266, 905, 83, 114
+ear
+	bounds: 1026, 560, 74, 88
+	offsets: 0, 0, 75, 88
+	rotate: 90
+eyebrow1
+	bounds: 1029, 8, 80, 32
+eyebrow2
+	bounds: 1351, 905, 43, 45
+eyes1
+	bounds: 1220, 771, 118, 31
+	offsets: 0, 1, 119, 33
+	rotate: 90
+eyes2
+	bounds: 1170, 761, 128, 48
+	rotate: 90
+eyes3
+	bounds: 1349, 786, 94, 21
+	offsets: 2, 1, 97, 22
+eyes4
+	bounds: 1277, 656, 114, 21
+	rotate: 90
+hair1
+	bounds: 1170, 891, 128, 94
+	rotate: 90
+hair10
+	bounds: 1300, 673, 51, 97
+	offsets: 0, 1, 51, 98
+hair11
+	bounds: 1351, 952, 67, 62
+	rotate: 90
+hair12
+	bounds: 1415, 960, 48, 59
+	offsets: 1, 0, 49, 59
+hair2
+	bounds: 1253, 772, 117, 94
+	rotate: 90
+hair3
+	bounds: 961, 42, 185, 135
+	rotate: 90
+hair4
+	bounds: 1300, 640, 54, 31
+	offsets: 1, 1, 55, 32
+hair5
+	bounds: 1353, 697, 50, 87
+hair6
+	bounds: 961, 3, 37, 66
+	offsets: 0, 2, 37, 68
+	rotate: 90
+hair7
+	bounds: 1349, 809, 94, 84
+	offsets: 0, 0, 95, 84
+	rotate: 90
+hair8
+	bounds: 923, 560, 101, 74
+hair9
+	bounds: 1116, 561, 101, 73
+head
+	bounds: 685, 15, 208, 274
+	rotate: 90
+ornament1
+	bounds: 597, 8, 215, 86
+	rotate: 90
+ornament2
+	bounds: 505, 225, 333, 224
+	offsets: 0, 0, 335, 224
+	rotate: 90
+ornament3
+	bounds: 1170, 640, 119, 105
+	rotate: 90
+ornament4
+	bounds: 1219, 561, 77, 98
+	offsets: 2, 0, 79, 98
+	rotate: 90
+ornament5
+	bounds: 980, 245, 87, 313
+ornament6
+	bounds: 1214, 250, 103, 309
+	offsets: 1, 0, 104, 309
+ornament7
+	bounds: 2, 10, 196, 60
+	offsets: 4, 0, 200, 60
+	rotate: 90
+ornament8
+	bounds: 1111, 2, 245, 163
+	rotate: 90
+sword
+	bounds: 1276, 9, 239, 167
+	offsets: 0, 0, 263, 167
+	rotate: 90
